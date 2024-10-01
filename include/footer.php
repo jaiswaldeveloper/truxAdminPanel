@@ -65,6 +65,42 @@
 
 <script src="assets/js/pages/pricing.init.js"></script>
 
+
+
+
+
+
+<!-- list.js min js -->
+<script src="assets/libs/list.js/list.min.js"></script>
+<script src="assets/libs/list.pagination.js/list.pagination.min.js"></script>
+
+<!--ecommerce-customer init js -->
+<script src="assets/js/pages/ecommerce-customer-list.init.js"></script>
+
+
+
+<!-- jQuery (Required by Select2) -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- Select2 JS from CDN -->
+<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+
+<!-- Initialize Select2 -->
+<script>
+$(document).ready(function() {
+    $(".select2").select2({
+        placeholder: "Select an option", // Placeholder for dropdown
+        allowClear: true, // Enables clear option
+    });
+});
+</script>
+
+<script>
+// In your Javascript (external .js resource or <script> tag)
+$(document).ready(function() {
+    $(".js-example-basic-single").select2();
+});
+</script>
 </body>
 
 

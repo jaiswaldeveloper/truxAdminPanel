@@ -8,7 +8,7 @@
  */
 :root,
 [data-bs-theme=light] {
-    --vz-blue: #4788ff;
+    --vz-blue: #7E7EFF;
     --vz-indigo: #405189;
     --vz-purple: #ad64f1;
     --vz-pink: #f672a7;
@@ -30,12 +30,12 @@
     --vz-gray-700: #495057;
     --vz-gray-800: #343a40;
     --vz-gray-900: #212529;
-    --vz-primary: #8c68cd;
+    --vz-primary: #7E7EFF;;
     --vz-secondary: #4788ff;
-    --vz-success: #40bb82;
+    --vz-success: #007736;
     --vz-info: #3fa7d6;
     --vz-warning: #ffca5b;
-    --vz-danger: #ee6352;
+    --vz-danger: #BC3C43;
     --vz-light: #f3f6f9;
     --vz-dark: #212529;
     --vz-primary-rgb: 140, 104, 205;
@@ -46,7 +46,7 @@
     --vz-danger-rgb: 238, 99, 82;
     --vz-light-rgb: 243, 246, 249;
     --vz-dark-rgb: 33, 37, 41;
-    --vz-primary-text-emphasis: #7758ae;
+    --vz-primary-text-emphasis: #6565ea;;
     --vz-secondary-text-emphasis: #3c74d9;
     --vz-success-text-emphasis: #369f6f;
     --vz-info-text-emphasis: #368eb6;
@@ -2681,7 +2681,7 @@ progress {
     padding: .5rem .9rem;
     font-size: .8512rem;
     font-weight: 400;
-    line-height: 1.5;
+    line-height: 1.8;
     color: var(--vz-body-color);
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -2693,7 +2693,10 @@ progress {
     -webkit-transition: border-color .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
     transition: border-color .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
     transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
-    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out, -webkit-box-shadow .15s ease-in-out
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(126, 126, 255, 0.30);
 }
 
 @media (prefers-reduced-motion:reduce) {
@@ -2945,7 +2948,10 @@ textarea.form-control-lg {
     -webkit-transition: border-color .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
     transition: border-color .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
     transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
-    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out, -webkit-box-shadow .15s ease-in-out
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(126, 126, 255, 0.30);
 }
 
 @media (prefers-reduced-motion:reduce) {
@@ -3272,9 +3278,9 @@ textarea.form-control-lg {
 .form-floating>.form-control,
 .form-floating>.form-control-plaintext,
 .form-floating>.form-select {
-    height: calc(3.5rem + calc(var(--vz-border-width) * 2));
-    min-height: calc(3.5rem + calc(var(--vz-border-width) * 2));
-    line-height: 1.25
+    height: calc(3rem + calc(var(--vz-border-width) * 2));
+    min-height: calc(3rem + calc(var(--vz-border-width) * 2));
+    line-height: 1
 }
 
 .form-floating>label {
@@ -3363,7 +3369,7 @@ textarea.form-control-lg {
 
 .form-floating>.form-select {
     padding-top: 1.625rem;
-    padding-bottom: .625rem
+    /* padding-bottom: .625rem */
 }
 
 .form-floating>.form-control:not(:-moz-placeholder-shown)~label {
@@ -4746,7 +4752,7 @@ fieldset:disabled .btn {
 .nav-pills {
     --vz-nav-pills-border-radius: var(--vz-border-radius);
     --vz-nav-pills-link-active-color: #fff;
-    --vz-nav-pills-link-active-bg: #8c68cd
+    --vz-nav-pills-link-active-bg: #7E7EFF;
 }
 
 .nav-pills .nav-link {
@@ -6821,7 +6827,7 @@ fieldset:disabled .btn {
     pointer-events: auto;
     background-color: var(--vz-modal-bg);
     background-clip: padding-box;
-    border: var(--vz-modal-border-width) solid var(--vz-modal-border-color);
+    border:2px solid #7E7EFF;
     border-radius: var(--vz-modal-border-radius);
     outline: 0
 }
@@ -16184,6 +16190,13 @@ fieldset:disabled .btn {
     .d-print-none {
         display: none !important
     }
+}
+
+.form-bg-gradient{
+    border-radius: 8px;
+    padding: 20px;
+background: linear-gradient(93deg, rgba(126, 126, 255, 0.40) 0%, rgba(206, 206, 255, 0.40) 100%);
+
 }
 
 /*# sourceMappingURL=bootstrap.min.css.map */
