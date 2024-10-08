@@ -39,9 +39,12 @@
 
                                     </div>
                                     <div class="mt-3 mt-lg-0">
-                                    <div class="col-auto">
-                                                            <button type="button" class="btn btn-success"><i class="ri-add-circle-line align-middle me-1"></i> Add Category</button>
-                                                        </div>
+                                        <div class="col-auto">
+                                            <button type="button" class="btn btn-success" data-bs-toggle="modal"
+                                                id="cashIn-btn" data-bs-target="#AddInModal"><i
+                                                    class="ri-add-circle-line align-middle me-1"></i> Add
+                                                Category</button>
+                                        </div>
                                     </div>
                                 </div><!-- end card header -->
                             </div>
@@ -89,9 +92,10 @@
                                                         <li class="list-inline-item" data-bs-toggle="tooltip"
                                                             data-bs-trigger="hover" data-bs-placement="top"
                                                             title="Edit">
-                                                            <a href="apps-ecommerce-order-details.html"
+                                                            <a data-bs-toggle="modal" id="cashIn-btn"
+                                                                data-bs-target="#editInModal"
                                                                 class="text-success d-inline-block">
-                                                                <i class="ri-pencil-fill fs-20"></i>
+                                                                <i class="ri-pencil-fill fs-20"> </i>
                                                             </a>
                                                         </li>
 
@@ -109,36 +113,6 @@
 
                                             </tr>
 
-                                            <tr>
-                                                <td>2</td>
-                                                <td>Driver's Labour Charges
-                                                </td>
-
-
-                                                <td>
-                                                    <ul class="list-inline hstack gap-2 mb-0">
-                                                        <li class="list-inline-item" data-bs-toggle="tooltip"
-                                                            data-bs-trigger="hover" data-bs-placement="top"
-                                                            title="Edit">
-                                                            <a href="apps-ecommerce-order-details.html"
-                                                                class="text-success d-inline-block">
-                                                                <i class="ri-pencil-fill fs-20"></i>
-                                                            </a>
-                                                        </li>
-
-                                                        <li class="list-inline-item" data-bs-toggle="tooltip"
-                                                            data-bs-trigger="hover" data-bs-placement="top"
-                                                            title="Remove">
-                                                            <a class="text-danger d-inline-block remove-item-btn"
-                                                                data-bs-toggle="modal" href="#deleteOrder">
-                                                                <i class="ri-delete-bin-5-fill fs-16"></i>
-                                                            </a>
-                                                        </li>
-                                                    </ul>
-                                                </td>
-
-
-                                            </tr>
 
                                         </tbody>
                                     </table>
@@ -173,10 +147,86 @@
                 </div>
                 <!-- end col -->
             </div>
+
+
+
         </div>
+
+
+        <div class="modal fade" id="editInModal" tabindex="-1" aria-labelledby="editInModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header bg-light p-3">
+                        <h5 class="modal-title" id="editInModalLabel">Edit Category
+                        </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"
+                            id="close-modal"></button>
+                    </div>
+                    <form class="tablelist-form" autocomplete="off">
+                        <div class="modal-body">
+
+
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control" placeholder="Enter Category" value="Office Expense
+">
+                                <label for="firstnamefloatingInput">Category </label>
+                            </div>
+
+
+                            <div class="mt-5">
+                                <div class="hstack gap-2 justify-content-end">
+                                    <button type="submit" class="btn btn-success w-100" id="add-btn"
+                                        style="background: linear-gradient(90deg, #10A81B 0%, #06420B 100%);">Update
+                                    </button>
+                                    <button type="button" class="btn btn-light w-100"
+                                        data-bs-dismiss="modal">Cancel</button>
+                                </div>
+                            </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
         <!-- container-fluid -->
     </div>
+
+
     <!-- End Page-content -->
+    <div class="modal fade" id="AddInModal" tabindex="-1" aria-labelledby="AddInModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header bg-light p-3">
+                    <h5 class="modal-title" id="AddInModalLabel">Add Category
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"
+                        id="close-modal"></button>
+                </div>
+                <form class="tablelist-form" autocomplete="off">
+                    <div class="modal-body">
+
+
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" placeholder="Enter Category">
+                            <label for="firstnamefloatingInput">Category </label>
+                        </div>
+
+
+                        <div class="mt-5">
+                            <div class="hstack gap-2 justify-content-end">
+                                <button type="submit" class="btn btn-success w-100" id="add-btn"
+                                    style="background: linear-gradient(90deg, #10A81B 0%, #06420B 100%);">Save </button>
+                                <button type="button" class="btn btn-light w-100"
+                                    data-bs-dismiss="modal">Cancel</button>
+                            </div>
+                        </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
 
 </div>
+
+
 <?php include("include/footer.php")?>

@@ -554,7 +554,7 @@
                 <div class="container-fluid">
                     <div id="two-column-menu"></div>
                     <ul class="navbar-nav" id="navbar-nav">
-                        <li class="menu-title"><span data-key="t-menu">Menu</span></li>
+                        <li class="menu-title text-white" ><span data-key="t-menu">Menu</span></li>
                         <li class="nav-item">
                             <a class="nav-link menu-link" href="index.php">
                                 <i class=" ri-dashboard-line"></i>
@@ -706,27 +706,27 @@
                             <div class="collapse menu-dropdown" id="warehouse">
                                 <ul class="nav nav-sm flex-column">
                                     <li class="nav-item">
-                                        <a href="dashboard-analytics.html" class="nav-link" data-key="t-analytics">
+                                        <a href="bluedart-pickup.php" class="nav-link" data-key="t-analytics">
                                             Bluedart Pickup
                                         </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="dashboard-crm.html" class="nav-link" data-key="t-crm">
+                                        <a href="b2b-pickup.php" class="nav-link" data-key="t-crm">
                                             B2B Pickup
                                         </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="dashboard-crm.html" class="nav-link" data-key="t-crm">
+                                        <a href="b2c-pickup.php" class="nav-link" data-key="t-crm">
                                             B2C Pickup
                                         </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="dashboard-crm.html" class="nav-link" data-key="t-crm">
+                                        <a href="add-pickup.php" class="nav-link" data-key="t-crm">
                                             Add Pickup
                                         </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="dashboard-crm.html" class="nav-link" data-key="t-crm">
+                                        <a href="PUR-Penalty.php" class="nav-link" data-key="t-crm">
                                             Pickup Penalty
                                         </a>
                                     </li>
@@ -1458,7 +1458,7 @@
                 <li class="nav-item">
                     <a class="nav-link menu-link" href="index.php">
                         <i class=" ri-logout-box-r-line"></i>
-                        <span data-key="t-widgets">LogOut</span>
+                        <span data-key="t-widgets">Logout</span>
                     </a>
                 </li>
 

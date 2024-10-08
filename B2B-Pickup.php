@@ -1,5 +1,6 @@
 <?php include("include/header.php")?>
 
+
 <div class="main-content">
 
     <div class="page-content">
@@ -7,12 +8,12 @@
             <div class="row">
                 <div class="col-12">
                     <div class="page-title-box d-sm-flex align-items-center justify-content-between bg-transparent">
-                        <h4 class="mb-sm-0">All Customer</h4>
+                        <h4 class="mb-sm-0">B2B Pickup</h4>
 
                         <div class="page-title-right">
                             <ol class="breadcrumb m-0">
                                 <li class="breadcrumb-item"><a href="javascript: void(0);">Dashboards</a></li>
-                                <li class="breadcrumb-item active">All Customer</li>
+                                <li class="breadcrumb-item active">B2B Pickup</li>
                             </ol>
                         </div>
 
@@ -27,97 +28,49 @@
                                 <div class="col-xxl-5 col-sm-6">
                                     <div class="search-box">
                                         <input type="text" class="form-control search"
-                                            placeholder="Search By Name/Phone/Username/Company">
+                                            placeholder="Search by Request LR">
                                         <i class="ri-search-line search-icon"></i>
                                     </div>
                                 </div>
                                 <!--end col-->
 
-                                <!--end col-->
+
 
                                 <div class="col-xxl-2 col-sm-4">
                                     <div>
-                                        <select class="form-control" data-choices data-choices-search-false
-                                            name="choices-single-default" id="idPayment">
-                                            <option value="" selected>All Wallet Type</option>
-                                            <option value="Mastercard">Postpaid</option>
-                                            <option value="Paypal">Prepaid</option>
 
+                                        <select class="js-example-basic-single w-100 form-control" name="state">
+                                            <option value="" selected>All Member</option>
+                                            <option value="Single Panel">Today</option>
+                                            <option value="B2B & cargo">Yesterday</option>
+                                            <option value="B2B & Dense">Last 7 days</option>
+                                            <option value="Dense & Cargo">Last 30 days</option>
+                                            <option value="3 panels">This Month</option>
+                                            <option value="3 panels">Last Month</option>
                                         </select>
+
+                                    </div>
+                                </div>
+                                <div class="col-xxl-2 col-sm-4">
+                                    <div>
+
+                                        <select class="js-example-basic-single w-100 form-control" name="state">
+                                            <option value="" selected>All </option>
+                                            <option value="Single Panel">Today</option>
+                                            <option value="B2B & cargo">Yesterday</option>
+                                            <option value="B2B & Dense">Last 7 days</option>
+                                            <option value="Dense & Cargo">Last 30 days</option>
+                                            <option value="3 panels">This Month</option>
+                                            <option value="3 panels">Last Month</option>
+                                        </select>
+
                                     </div>
                                 </div>
                                 <!--end col-->
                                 <div class="col-xxl-2 col-sm-4">
                                     <div>
-                                        <select class="form-control" data-choices data-choices-search-false
-                                            name="choices-single-default" id="idPayment">
-                                            <option value="" selected>All Type</option>
-                                            <option value="Customer">Customer</option>
-                                            <option value="Transporter">Transporter</option>
-
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="col-xxl-2 col-sm-4">
-                                    <div>
-                                        <select class="form-control" data-choices data-choices-search-false
-                                            name="choices-single-default" id="idPayment">
-                                            <option value="" selected>All GST Preference</option>
-                                            <option value="Yes">Yes</option>
-                                            <option value="No">No</option>
-
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="col-xxl-2 col-sm-4">
-                                    <div>
-                                        <select class="form-control" data-choices data-choices-search-false
-                                            name="choices-single-default" id="idPayment">
-                                            <option value="" selected>All COD Plan</option>
-                                            <option value="Weekly">Weekly</option>
-                                            <option value="1 Day">1 Day</option>
-                                            <option value="2 Day">2 Day</option>
-                                            <option value="3 Day">3 Day</option>
-
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="col-xxl-2 col-sm-4">
-                                    <div>
-                                        <select class="form-control" data-choices data-choices-search-false
-                                            name="choices-single-default" id="idPayment">
-                                            <option value="" selected>All Panel Count</option>
-                                            <option value="Single Panel">Single Panel</option>
-                                            <option value="B2B & cargo">B2B & cargo</option>
-                                            <option value="B2B & Dense">B2B & Dense</option>
-                                            <option value="Dense & Cargo">Dense & Cargo</option>
-                                            <option value="3 panels">3 panels</option>
-
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="col-xxl-2 col-sm-4">
-                                    <div>
-                                        <select class="form-control" data-choices data-choices-search-false
-                                            name="choices-single-default" id="idPayment">
-                                            <option value="" selected>All Joining Date</option>
-                                            <option value="Today">Today</option>
-                                            <option value="Yesterday">Yesterday</option>
-                                            <option value="Last 7 Days">Last 7 Days</option>
-                                            <option value="Last 30 Days">Last 30 Days</option>
-                                            <option value="This Month">This Month</option>
-                                            <option value="Last Month">Last Month</option>
-                                            <option value="Costom Range">Costom Range</option>
-
-                                        </select>
-                                    </div>
-                                </div>
-                                <!--end col-->
-                                <div class="col-xxl-2 col-sm-4">
-                                    <div>
-                                        <button type="button" class="btn btn-primary w-100" onclick="SearchData();"> <i
-                                                class="ri-equalizer-fill me-1 align-bottom"></i>
-                                            Filters
+                                    <button type="button" class="btn btn-primary w-100" style="background: linear-gradient(90deg, #10A81B 0%, #06420B 100%);"> <i class="ri-equalizer-fill me-1 align-bottom"></i>
+                                            Apply
                                         </button>
                                     </div>
                                 </div>
@@ -126,8 +79,8 @@
                             <!--end row-->
                         </form>
                     </div>
-                    <div class="files">
-                        <div style="float: right" ;>
+                    <div class="row justify-content-end">
+                        <div class="col-xl-4">
                             <div class="d-flex flex-wrap gap-2 my-2">
                                 <button type="button" class="btn btn-success btn-animation waves-effect waves-light"
                                     data-text="Excel"><span><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
@@ -141,7 +94,8 @@
                                                 d="M8.3125 17.6075H11.499V18.8151H8.3125V17.6075ZM12.4935 11.4375H15.6901V12.635H12.4935V11.4375ZM8.3125 11.4375H11.499V12.635H8.3125V11.4375ZM12.4935 13.4671H15.6901V14.6747H12.4935V13.4671ZM8.3125 13.4671H11.499V14.6747H8.3125V13.4671ZM12.4935 15.5779H15.6901V16.7855H12.4935V15.5779ZM8.3125 15.5779H11.499V16.7855H8.3125V15.5779ZM12.4935 17.6075H15.6901V18.8151H12.4935V17.6075Z"
                                                 fill="#10A81B" />
                                         </svg>
-                                        EXCEL</span></button>
+                                        EXCEL</span>
+                                </button>
                                 <button type="button" class="btn btn-info btn-animation waves-effect waves-light"
                                     data-text="CSV"><span><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                             xmlns="http://www.w3.org/2000/svg">
@@ -170,6 +124,7 @@
                                                 fill="white" stroke="#BC3C43" />
                                         </svg>
                                         PDF</span></button>
+
                                 <button type="button" class="btn btn-light btn-animation waves-effect waves-light"
                                     data-text="All Data"><span> <svg width="25" height="24" viewBox="0 0 25 24"
                                             fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -186,6 +141,7 @@
                                             </defs>
                                         </svg>
                                         All Data</span></button>
+
                             </div>
                         </div>
                     </div>
@@ -208,17 +164,14 @@
                                         <thead class="table-light">
                                             <tr>
                                                 <th class="sort" data-sort="id">ID &nbsp;</th>
-                                                <th class="sort" data-sort="date">Date</th>
-                                                <th class="sort" data-sort="username">Username</th>
-                                                <th class="sort" data-sort="name">Name</th>
-                                                <th class="sort" data-sort="type">Type</th>
-                                                <th class="sort" data-sort="info">Contact &nbsp;</th>
-                                                <th class="sort" data-sort="company">Company &nbsp;</th>
-                                                <th class="sort" data-sort="gst">GST & Prefernce &nbsp;</th>
-                                                <th class="sort" data-sort="cod">COD &nbsp;</th>
-                                                <th class="sort" data-sort="poc">POC</th>
-                                                <th class="sort" data-sort="status">Status</th>
-                                                <th class="sort">Action</th>
+                                                <th class="sort" data-sort="Member">Member Details</th>
+                                                <th class="sort" data-sort="date">Request Date</th>
+                                                <th class="sort" data-sort="LR">LR No</th>
+                                                <th class="sort" data-sort="Contact">pickup date & time</th>
+                                                <th class="sort" data-sort="Package">Package</th>
+                                                <th class="sort" data-sort="Pickup"> center</th>
+                                        
+                                                <th class="sort">panel</th>
 
 
                                             </tr>
@@ -226,52 +179,25 @@
                                         <tbody class="list form-check-all">
                                             <tr>
                                                 <td>1</td>
+                                                <td>Laljee Prasad <br>
+                                                <b>TRUXCARGO4201</b>	</td>
                                                 <td class="date">06 Apr, 2021</td>
-                                                <td>TRUXCARGO12</td>
-                                                <td>Alok Kumar </td>
-                                                <td>Postpaid
-                                                    (Transporter)</td>
-                                                <td>9718685216</td>
-                                                <td>Mirc Electronic </td>
-                                                <td>NA
-                                                    (Yes)</td>
-                                                <td>Weekly</td>
-                                                <td>shubham</td>
-                                                <td class="status"><span
-                                                        class="badge bg-success-subtle text-success text-uppercase">Active</span>
-                                                </td>
-                                                <td>
-                                                    <ul class="list-inline hstack gap-2 mb-0">
-                                                        <li class="list-inline-item" data-bs-toggle="tooltip"
-                                                            data-bs-trigger="hover" data-bs-placement="top"
-                                                            title="Edit">
-                                                            <a href="edit-customer.php"
-                                                                class="text-success d-inline-block">
-                                                                <i class="ri-pencil-fill fs-20"></i>
-                                                            </a>
-                                                        </li>
-                                                        <li class="list-inline-item edit" data-bs-toggle="tooltip"
-                                                            data-bs-trigger="hover" data-bs-placement="top"
-                                                            title="Ledger">
-                                                            <a href="edit-customer.php"
-                                                                class="text-primary d-inline-block edit-item-btn">
-                                                                <i class=" ri-price-tag-fill fs-20"></i>
-                                                            </a>
-                                                        </li>
-                                                        <li class="list-inline-item" data-bs-toggle="tooltip"
-                                                            data-bs-trigger="hover" data-bs-placement="top"
-                                                            title="Add order">
-                                                            <a class="text-warning d-inline-block remove-item-btn">
-                                                                <i class=" ri-add-circle-fill fs-20"></i>
-                                                            </a>
-                                                        </li>
-                                                    </ul>
-                                                </td>
+
+                                                <td>186542896 </td>
+                                               
+                                               
+                                                    <td><b>Seelampur</b>
+MOTORS C-743, GALI NO-8, SEELAMPUR, <br> CHAUHAN BANGER North East Delhi, Delhi, 110053<br> GSTIN/UIN: 07BYPPA3426G1ZK State Name : De, <br>Delhi
+ph. 7294968522 </td>
+                                                    <td>186542896 </td>
+                                                    <td>Delhi_Gokalpur_L	 </td>
+
+                                                
+                                                    <td>Delhivery Cargo
+                                                    </td>
 
 
                                             </tr>
-
-                                        
 
                                         </tbody>
                                     </table>
@@ -310,7 +236,4 @@
         </div>
     </div>
 </div>
-
-
-
 <?php include("include/footer.php")?>
