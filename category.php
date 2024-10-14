@@ -19,7 +19,9 @@
 
                         <div class="page-title-right">
                             <ol class="breadcrumb m-0">
-                                <li class="breadcrumb-item"><a href="javascript: void(0);">Dashboards</a></li>
+                                <li class="breadcrumb-item"><a href="javascript: void(0);">Menu</a></li>
+
+                                <li class="breadcrumb-item"><a href="javascript: void(0);">Cashbook</a></li>
                                 <li class="breadcrumb-item active">Category</li>
                             </ol>
                         </div>
@@ -185,6 +187,11 @@
                     </form>
                 </div>
             </div>
+
+
+
+
+            
         </div>
 
         <!-- container-fluid -->
@@ -228,5 +235,24 @@
 
 </div>
 
-
+<div class="modal fade flip" id="deleteOrder" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-body p-5 text-center">
+                <lord-icon src="https://cdn.lordicon.com/gsqxdxog.json" trigger="loop"
+                    colors="primary:#405189,secondary:#f06548" style="width:90px;height:90px"></lord-icon>
+                <div class="mt-4 text-center">
+                    <h4>You are about to delete a order ?</h4>
+                    <p class="text-muted fs-15 mb-4">Deleting your order will remove all of your information from our
+                        database.</p>
+                    <div class="hstack gap-2 justify-content-center remove">
+                        <button class="btn btn-link link-success fw-medium text-decoration-none" id="deleteRecord-close"
+                            data-bs-dismiss="modal"><i class="ri-close-line me-1 align-middle"></i> Close</button>
+                        <button class="btn btn-danger" id="delete-record">Yes, Delete It</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <?php include("include/footer.php")?>

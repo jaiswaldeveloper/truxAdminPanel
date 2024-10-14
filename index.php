@@ -1,7 +1,7 @@
 <?php include("include/header.php")?>
 <style>
 .select2-container--default .select2-selection--single {
-    border-radius: 50px;
+    /* border-radius: 50px; */
     background: #FFF;
     box-shadow: 0px 4px 4px 0px rgba(126, 126, 255, 0.30);
     border: 1px solid #7E7EFF !important;
@@ -76,13 +76,13 @@
 
                     <div class="h-100">
                         <div class="row mb-3 pb-1">
-                            <div class="col-12">
+                            <div class="lg-9">
                                 <div class="d-flex align-items-lg-center flex-lg-row flex-column">
                                     <div class="flex-grow-1">
                                         <h4 class="fs-16 mb-1">Good Morning, Anna!</h4>
                                         <p class="text-muted mb-0">Here's what's happening with your store today.</p>
                                     </div>
-                                    <div class="mt-3 mt-lg-0">
+                                    <div class="lg-3 mt-3 mt-lg-0">
                                         <form action="javascript:void(0);">
                                             <div class="row g-3 mb-0 align-items-center">
 
@@ -644,7 +644,7 @@
                                         <h4 class="card-title mb-0">Customer</h4>
                                     </div>
                                     <div class="card-body ">
-                                        <div id="multiple_radialbar"
+                                        <div style="min-width:150px " id="multiple_radialbar"
                                             data-colors='["--vz-success", "--vz-warning", "--vz-danger"]'
                                             class="apex-charts" dir="ltr"></div>
                                     </div>

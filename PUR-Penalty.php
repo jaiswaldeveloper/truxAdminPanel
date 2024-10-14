@@ -35,8 +35,9 @@
 
                         <div class="page-title-right">
                             <ol class="breadcrumb m-0">
-                                <li class="breadcrumb-item"><a href="javascript: void(0);">Pickups & Warehouse</a></li>
-                                <li class="breadcrumb-item active">CashBook</li>
+                            <li class="breadcrumb-item"><a href="javascript: void(0);">Menu</a></li>
+                            <li class="breadcrumb-item"><a href="javascript: void(0);">Pickups & Warehouse</a></li>
+                            <li class="breadcrumb-item active">CashBook</li>
                             </ol>
                         </div>
 
@@ -75,7 +76,7 @@
                         <!--end col-->
 
                         <div class="col-xxl-5 col-sm-4 col-12 mb-2">
-
+                        <div class="table-responsive">
                             <!-- Bordered Tables -->
                             <table class="table table-bordered table-nowrap">
                                 <thead>
@@ -97,6 +98,7 @@
                                 </tbody>
                             </table>
                         </div>
+</div>
 
                     </div>
 

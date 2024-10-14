@@ -32,6 +32,7 @@
 
     <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
     <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
     <style>
       .simplebar-content li.nav-item{
@@ -51,7 +52,7 @@
                         <div class="navbar-brand-box horizontal-logo">
                             <a href="index.php" class="logo logo-dark">
                                 <span class="logo-sm">
-                                    <!-- <img src="assets/images/logo-sm.png" alt="" height="22" /> -->
+                                    <img src="assets/images/logo-sm.png" alt="" height="22" />
                                 </span>
                                 <span class="logo-lg">
                                     <img src="https://truxcargo.com/static/media/footer-logo.821f9b0d5a2377cffae9f09cfbe8963c.svg"
@@ -61,7 +62,7 @@
 
                             <a href="index.php" class="logo logo-light">
                                 <span class="logo-sm">
-                                    <!-- <img src="assets/images/logo-sm.png" alt="" height="22" /> -->
+                                    <img src="assets/images/logo-sm.png" alt="" height="22" />
                                 </span>
                                 <span class="logo-lg">
                                     <img src="https://truxcargo.com/static/media/footer-logo.821f9b0d5a2377cffae9f09cfbe8963c.svg"
@@ -563,7 +564,7 @@
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link menu-link" href="training.php">
+                            <a class="nav-link menu-link" href="Training-Slots.php">
                                 <i class="ri-honour-line"></i>
                                 <span data-key="t-widgets">Training</span>
                             </a>
@@ -598,27 +599,12 @@
                             </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link menu-link" href="#Team" data-bs-toggle="collapse" role="button"
-                                aria-expanded="false" aria-controls="Team">
-                                <i class="ri-team-line"></i>
-                                <span data-key="t-dashboards">Team Hierarchy</span>
+                            <a class="nav-link menu-link" href="Team-hierarchy.php">
+                                <i class="ri-honour-line"></i>
+                                <span data-key="t-widgets"> Team Hierarchy</span>
                             </a>
-                            <div class="collapse menu-dropdown" id="Team">
-                                <ul class="nav nav-sm flex-column">
-                                    <li class="nav-item">
-                                        <a href="dashboard-analytics.html" class="nav-link" data-key="t-analytics">
-                                            Team Hierarchy
-                                        </a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="dashboard-crm.html" class="nav-link" data-key="t-crm">
-                                            Add Team Hierarchy
-                                        </a>
-                                    </li>
-
-                                </ul>
-                            </div>
                         </li>
+                       
                         <li class="nav-item">
                             <a class="nav-link menu-link" href="#Members" data-bs-toggle="collapse" role="button"
                                 aria-expanded="false" aria-controls="Members">
@@ -744,7 +730,7 @@
 
 
                         <li class="nav-item">
-                            <a class="nav-link menu-link" href="index.php">
+                            <a class="nav-link menu-link" href="Ndr.php">
                                 <i class=" ri-door-lock-box-line
 "></i>
                                 <span data-key="t-widgets">NDR</span>

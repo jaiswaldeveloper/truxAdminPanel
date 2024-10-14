@@ -33,18 +33,24 @@
 
 
 .scrolling-wrapper {
-    overflow-x: auto;  /* Enables horizontal scrolling */
-    white-space: nowrap;  /* Prevents wrapping of list items */
+    overflow-x: auto;
+    /* Enables horizontal scrolling */
+    white-space: nowrap;
+    /* Prevents wrapping of list items */
 }
 
 .scrolling-wrapper ul {
-    display: inline-block;  /* Ensures that the ul behaves inline and scrollable */
-    white-space: nowrap;    /* Prevents the li items from wrapping */
+    display: inline-block;
+    /* Ensures that the ul behaves inline and scrollable */
+    white-space: nowrap;
+    /* Prevents the li items from wrapping */
 }
 
 .scrolling-wrapper li {
-    display: inline-block;   /* Displays li elements inline */
-    margin-right: 10px;      /* Adds spacing between the li items */
+    display: inline-block;
+    /* Displays li elements inline */
+    margin-right: 10px;
+    /* Adds spacing between the li items */
 }
 
 /* Optional: Hide scrollbars for mobile devices */
@@ -53,10 +59,11 @@
 }
 
 .scrolling-wrapper {
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;     /* Firefox */
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
 }
-
 </style>
 <div class="main-content">
 
@@ -65,12 +72,12 @@
             <div class="row">
                 <div class="col-12">
                     <div class="page-title-box d-sm-flex align-items-center justify-content-between bg-transparent">
-                        <h4 class="mb-sm-0">Pincodes</h4>
+                        <h4 class="mb-sm-0">All ndr</h4>
 
                         <div class="page-title-right">
                             <ol class="breadcrumb m-0">
                                 <li class="breadcrumb-item"><a href="javascript: void(0);">Menu</a></li>
-                                <li class="breadcrumb-item active">Pincodes</li>
+                                <li class="breadcrumb-item active">Ndr</li>
                             </ol>
                         </div>
 
@@ -83,100 +90,95 @@
 
                 <div class="row justify-content-end mt-3">
                     <div class="col-xl-12">
-                      <div class="scrolling-wrapper">
-                        <!-- Nav tabs -->
-                        <ul class="nav nav-pills nav-justified mb-3" role="tablist">
-                            <li class="nav-item waves-effect waves-light">
-                                <a class="nav-link active" data-bs-toggle="tab" href="#pill-justified-home-1"
-                                    role="tab">
-                                    <img src="assets/images/partner_logo/deliverey.png" alt="" srcset=""> </a>
-                            </li>
-                            <li class="nav-item waves-effect waves-light">
-                                <a class="nav-link" data-bs-toggle="tab" href="#pill-justified-profile-1" role="tab">
-                                    <img src="assets/images/partner_logo/Oxygen.png" alt="" srcset=""> </a>
-                            </li>
-                            <li class="nav-item waves-effect waves-light">
-                                <a class="nav-link" data-bs-toggle="tab" href="#pill-justified-profile-1" role="tab">
-                                    <img src="assets/images/partner_logo/ekart.png" alt="" srcset=""> </a>
-                            </li>
-                            <li class="nav-item waves-effect waves-light">
-                                <a class="nav-link" data-bs-toggle="tab" href="#pill-justified-profile-1" role="tab">
-                                    <img src="assets/images/partner_logo/amazon.png" alt="" srcset=""> </a>
-                            </li>
-                            <li class="nav-item waves-effect waves-light">
-                                <a class="nav-link" data-bs-toggle="tab" href="#pill-justified-profile-1" role="tab">
-                                    <img src="assets/images/partner_logo/dtdc.png" alt="" srcset=""> </a>
-                            </li>
-                            <li class="nav-item waves-effect waves-light">
-                                <a class="nav-link" data-bs-toggle="tab" href="#pill-justified-profile-1" role="tab">
-                                    <img src="assets/images/partner_logo/smarter.png" alt="" srcset=""> </a>
-                            </li>
-                            <li class="nav-item waves-effect waves-light">
-                                <a class="nav-link" data-bs-toggle="tab" href="#pill-justified-profile-1" role="tab">
-                                    <img src="assets/images/partner_logo/ecom_express.png" alt="" srcset=""> </a>
-                            </li>
-                            <li class="nav-item waves-effect waves-light">
-                                <a class="nav-link" data-bs-toggle="tab" href="#pill-justified-profile-1" role="tab">
-                                    <img src="assets/images/partner_logo/v-xpress.png" alt="" srcset="">
-                                </a>
-                            </li>
-                            <li class="nav-item waves-effect waves-light">
-                                <a class="nav-link" data-bs-toggle="tab" href="#pill-justified-profile-1" role="tab">
-                                    <img src="assets/images/partner_logo/Bluedart.png" alt="" srcset="">
-                                </a>
-                            </li>
+                        <div class="scrolling-wrapper">
+                            <!-- Nav tabs -->
+                            <ul class="nav nav-pills nav-justified mb-3" role="tablist">
+                                <li class="nav-item waves-effect waves-light">
+                                    <a class="nav-link active" data-bs-toggle="tab" href="#pill-justified-home-1"
+                                        role="tab">
+                                        Open </a>
+                                </li>
+                                <li class="nav-item waves-effect waves-light">
+                                    <a class="nav-link" data-bs-toggle="tab" href="#pill-justified-profile-1"
+                                        role="tab">
+                                        Pending</a>
+                                </li>
 
-                        </ul>
+                            </ul>
                         </div>
                         <!-- Tab panes -->
                         <div class="tab-content text-muted">
                             <div class="tab-pane active" id="pill-justified-home-1" role="tabpanel">
                                 <div class="row mb-4">
                                     <div class="col-xl-12">
-                                        <div class="card-body form-bg-gradient">
-                                            <form>
-                                                <div class="row g-3">
-                                                    <div class="col-xxl-5 col-sm-6">
-                                                        <div class="search-box">
-                                                            <input type="text" class="form-control search"
-                                                                placeholder="Search By Pincode">
-                                                            <i class="ri-search-line search-icon"></i>
-                                                        </div>
-                                                    </div>
-                                                    <!--end col-->
+                                        <div class="row mb-4">
+                                            <div class="col-xl-12">
+                                                <div class="card-body form-bg-gradient">
+                                                    <form>
+                                                        <div class="row g-3">
+                                                            <div class="col-xxl-4 col-sm-6">
+                                                                <div class="search-box">
+                                                                    <input type="text" class="form-control search"
+                                                                        placeholder="Search by LR">
+                                                                    <i class="ri-search-line search-icon"></i>
+                                                                </div>
+                                                            </div>
+                                                            <!--end col-->
 
-                                                    <!--end col-->
-                                                    <div class="col-xxl-2 col-sm-4">
-                                                        <div>
-                                                            <button type="button" class="btn btn-primary w-100">
-                                                                Search
-                                                            </button>
-                                                        </div>
-                                                    </div>
-                                                    <!--end col-->
 
-                                                    <div class="col-xxl-1">
-                                                      
-                                                    </div>
-                                                    <div class="col-xxl-2 col-sm-4">
-                                                       <div>
-                                                       <button type="button" class="btn btn-success btn-border w-100">
-                                                                Import Pincode
-                                                            </button>
-                                                       </div>
-                                                       
-                                                    </div>
-                                                    <div class="col-xxl-2 col-sm-4">
-                                                       <div>
-                                                       <button type="button" class="btn btn-danger btn-border w-100">
-                                                                Add Pincode
-                                                            </button>
-                                                       </div>
-                                                       
-                                                    </div>
+
+                                                            <div class="col-xxl-3 col-sm-4">
+                                                                <div>
+
+                                                                    <select
+                                                                        class="js-example-basic-single w-100 form-control"
+                                                                        name="state">
+                                                                        <option value="" selected>All Member</option>
+                                                                        <option value="">KAVITA SHARMA (TRUXCARGO1)
+                                                                        </option>
+
+                                                                    </select>
+
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-xxl-3 col-sm-4">
+                                                                <div>
+
+                                                                    <select
+                                                                        class="js-example-basic-single w-100 form-control"
+                                                                        name="state">
+                                                                        <option value="" selected>All </option>
+                                                                        <option value="Single Panel">Today</option>
+                                                                        <option value="B2B & cargo">Yesterday</option>
+                                                                        <option value="B2B & Dense">Last 7 days</option>
+                                                                        <option value="Dense & Cargo">Last 30 days
+                                                                        </option>
+                                                                        <option value="3 panels">This Month</option>
+                                                                        <option value="3 panels">Last Month</option>
+                                                                    </select>
+
+                                                                </div>
+                                                            </div>
+                                                            <!--end col-->
+                                                            <div class="col-xxl-2 col-sm-4">
+                                                                <div>
+                                                                    <button type="button" class="btn btn-primary w-100"
+                                                                        style="background: linear-gradient(90deg, #10A81B 0%, #06420B 100%);">
+                                                                        <i
+                                                                            class="ri-equalizer-fill me-1 align-bottom"></i>
+                                                                        Apply
+                                                                    </button>
+                                                                </div>
+                                                            </div>
+                                                            <!--end col-->
+                                                        </div>
+                                                        <!--end row-->
+                                                    </form>
                                                 </div>
-                                                <!--end row-->
-                                            </form>
+
+                                            </div>
+
+
                                         </div>
                                         <div class="files">
                                             <div style="float: right" ;>
@@ -250,60 +252,48 @@
                                                             <thead class="table-light">
                                                                 <tr>
                                                                     <th class="sort" data-sort="id">
-                                                                        S No. &nbsp;</th>
-                                                                    <th class="sort" data-sort="Pincode">Pincode</th>
-                                                                    <th class="sort" data-sort="City">City</th>
-                                                                    <th class="sort" data-sort="State">State</th>
-                                                                    <th class="sort" data-sort="Center">Dispatch Center
+                                                                        Date &nbsp;</th>
+                                                                    <th class="sort" data-sort="Pincode">UserId</th>
+                                                                    <th class="sort" data-sort="City">Tracking No</th>
+                                                                    <th class="sort" data-sort="State">Last Update</th>
+                                                                    <th class="sort" data-sort="Center">Reasons
                                                                     </th>
-                                                                    <th class="sort" data-sort="Dense">Dense Status |
-                                                                        ODA &nbsp;</th>
-                                                                    <th class="sort" data-sort="Cargo">Cargo Status |
-                                                                        ODA &nbsp;</th>
-                                                                    <th class="sort" data-sort="Lite">Lite Status | ODA
-                                                                        &nbsp;</th>
+                                                                    <th class="sort" data-sort="Dense">
+                                                                        Attempts&nbsp;&nbsp;
+                                                                    </th>
+                                                                    <th class="sort" data-sort="Cargo">Panel</th>
+                                                                    <th class="sort" data-sort="Lite">Payment Mode
+                                                                        &nbsp;&nbsp;</th>
 
-                                                                    <th class="sort">Action</th>
+                                                                    <th class="sort">Client Action &nbsp;&nbsp;</th>
+                                                                    <th>Remark</th>
+                                                                    <!-- <th></th> -->
 
 
                                                                 </tr>
                                                             </thead>
                                                             <tbody class="list form-check-all">
                                                                 <tr>
-                                                                    <td>1</td>
-                                                                    <td class="date">764085</td>
-                                                                    <td>Nabarangapur</td>
-                                                                    <td>Orissa</td>
-                                                                    <td>Nabarangpr_PhdofDPP_D (Orissa) </td>
-                                                                    <td>Yes | No </td>
-                                                                    <td>Yes | No </td>
-                                                                    <td>Yes | No </td>
-
-                                                                    <td>
-                                                                        <ul class="list-inline hstack gap-2 mb-0">
-                                                                            <li class="list-inline-item"
-                                                                                data-bs-toggle="tooltip"
-                                                                                data-bs-trigger="hover"
-                                                                                data-bs-placement="top" title="Edit">
-                                                                                <a href="apps-ecommerce-order-details.html"
-                                                                                    class="text-success d-inline-block">
-                                                                                    <i class="ri-pencil-fill fs-20"></i>
-                                                                                </a>
-                                                                            </li>
-
-                                                                            <li class="list-inline-item"
-                                                                                data-bs-toggle="tooltip"
-                                                                                data-bs-trigger="hover"
-                                                                                data-bs-placement="top" title="Remove">
-                                                                                <a class="text-danger d-inline-block remove-item-btn"
-                                                                                    data-bs-toggle="modal"
-                                                                                    href="#deleteOrder">
-                                                                                    <i
-                                                                                        class="ri-delete-bin-5-fill fs-16"></i>
-                                                                                </a>
-                                                                            </li>
-                                                                        </ul>
+                                                                    <td class="date">09 Oct 2024 </td>
+                                                                    <td><b>TRUXCARGO3614</b> <br>
+                                                                        Aarti Singh</td>
+                                                                    <td>4988311112075</td>
+                                                                    <td>Delhi_Mundka_D (Delhi) <br>
+                                                                        08-10-2024 11:38 </td>
+                                                                    <td>Consignee Unavailable </td>
+                                                                    <td>1 </td>
+                                                                    <td>Delhivery Small </td>
+                                                                    <td>COD </td>
+                                                                    <td></td>
+                                                                    <td class="status">
+                                                                        <button type="button"
+                                                                            class="btn btn-success btn-border w-100"
+                                                                            data-bs-toggle="modal" id="cashIn-btn"
+                                                                            data-bs-target="#cashInModal">
+                                                                            Update
+                                                                        </button>
                                                                     </td>
+
 
 
                                                                 </tr>
@@ -356,35 +346,55 @@
 
                     </div>
                 </div>
-
-            </div>
-
-
-        </div>
-
-    </div>
-</div>
-
-<!-- Modal -->
-<div class="modal fade flip" id="deleteOrder" tabindex="-1" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-            <div class="modal-body p-5 text-center">
-                <lord-icon src="https://cdn.lordicon.com/gsqxdxog.json" trigger="loop"
-                    colors="primary:#405189,secondary:#f06548" style="width:90px;height:90px"></lord-icon>
-                <div class="mt-4 text-center">
-                    <h4>You are about to delete a order ?</h4>
-                    <p class="text-muted fs-15 mb-4">Deleting your order will remove all of your information from our
-                        database.</p>
-                    <div class="hstack gap-2 justify-content-center remove">
-                        <button class="btn btn-link link-success fw-medium text-decoration-none" id="deleteRecord-close"
-                            data-bs-dismiss="modal"><i class="ri-close-line me-1 align-middle"></i> Close</button>
-                        <button class="btn btn-danger" id="delete-record">Yes, Delete It</button>
+                <div class="modal fade" id="cashInModal" tabindex="-1" aria-labelledby="cashInModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header bg-light p-3">
+                                <h5 class="modal-title" id="cashInModalLabel">
+                                    Tracking ID : #4988311113980
+                                </h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"
+                                    id="close-modal">
+                                </button>
+                            </div>
+                            <form class="tablelist-form" autocomplete="off">
+                                <div class="modal-body">
+                                    <div class="form-floating mb-3">
+                                        <select class="form-select" id="floatingSelect"
+                                            aria-label="Floating label select example">
+                                            <option value="" selected>select Status</option>
+                                            <option value="Open ">Open </option>
+                                            <option value="Pending">Pending</option>
+                                            <option value="Closed">Closed</option>
+                                        </select>
+                                        <label for="floatingSelect">Status</label>
+                                    </div>
+                                    <div class="form-floating mb-3">
+                                        <textarea id="" class="form-control" style="height:150px"></textarea>
+                                        <label for="firstnamefloatingInput">Remark </label>
+                                    </div>
+                                    <div class="mt-5">
+                                        <div class="hstack gap-2 justify-content-end">
+                                            <button type="submit" class="btn btn-success w-100" id="add-btn"
+                                                style="background: linear-gradient(90deg, #10A81B 0%, #06420B 100%);">Submit
+                                            </button>
+                                            <button type="button" class="btn btn-light w-100"
+                                                data-bs-dismiss="modal">Cancel</button>
+                                        </div>
+                                    </div>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
+
+
         </div>
+
     </div>
 </div>
-<!--end modal -->
+
+
+
 <?php include("include/footer.php")?>

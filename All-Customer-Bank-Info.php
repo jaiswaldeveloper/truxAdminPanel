@@ -14,7 +14,9 @@
 
                         <div class="page-title-right">
                             <ol class="breadcrumb m-0">
-                                <li class="breadcrumb-item"><a href="javascript: void(0);">Dashboards</a></li>
+                                <li class="breadcrumb-item"><a href="javascript: void(0);">Menu</a></li>
+                                <li class="breadcrumb-item active"> Customer</li>
+
                                 <li class="breadcrumb-item active">All Customer Bank Info</li>
                             </ol>
                         </div>
@@ -50,7 +52,7 @@
                         </form>
                     </div>
                     <div class="row justify-content-end">
-                        <div class="col-xl-4">
+                        <div class="col-xl-5">
                             <div class="d-flex flex-wrap gap-2 my-2">
                                 <button type="button" class="btn btn-success btn-animation waves-effect waves-light"
                                     data-text="Excel"><span><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
