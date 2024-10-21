@@ -370,7 +370,7 @@ ol.organizational-chart>li>ol:after {
 }
 
 ol.organizational-chart>li>ol>li>div {
-    border: 2px solid #546CFF;
+    /* border: 2px solid #546CFF; */
     display: block;
     border-radius: 10px;
     padding: 10px 0 5px 0;

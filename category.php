@@ -15,7 +15,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="page-title-box d-sm-flex align-items-center justify-content-between bg-transparent">
-                        <h4 class="mb-sm-0">Category</h4>
+                          <h4 class="mb-sm-0">Category</h4>
 
                         <div class="page-title-right">
                             <ol class="breadcrumb m-0">
@@ -37,9 +37,7 @@
                         <div class="row mb-3 pb-1">
                             <div class="col-12">
                                 <div class="d-flex align-items-lg-center flex-lg-row flex-column">
-                                    <div class="flex-grow-1">
-
-                                    </div>
+                                    <div class="flex-grow-1"></div>
                                     <div class="mt-3 mt-lg-0">
                                         <div class="col-auto">
                                             <button type="button" class="btn btn-success" data-bs-toggle="modal"
@@ -52,9 +50,6 @@
                             </div>
                             <!--end col-->
                         </div>
-
-
-
 
                     </div> <!-- end .h-100-->
 
@@ -191,7 +186,7 @@
 
 
 
-            
+
         </div>
 
         <!-- container-fluid -->

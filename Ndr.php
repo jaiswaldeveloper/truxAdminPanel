@@ -164,8 +164,7 @@
                                                                 <div>
                                                                     <button type="button" class="btn btn-primary w-100"
                                                                         style="background: linear-gradient(90deg, #10A81B 0%, #06420B 100%);">
-                                                                        <i
-                                                                            class="ri-equalizer-fill me-1 align-bottom"></i>
+                                                                        
                                                                         Apply
                                                                     </button>
                                                                 </div>

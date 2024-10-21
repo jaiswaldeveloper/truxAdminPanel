@@ -35,9 +35,10 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
     <style>
-      .simplebar-content li.nav-item{
-        border-bottom: 1px solid rgba(0, 0,0,0.1);
-      }
+    .simplebar-content li.nav-item {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    }
+
     </style>
 </head>
 
@@ -50,15 +51,7 @@
                     <div class="d-flex">
                         <!-- LOGO -->
                         <div class="navbar-brand-box horizontal-logo">
-                            <a href="index.php" class="logo logo-dark">
-                                <span class="logo-sm">
-                                    <img src="assets/images/logo-sm.png" alt="" height="22" />
-                                </span>
-                                <span class="logo-lg">
-                                    <img src="https://truxcargo.com/static/media/footer-logo.821f9b0d5a2377cffae9f09cfbe8963c.svg"
-                                        alt="" height="17" />
-                                </span>
-                            </a>
+
 
                             <a href="index.php" class="logo logo-light">
                                 <span class="logo-sm">
@@ -469,7 +462,7 @@
                             <div class="dropdown-menu dropdown-menu-end">
                                 <!-- item-->
                                 <h6 class="dropdown-header">Welcome kavita!</h6>
-                             
+
 
                                 <!-- <div class="dropdown-divider"></div> -->
 
@@ -526,19 +519,13 @@
         <div class="app-menu navbar-menu">
             <!-- LOGO -->
             <div class="navbar-brand-box">
-                <!-- Dark Logo-->
-                <a href="index.php" class="logo logo-dark">
-                    <span class="logo-sm">
-                        <img src="assets/images/logo-sm.png" alt="" height="22" />
-                    </span>
-                    <span class="logo-lg">
-                        <img src="assets/images/logo-dark.png" alt="" height="17" />
-                    </span>
-                </a>
+
                 <!-- Light Logo-->
                 <a href="index.php" class="logo logo-light">
                     <span class="logo-sm">
-                        <img src="assets/images/logo-sm.png" alt="" height="22" />
+                        <h1 class="text-white fw-bold">T</h1>
+
+                        <!-- <img src="assets/images/logo-sm.png" alt="" height="22" /> -->
                     </span>
                     <span class="logo-lg">
                         <img src="https://truxcargo.com/static/media/footer-logo.821f9b0d5a2377cffae9f09cfbe8963c.svg"
@@ -555,7 +542,7 @@
                 <div class="container-fluid">
                     <div id="two-column-menu"></div>
                     <ul class="navbar-nav" id="navbar-nav">
-                        <li class="menu-title text-white" ><span data-key="t-menu">Menu</span></li>
+                        <li class="menu-title text-white"><span data-key="t-menu">Menu</span></li>
                         <li class="nav-item">
                             <a class="nav-link menu-link" href="index.php">
                                 <i class=" ri-dashboard-line"></i>
@@ -569,7 +556,7 @@
                                 <span data-key="t-widgets">Training</span>
                             </a>
                         </li>
-                        
+
                         <li class="nav-item">
                             <a class="nav-link menu-link" href="#CashBook" data-bs-toggle="collapse" role="button"
                                 aria-expanded="false" aria-controls="CashBook">
@@ -585,7 +572,7 @@
                                     </li>
                                     <li class="nav-item">
                                         <a href="Cashbook.php" class="nav-link" data-key="t-analytics">
-                                             CashBook
+                                            CashBook
                                         </a>
                                     </li>
 
@@ -604,7 +591,7 @@
                                 <span data-key="t-widgets"> Team Hierarchy</span>
                             </a>
                         </li>
-                       
+
                         <li class="nav-item">
                             <a class="nav-link menu-link" href="#Members" data-bs-toggle="collapse" role="button"
                                 aria-expanded="false" aria-controls="Members">
@@ -665,7 +652,7 @@
                                     </li>
                                     <li class="nav-item">
                                         <a href="Plan-subscription.php" class="nav-link" data-key="t-crm">
-                                        Plan subscription                                        </a>
+                                            Plan subscription </a>
                                     </li>
                                     <li class="nav-item">
                                         <a href="All-Customer-Bank-Info.php" class="nav-link" data-key="t-crm">
@@ -746,17 +733,17 @@
                                 <ul class="nav nav-sm flex-column">
 
                                     <li class="nav-item">
-                                        <a href="dashboard-crm.html" class="nav-link" data-key="t-crm">
+                                        <a href="LR-number-B2B.php" class="nav-link" data-key="t-crm">
                                             LR Number
                                         </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="dashboard-crm.html" class="nav-link" data-key="t-crm">
+                                        <a href="all-b2b-order.php" class="nav-link" data-key="t-crm">
                                             All Order
                                         </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="dashboard-crm.html" class="nav-link" data-key="t-crm">
+                                        <a href="mis-report-b2b.php" class="nav-link" data-key="t-crm">
                                             MIS Report
                                         </a>
                                     </li>
@@ -806,8 +793,7 @@
                                         </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="dashboard-crm.html" class="nav
-                                        -link" data-key="t-crm">
+                                        <a href="dashboard-crm.html" class="nav-link" data-key="t-crm">
                                             Not Picked
                                         </a>
                                     </li>
@@ -1344,7 +1330,7 @@
 
                             <li class="nav-item">
                                 <a href="dashboard-crm.html" class="nav-link" data-key="t-crm">
-                                   Notification
+                                    Notification
                                 </a>
                             </li>
                             <li class="nav-item">
@@ -1357,7 +1343,7 @@
                                     Shop
                                 </a>
                             </li>
-                           
+
 
 
                         </ul>
@@ -1384,7 +1370,7 @@
 
                             <li class="nav-item">
                                 <a href="dashboard-crm.html" class="nav-link" data-key="t-crm">
-                                   B2C Pricing
+                                    B2C Pricing
                                 </a>
                             </li>
                             <li class="nav-item">
@@ -1392,8 +1378,8 @@
                                     B2C Fuel
                                 </a>
                             </li>
-                            
-                           
+
+
 
 
                         </ul>
@@ -1416,18 +1402,18 @@
                         <ul class="nav nav-sm flex-column">
                             <li class="nav-item">
                                 <a href="dashboard-analytics.html" class="nav-link" data-key="t-analytics">
-                                   Truxcargo Private Limited
+                                    Truxcargo Private Limited
                                 </a>
                             </li>
                             <li class="nav-item">
                                 <a href="dashboard-crm.html" class="nav-link" data-key="t-crm">
-                                Truxcargo
+                                    Truxcargo
                                 </a>
                             </li>
 
-                           
-                            
-                           
+
+
+
 
 
                         </ul>
@@ -1440,7 +1426,7 @@
                     </a>
                 </li>
 
-              
+
                 <li class="nav-item">
                     <a class="nav-link menu-link" href="index.php">
                         <i class=" ri-logout-box-r-line"></i>

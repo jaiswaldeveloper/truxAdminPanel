@@ -1,26 +1,68 @@
 <?php include("include/header.php")?>
-
+<style>
+.select2-container--default .select2-selection--single {
+    border-radius: 50px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(126, 126, 255, 0.30);
+    border: 1px solid #7E7EFF !important;
+}
+</style>
 
 <div class="main-content">
 
     <div class="page-content">
         <div class="container-fluid">
+
             <div class="row">
                 <div class="col-12">
                     <div class="page-title-box d-sm-flex align-items-center justify-content-between bg-transparent">
-                        <h4 class="mb-sm-0">B2B Pickup</h4>
+                        <h4 class="mb-sm-0">LR Number
+                        </h4>
 
                         <div class="page-title-right">
                             <ol class="breadcrumb m-0">
-                            <li class="breadcrumb-item"><a href="javascript: void(0);">Menu</a></li>
-                            <li class="breadcrumb-item"><a href="javascript: void(0);">Pickups & Warehouse</a></li>
-                            <li class="breadcrumb-item active">B2B Pickup</li>
+                                <li class="breadcrumb-item"><a href="javascript: void(0);">Menu</a></li>
+
+                                <li class="breadcrumb-item"><a href="javascript: void(0);">B2B Panel</a></li>
+                                <li class="breadcrumb-item active">LR Number
+                                </li>
                             </ol>
                         </div>
 
                     </div>
                 </div>
             </div>
+
+            <div class="row">
+                <div class="col">
+
+                    <div class="h-100">
+                        <div class="row mb-3 pb-1">
+                            <div class="col-12">
+                                <div class="d-flex align-items-lg-center flex-lg-row flex-column">
+                                    <div class="flex-grow-1"></div>
+                                    <div class="mt-3 mt-lg-0">
+                                        <div class="col-auto">
+                                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                                id="cashIn-btn" data-bs-target="#AddInModal"><i
+                                                    class="ri-add-circle-line align-middle me-1"></i>Add
+                                                LR Number</button>
+                                        </div>
+                                    </div>
+                                </div><!-- end card header -->
+                            </div>
+                            <!--end col-->
+                        </div>
+
+                    </div> <!-- end .h-100-->
+
+                </div> <!-- end col -->
+
+
+            </div>
+
+
+
             <div class="row mb-4">
                 <div class="col-xl-12">
                     <div class="card-body form-bg-gradient">
@@ -28,50 +70,17 @@
                             <div class="row g-3">
                                 <div class="col-xxl-5 col-sm-6">
                                     <div class="search-box">
-                                        <input type="text" class="form-control search"
-                                            placeholder="Search by Request LR">
+                                        <input type="text" class="form-control search" placeholder="Search By LR">
                                         <i class="ri-search-line search-icon"></i>
                                     </div>
                                 </div>
                                 <!--end col-->
 
-
-
-                                <div class="col-xxl-2 col-sm-4">
-                                    <div>
-
-                                        <select class="js-example-basic-single w-100 form-control" name="state">
-                                            <option value="" selected>All Member</option>
-                                            <option value="Single Panel">Today</option>
-                                            <option value="B2B & cargo">Yesterday</option>
-                                            <option value="B2B & Dense">Last 7 days</option>
-                                            <option value="Dense & Cargo">Last 30 days</option>
-                                            <option value="3 panels">This Month</option>
-                                            <option value="3 panels">Last Month</option>
-                                        </select>
-
-                                    </div>
-                                </div>
-                                <div class="col-xxl-2 col-sm-4">
-                                    <div>
-
-                                        <select class="js-example-basic-single w-100 form-control" name="state">
-                                            <option value="" selected>All </option>
-                                            <option value="Single Panel">Today</option>
-                                            <option value="B2B & cargo">Yesterday</option>
-                                            <option value="B2B & Dense">Last 7 days</option>
-                                            <option value="Dense & Cargo">Last 30 days</option>
-                                            <option value="3 panels">This Month</option>
-                                            <option value="3 panels">Last Month</option>
-                                        </select>
-
-                                    </div>
-                                </div>
                                 <!--end col-->
                                 <div class="col-xxl-2 col-sm-4">
                                     <div>
-                                    <button type="button" class="btn btn-primary w-100" style="background: linear-gradient(90deg, #10A81B 0%, #06420B 100%);"> 
-                                            Apply
+                                        <button type="button" class="btn btn-primary w-100">
+                                            Search
                                         </button>
                                     </div>
                                 </div>
@@ -80,8 +89,8 @@
                             <!--end row-->
                         </form>
                     </div>
-                    <div class="row justify-content-end">
-                        <div class="col-xl-4">
+                    <div class="files">
+                        <div style="float: right" ;>
                             <div class="d-flex flex-wrap gap-2 my-2">
                                 <button type="button" class="btn btn-success btn-animation waves-effect waves-light"
                                     data-text="Excel"><span><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
@@ -95,8 +104,7 @@
                                                 d="M8.3125 17.6075H11.499V18.8151H8.3125V17.6075ZM12.4935 11.4375H15.6901V12.635H12.4935V11.4375ZM8.3125 11.4375H11.499V12.635H8.3125V11.4375ZM12.4935 13.4671H15.6901V14.6747H12.4935V13.4671ZM8.3125 13.4671H11.499V14.6747H8.3125V13.4671ZM12.4935 15.5779H15.6901V16.7855H12.4935V15.5779ZM8.3125 15.5779H11.499V16.7855H8.3125V15.5779ZM12.4935 17.6075H15.6901V18.8151H12.4935V17.6075Z"
                                                 fill="#10A81B" />
                                         </svg>
-                                        EXCEL</span>
-                                </button>
+                                        EXCEL</span></button>
                                 <button type="button" class="btn btn-info btn-animation waves-effect waves-light"
                                     data-text="CSV"><span><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                             xmlns="http://www.w3.org/2000/svg">
@@ -126,23 +134,6 @@
                                         </svg>
                                         PDF</span></button>
 
-                                <button type="button" class="btn btn-light btn-animation waves-effect waves-light"
-                                    data-text="All Data"><span> <svg width="25" height="24" viewBox="0 0 25 24"
-                                            fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <g clip-path="url(#clip0_3194_22392)">
-                                                <path
-                                                    d="M12.5 0C10.1266 0 7.80655 0.703788 5.83316 2.02236C3.85977 3.34094 2.3217 5.21509 1.41345 7.4078C0.505199 9.60051 0.267559 12.0133 0.730582 14.3411C1.1936 16.6689 2.33649 18.8071 4.01472 20.4853C5.69295 22.1635 7.83115 23.3064 10.1589 23.7694C12.4867 24.2324 14.8995 23.9948 17.0922 23.0866C19.2849 22.1783 21.1591 20.6402 22.4776 18.6668C23.7962 16.6935 24.5 14.3734 24.5 12C24.5 8.8174 23.2357 5.76516 20.9853 3.51472C18.7348 1.26428 15.6826 0 12.5 0ZM16.4365 19.73H8.56351C8.29829 19.73 8.04393 19.6246 7.8564 19.4371C7.66886 19.2496 7.56351 18.9952 7.56351 18.73C7.56351 18.4648 7.66886 18.2104 7.8564 18.0229C8.04393 17.8354 8.29829 17.73 8.56351 17.73H16.4365C16.7017 17.73 16.9561 17.8354 17.1436 18.0229C17.3311 18.2104 17.4365 18.4648 17.4365 18.73C17.4365 18.9952 17.3311 19.2496 17.1436 19.4371C16.9561 19.6246 16.7017 19.73 16.4365 19.73ZM17.1435 12.208L13.204 16.15C13.0165 16.3375 12.7622 16.4428 12.497 16.4428C12.2318 16.4428 11.9775 16.3375 11.79 16.15L7.85651 12.217C7.6686 12.0295 7.56288 11.775 7.5626 11.5096C7.56231 11.2441 7.6675 10.9894 7.85501 10.8015C8.04251 10.6136 8.29699 10.5079 8.56244 10.5076C8.8279 10.5073 9.0826 10.6125 9.27051 10.8L11.5 13.0295V4.1825C11.5 3.91728 11.6054 3.66293 11.7929 3.47539C11.9804 3.28786 12.2348 3.1825 12.5 3.1825C12.7652 3.1825 13.0196 3.28786 13.2071 3.47539C13.3946 3.66293 13.5 3.91728 13.5 4.1825V13.0235L15.7295 10.794C15.9181 10.6118 16.1707 10.511 16.4329 10.5133C16.6951 10.5156 16.9459 10.6208 17.1313 10.8062C17.3167 10.9916 17.4219 11.2424 17.4242 11.5046C17.4265 11.7668 17.3257 12.0194 17.1435 12.208Z"
-                                                    fill="black" fill-opacity="0.75" />
-                                            </g>
-                                            <defs>
-                                                <clipPath id="clip0_3194_22392">
-                                                    <rect width="24" height="24" fill="white"
-                                                        transform="translate(0.5)" />
-                                                </clipPath>
-                                            </defs>
-                                        </svg>
-                                        All Data</span></button>
-
                             </div>
                         </div>
                     </div>
@@ -150,9 +141,7 @@
 
 
             </div>
-        </div>
 
-        <div>
 
             <div class="row">
                 <div class="col-lg-12">
@@ -164,15 +153,11 @@
                                     <table class="table align-middle table-nowrap" id="customerTable">
                                         <thead class="table-light">
                                             <tr>
-                                                <th class="sort" data-sort="id">ID &nbsp;</th>
-                                                <th class="sort" data-sort="Member">Member Details</th>
-                                                <th class="sort" data-sort="date">Request Date</th>
-                                                <th class="sort" data-sort="LR">LR No</th>
-                                                <th class="sort" data-sort="Contact">pickup date & time</th>
-                                                <th class="sort" data-sort="Package">Package</th>
-                                                <th class="sort" data-sort="Pickup"> center</th>
-                                        
-                                                <th class="sort">panel</th>
+                                                <th class="sort" data-sort="id">
+                                                    S No. &nbsp;</th>
+                                                <th class="sort" data-sort="Pincode">Category</th>
+                                                <th class="sort">Status</th>
+                                                <th class="sort">Action</th>
 
 
                                             </tr>
@@ -180,25 +165,42 @@
                                         <tbody class="list form-check-all">
                                             <tr>
                                                 <td>1</td>
-                                                <td>Laljee Prasad <br>
-                                                <b>TRUXCARGO4201</b>	</td>
-                                                <td class="date">06 Apr, 2021</td>
-
-                                                <td>186542896 </td>
+                                                <td>Office Expense</td>
+                                                <td>
+                                                    <span class="badge bg-success-subtle text-success text-uppercase">Active</span>
+                                                </td>
                                                
-                                               
-                                                    <td><b>Seelampur</b>
-MOTORS C-743, GALI NO-8, SEELAMPUR, <br> CHAUHAN BANGER North East Delhi, Delhi, 110053<br> GSTIN/UIN: 07BYPPA3426G1ZK State Name : De, <br>Delhi
-ph. 7294968522 </td>
-                                                    <td>186542896 </td>
-                                                    <td>Delhi_Gokalpur_L	 </td>
 
-                                                
-                                                    <td>Delhivery Cargo
-                                                    </td>
+
+                                                <td>
+                                                    <ul class="list-inline hstack gap-2 mb-0">
+                                                        <li class="list-inline-item" data-bs-toggle="tooltip"
+                                                            data-bs-trigger="hover" data-bs-placement="top"
+                                                            title="Edit">
+                                                            <a data-bs-toggle="modal" id="cashIn-btn"
+                                                                data-bs-target="#editInModal"
+                                                                class="text-success d-inline-block">
+                                                                <button class="btn btn-success rounded-pill"
+                                                                    style="background: linear-gradient(180deg, #10A81B, #06420B);">Edit</button>
+                                                                <!-- <i class="ri-pencil-fill fs-20"> </i> -->
+                                                            </a>
+                                                        </li>
+
+                                                        <li class="list-inline-item" data-bs-toggle="tooltip"
+                                                            data-bs-trigger="hover" data-bs-placement="top"
+                                                            title="Delete">
+                                                            <a class="text-danger d-inline-block remove-item-btn"
+                                                                data-bs-toggle="modal" href="#deleteOrder">
+                                                                <button class="btn btn-danger rounded-pill"
+                                                                    style="background: linear-gradient(180deg, #BC3C43, #ED1C24);">Delete</button>
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </td>
 
 
                                             </tr>
+
 
                                         </tbody>
                                     </table>
@@ -208,7 +210,8 @@ ph. 7294968522 </td>
                                                 colors="primary:#121331,secondary:#08a88a"
                                                 style="width:75px;height:75px"></lord-icon>
                                             <h5 class="mt-2">Sorry! No Result Found</h5>
-                                            <p class="text-muted mb-0">We've searched more than 150+ Orders We did not
+                                            <p class="text-muted mb-0">We've searched more than 150+
+                                                Orders We did not
                                                 find any orders for you search.</p>
                                         </div>
                                     </div>
@@ -233,7 +236,103 @@ ph. 7294968522 </td>
                 <!-- end col -->
             </div>
 
+            <div class="modal fade" id="AddInModal" tabindex="-1" aria-labelledby="AddInModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header bg-light p-3">
+                    <h5 class="modal-title" id="AddInModalLabel"> Add LR Number
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"
+                        id="close-modal"></button>
+                </div>
+                <form class="tablelist-form" autocomplete="off">
+                    <div class="modal-body">
 
+
+                        <div class="form-floating mb-3">
+                            <input type="number" class="form-control" placeholder="Enter Starting Number">
+                            <label for="firstnamefloatingInput">Starting Number </label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="number" class="form-control" placeholder="Enter Ending Starting Number">
+                            <label for="firstnamefloatingInput">Ending Number</label>
+                        </div>
+
+
+                        <div class="mt-5">
+                            <div class="hstack gap-2 justify-content-end">
+                                <button type="submit" class="btn btn-success w-100" id="add-btn"
+                                    style="background: linear-gradient(90deg, #10A81B 0%, #06420B 100%);">Save </button>
+                                <button type="button" class="btn btn-light w-100"
+                                    data-bs-dismiss="modal">Cancel</button>
+                            </div>
+                        </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+        </div>
+
+
+        <div class="modal fade" id="editInModal" tabindex="-1" aria-labelledby="editInModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header bg-light p-3">
+                        <h5 class="modal-title" id="editInModalLabel">Edit LR Number
+                        </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"
+                            id="close-modal"></button>
+                    </div>
+                    <form class="tablelist-form" autocomplete="off">
+                        <div class="modal-body">
+
+
+                            <div class="form-floating mb-3">
+                                <input type="tel" class="form-control" placeholder="Enter Category" value="257923425">
+                                <label for="firstnamefloatingInput">LR Number </label>
+                            </div>
+
+
+                            <div class="mt-5">
+                                <div class="hstack gap-2 justify-content-end">
+                                    <button type="submit" class="btn btn-success w-100" id="add-btn"
+                                        style="background: linear-gradient(90deg, #10A81B 0%, #06420B 100%);">Update
+                                    </button>
+                                    <button type="button" class="btn btn-light w-100"
+                                        data-bs-dismiss="modal">Cancel</button>
+                                </div>
+                            </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- container-fluid -->
+    </div>
+
+
+
+
+</div>
+
+<div class="modal fade flip" id="deleteOrder" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-body p-5 text-center">
+                <lord-icon src="https://cdn.lordicon.com/gsqxdxog.json" trigger="loop"
+                    colors="primary:#405189,secondary:#f06548" style="width:90px;height:90px"></lord-icon>
+                <div class="mt-4 text-center">
+                    <h4>You are about to delete a order ?</h4>
+                    <p class="text-muted fs-15 mb-4">Deleting your order will remove all of your information from our
+                        database.</p>
+                    <div class="hstack gap-2 justify-content-center remove">
+                        <button class="btn btn-link link-success fw-medium text-decoration-none" id="deleteRecord-close"
+                            data-bs-dismiss="modal"><i class="ri-close-line me-1 align-middle"></i> Close</button>
+                        <button class="btn btn-danger" id="delete-record">Yes, Delete It</button>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
