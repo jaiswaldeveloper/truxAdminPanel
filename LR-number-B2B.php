@@ -6,6 +6,10 @@
     box-shadow: 0px 4px 4px 0px rgba(126, 126, 255, 0.30);
     border: 1px solid #7E7EFF !important;
 }
+.table .sort {
+    position: relative;
+    width: 25%;
+}
 </style>
 
 <div class="main-content">
@@ -217,7 +221,7 @@
                                     </div>
                                 </div>
 
-                                <div class="d-flex justify-content-end">
+                                <div class="d-flex justify-content-center">
                                     <div class="pagination-wrap hstack gap-2">
                                         <a class="page-item pagination-prev disabled" href="javascript:void(0);">
                                             Previous

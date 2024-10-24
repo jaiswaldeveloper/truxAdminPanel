@@ -33,7 +33,7 @@
     --vz-primary: #7E7EFF;;
     --vz-secondary: #4788ff;
     --vz-success: #007736;
-    --vz-info: #3fa7d6;
+    --vz-info: #4656A3;
     --vz-warning: #ffca5b;
     --vz-danger: #BC3C43;
     --vz-light: #f3f6f9;
@@ -2414,6 +2414,7 @@ progress {
     --vz-table-bg-state: initial;
     --vz-table-color: var(--vz-body-color);
     --vz-table-bg: transparent;
+    /* --vz-table-border-color: #7E7EFF; */
     --vz-table-border-color: var(--vz-border-color);
     --vz-table-accent-bg: transparent;
     --vz-table-striped-color: var(--vz-body-color);
@@ -2579,7 +2580,7 @@ progress {
 
 .table-light {
     --vz-table-color: #000;
-    --vz-table-bg: #f3f6f9;
+    --vz-table-bg: ;
     --vz-table-border-color: #dbdde0;
     --vz-table-striped-bg: #eef1f4;
     --vz-table-striped-color: #000;
@@ -2933,7 +2934,7 @@ textarea.form-control-lg {
     padding: .5rem 2.7rem .5rem .9rem;
     font-size: .8512rem;
     font-weight: 400;
-    line-height: 1.5;
+    line-height: 1.8;
     color: var(--vz-body-color);
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -2950,7 +2951,6 @@ textarea.form-control-lg {
     transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
     transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
     border-radius: 8px;
-    background: #FFF;
     box-shadow: 0px 4px 4px 0px rgba(126, 126, 255, 0.30);
 }
 
@@ -6827,7 +6827,7 @@ fieldset:disabled .btn {
     pointer-events: auto;
     background-color: var(--vz-modal-bg);
     background-clip: padding-box;
-    border:2px solid #7E7EFF;
+    /* border:2px solid #7E7EFF; */
     border-radius: var(--vz-modal-border-radius);
     outline: 0
 }

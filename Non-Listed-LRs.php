@@ -24,38 +24,32 @@
             <div class="plan-overview">
                 <div class="card">
                     <div class="card-body">
-                    <div class="row justify-content-center">
-                    <h5 class="">CSV File </h5>
 
-                    <hr style="border: 1px dashed; color:#fff">
 
-                    <div class="row">
-                        <div class="col-xxl-5 col-sm-6 mb-3">
-                            <div>
-                                <input class="form-control rounded-5" type="file" id="formFile">
+                        <div class="row">
+                            <div class="col-xxl-5 col-sm-6 mb-3">
+                                <div>
+                                    <label for="">CSV File</label>
+
+                                    <input class="form-control rounded-5" type="file" id="formFile">
+                                </div>
+                                <div>
+                                    <button type="button" class="btn btn-success border-0 w-50 mt-3"
+                                        style="background: linear-gradient(90deg, #10A81B 0%, #36CB72 100%);">
+                                        Find
+                                    </button>
+                                </div>
                             </div>
-                            <div>
-                                <button type="button" class="btn btn-success border-0 w-50 mt-3"
-                                    style="background: linear-gradient(90deg, #10A81B 0%, #36CB72 100%);">
-                                    Find
-                                </button>
-                            </div>
+                            <!--end col-->
+
+
+
                         </div>
-                        <!--end col-->
 
-                    
 
                     </div>
-
-
-
-
-
-
                 </div>
-                    </div>
-                </div>
-                
+
             </div>
 
         </div>

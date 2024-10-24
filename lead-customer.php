@@ -1,5 +1,6 @@
 <?php include("include/header.php")?>
 
+
 <div class="main-content">
 
     <div class="page-content">
@@ -7,14 +8,14 @@
             <div class="row">
                 <div class="col-12">
                     <div class="page-title-box d-sm-flex align-items-center justify-content-between bg-transparent">
-                        <h4 class="mb-sm-0">All Customer</h4>
+                        <h4 class="mb-sm-0">Dead User</h4>
 
                         <div class="page-title-right">
                             <ol class="breadcrumb m-0">
                                 <li class="breadcrumb-item"><a href="javascript: void(0);">Menu</a></li>
                                 <li class="breadcrumb-item active"> Customer</li>
 
-                                <li class="breadcrumb-item active">All Customer</li>
+                                <li class="breadcrumb-item active">Lead Customer</li>
                             </ol>
                         </div>
 
@@ -36,85 +37,10 @@
                                 <!--end col-->
 
                                 <!--end col-->
-
-                                <div class="col-xxl-2 col-sm-4">
-                              
-                                    <div>
-                                        <select class="form-select">
-                                            <option value="" selected>All Wallet Type</option>
-                                            <option value="Mastercard">Postpaid</option>
-                                            <option value="Paypal">Prepaid</option>
-
-                                        </select>
-                                    </div>
-                                </div>
-                                <!--end col-->
                                 <div class="col-xxl-2 col-sm-4">
                                     <div>
-                                        <select class="form-select">
-                                            <option value="" selected>All Type</option>
-                                            <option value="Customer">Customer</option>
-                                            <option value="Transporter">Transporter</option>
-
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="col-xxl-2 col-sm-4">
-                                    <div>
-                                        <select class="form-select">
-                                            <option value="" selected>All GST Preference</option>
-                                            <option value="Yes">Yes</option>
-                                            <option value="No">No</option>
-
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="col-xxl-2 col-sm-4">
-                                    <div>
-                                        <select class="form-select">
-                                            <option value="" selected>All COD Plan</option>
-                                            <option value="Weekly">Weekly</option>
-                                            <option value="1 Day">1 Day</option>
-                                            <option value="2 Day">2 Day</option>
-                                            <option value="3 Day">3 Day</option>
-
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="col-xxl-2 col-sm-4">
-                                    <div>
-                                        <select class="form-select" >
-                                            <option value="" selected>All Panel Count</option>
-                                            <option value="Single Panel">Single Panel</option>
-                                            <option value="B2B & cargo">B2B & cargo</option>
-                                            <option value="B2B & Dense">B2B & Dense</option>
-                                            <option value="Dense & Cargo">Dense & Cargo</option>
-                                            <option value="3 panels">3 panels</option>
-
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="col-xxl-2 col-sm-4">
-                                    <div>
-                                        <select class="form-select" >
-                                            <option value="" selected>All Joining Date</option>
-                                            <option value="Today">Today</option>
-                                            <option value="Yesterday">Yesterday</option>
-                                            <option value="Last 7 Days">Last 7 Days</option>
-                                            <option value="Last 30 Days">Last 30 Days</option>
-                                            <option value="This Month">This Month</option>
-                                            <option value="Last Month">Last Month</option>
-                                            <option value="Costom Range">Costom Range</option>
-
-                                        </select>
-                                    </div>
-                                </div>
-                                <!--end col-->
-                                <div class="col-xxl-2 col-sm-4">
-                                    <div>
-                                        <button type="button" class="btn btn-primary w-100" onclick="SearchData();"> <i
-                                                class="ri-equalizer-fill me-1 align-bottom"></i>
-                                            Filters
+                                        <button type="button" class="btn btn-primary w-100">
+                                            Search
                                         </button>
                                     </div>
                                 </div>
@@ -123,7 +49,7 @@
                             <!--end row-->
                         </form>
                     </div>
-
+                    
                 </div>
 
 
@@ -138,7 +64,7 @@
                                 <div class="d-flex align-items-lg-center flex-lg-row flex-column">
                                     <div class="flex-grow-1"></div>
                                     <div class="mt-3 mt-lg-0">
-                                        <div class="col-auto">
+                                        <div class="col-auto" style="float: right">
                                             <div class="d-flex flex-wrap gap-2 my-2">
                                                 <button type="button" class="btn btn-success"
                                                     data-text="Excel"><span><svg width="24" height="24"
@@ -185,22 +111,7 @@
                                                                 fill="white" stroke="#BC3C43" />
                                                         </svg>
                                                         PDF</span></button>
-                                                <button type="button" class="btn btn-light " data-text="All Data"><span>
-                                                        <svg width="25" height="24" viewBox="0 0 25 24" fill="none"
-                                                            xmlns="http://www.w3.org/2000/svg">
-                                                            <g clip-path="url(#clip0_3194_22392)">
-                                                                <path
-                                                                    d="M12.5 0C10.1266 0 7.80655 0.703788 5.83316 2.02236C3.85977 3.34094 2.3217 5.21509 1.41345 7.4078C0.505199 9.60051 0.267559 12.0133 0.730582 14.3411C1.1936 16.6689 2.33649 18.8071 4.01472 20.4853C5.69295 22.1635 7.83115 23.3064 10.1589 23.7694C12.4867 24.2324 14.8995 23.9948 17.0922 23.0866C19.2849 22.1783 21.1591 20.6402 22.4776 18.6668C23.7962 16.6935 24.5 14.3734 24.5 12C24.5 8.8174 23.2357 5.76516 20.9853 3.51472C18.7348 1.26428 15.6826 0 12.5 0ZM16.4365 19.73H8.56351C8.29829 19.73 8.04393 19.6246 7.8564 19.4371C7.66886 19.2496 7.56351 18.9952 7.56351 18.73C7.56351 18.4648 7.66886 18.2104 7.8564 18.0229C8.04393 17.8354 8.29829 17.73 8.56351 17.73H16.4365C16.7017 17.73 16.9561 17.8354 17.1436 18.0229C17.3311 18.2104 17.4365 18.4648 17.4365 18.73C17.4365 18.9952 17.3311 19.2496 17.1436 19.4371C16.9561 19.6246 16.7017 19.73 16.4365 19.73ZM17.1435 12.208L13.204 16.15C13.0165 16.3375 12.7622 16.4428 12.497 16.4428C12.2318 16.4428 11.9775 16.3375 11.79 16.15L7.85651 12.217C7.6686 12.0295 7.56288 11.775 7.5626 11.5096C7.56231 11.2441 7.6675 10.9894 7.85501 10.8015C8.04251 10.6136 8.29699 10.5079 8.56244 10.5076C8.8279 10.5073 9.0826 10.6125 9.27051 10.8L11.5 13.0295V4.1825C11.5 3.91728 11.6054 3.66293 11.7929 3.47539C11.9804 3.28786 12.2348 3.1825 12.5 3.1825C12.7652 3.1825 13.0196 3.28786 13.2071 3.47539C13.3946 3.66293 13.5 3.91728 13.5 4.1825V13.0235L15.7295 10.794C15.9181 10.6118 16.1707 10.511 16.4329 10.5133C16.6951 10.5156 16.9459 10.6208 17.1313 10.8062C17.3167 10.9916 17.4219 11.2424 17.4242 11.5046C17.4265 11.7668 17.3257 12.0194 17.1435 12.208Z"
-                                                                    fill="black" fill-opacity="0.75" />
-                                                            </g>
-                                                            <defs>
-                                                                <clipPath id="clip0_3194_22392">
-                                                                    <rect width="24" height="24" fill="white"
-                                                                        transform="translate(0.5)" />
-                                                                </clipPath>
-                                                            </defs>
-                                                        </svg>
-                                                        All Data</span></button>
+                                             
                                             </div>
                                         </div>
                                     </div>
@@ -230,70 +141,41 @@
                                         <thead class="table-light">
                                             <tr>
                                                 <th class="sort" data-sort="id">ID &nbsp;</th>
-                                                <th class="sort" data-sort="date">Date</th>
+                                                <th class="sort" data-sort="date">
+                                                	Joining Date</th>
                                                 <th class="sort" data-sort="username">Username</th>
-                                                <th class="sort" data-sort="name">Name</th>
-                                                <th class="sort" data-sort="type">Type</th>
-                                                <th class="sort" data-sort="info">Contact &nbsp;</th>
-                                                <th class="sort" data-sort="company">Company &nbsp;</th>
-                                                <th class="sort" data-sort="gst">GST & Prefernce &nbsp;</th>
-                                                <th class="sort" data-sort="cod">COD Plan &nbsp;</th>
-                                                <th class="sort" data-sort="poc">POC</th>
-                                                <th class="sort" data-sort="status">Status</th>
-                                                <th class="sort">Action</th>
+                                                <th class="sort" data-sort="name">User ID</th>
+                                                <th class="sort" data-sort="type">Name</th>
+                                                <th class="sort" data-sort="company">Company Name</th>
+                                                <th class="sort" data-sort="info">Email </th>
+                                                <th class="sort" data-sort="gst">Contact No </th>
+                                                <th class="sort" data-sort="cod">B2B Order</th>
+                                                <th class="sort" data-sort="poc">B2C Order</th>
+                                                <th class="sort" data-sort="status">Current B2B</th>
+                                                <th class="sort">Current B2C</th>
 
 
                                             </tr>
                                         </thead>
                                         <tbody class="list form-check-all">
                                             <tr>
-                                                <td>1</td>
+                                                <td>28</td>
                                                 <td class="date">06 Apr, 2021</td>
-                                                <td>TRUXCARGO12</td>
-                                                <td>Alok Kumar </td>
-                                                <td>Postpaid
-                                                    (Transporter)</td>
-                                                <td>9718685216</td>
-                                                <td>Mirc Electronic </td>
-                                                <td>NA
-                                                    (Yes)</td>
-                                                <td>Weekly</td>
-                                                <td>shubham</td>
-                                                <td class="status"><span
-                                                        class="badge bg-success-subtle text-success text-uppercase">Active</span>
-                                                </td>
+                                                <td>TRUXCARGO939 </td>
+                                                <td>Chander Shekhar	</td>
+                                                <td>V R ENTERPRISES</td>
+                                                <td> RJ TRANSPORT		 </td>
+                                                <td> cshekar7676@gmail.com	 </td>
+                                                <td>8285777502</td>
+                                                <td>65</td>
+                                                <td>477</td>
+                                                <td>1</td>
                                                 <td>
-                                                    <ul class="list-inline hstack gap-2 mb-0">
-                                                        <li class="list-inline-item" data-bs-toggle="tooltip"
-                                                            data-bs-trigger="hover" data-bs-placement="top"
-                                                            title="Edit">
-                                                            <a href="edit-customer.php"
-                                                                class="text-success d-inline-block">
-                                                                <i class="ri-pencil-fill fs-20"></i>
-                                                            </a>
-                                                        </li>
-                                                        <li class="list-inline-item edit" data-bs-toggle="tooltip"
-                                                            data-bs-trigger="hover" data-bs-placement="top"
-                                                            title="Ledger">
-                                                            <a href="billing-ledger.php"
-                                                                class="text-primary d-inline-block edit-item-btn">
-                                                                <i class=" ri-price-tag-fill fs-20"></i>
-                                                            </a>
-                                                        </li>
-                                                        <li class="list-inline-item" data-bs-toggle="tooltip"
-                                                            data-bs-trigger="hover" data-bs-placement="top"
-                                                            title="Add order">
-                                                            <a class="text-warning d-inline-block remove-item-btn">
-                                                                <i class=" ri-add-circle-fill fs-20"></i>
-                                                            </a>
-                                                        </li>
-                                                    </ul>
+                                                70
                                                 </td>
 
 
                                             </tr>
-
-
 
                                         </tbody>
                                     </table>
@@ -332,7 +214,4 @@
         </div>
     </div>
 </div>
-
-
-
 <?php include("include/footer.php")?>

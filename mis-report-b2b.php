@@ -503,7 +503,7 @@
                                     </div>
                                 </div>
 
-                                <div class="d-flex justify-content-end">
+                                <div class="d-flex justify-content-center">
                                     <div class="pagination-wrap hstack gap-2">
                                         <a class="page-item pagination-prev disabled" href="javascript:void(0);">
                                             Previous

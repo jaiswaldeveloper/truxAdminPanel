@@ -51,9 +51,9 @@
 
 }
 
-.request-wrapper {
+/* .request-wrapper {
     margin-bottom: 0 !important;
-}
+} */
 
 .request-wrapper h4,
 .request-wrapper h5,
@@ -63,6 +63,17 @@
 
 .top-user {
     list-style: none;
+}
+
+.request-wrapper .card-body:hover{
+    background:#fff;
+}
+.request-wrapper .card-body:hover h4, .request-wrapper .card-body:hover h5,  .request-wrapper .card-body:hover p {
+    color:#7E7EFF !important;
+}
+.request-wrapper .card-body:hover svg {
+    background: #7E7EFF ;
+
 }
 </style>
 
@@ -87,19 +98,23 @@
                                             <div class="row g-3 mb-0 align-items-center">
 
                                                 <!--end col-->
-                                                <div class="col-auto">
-                                                    <div class="rounded-pill w-100" style="min-width:250px" >
-                                                        <select class="js-example-basic-single  form-control"
-                                                            name="state">
-                                                            <option value="" selected>All </option>
-                                                            <option value="Single Panel">Today</option>
+                                                <div class="col-auto col-12">
+
+                                                <select class="form-select rounded-pill mb-3" aria-label="Default select example" style="min-width:250px;">
+                                                <option value="" selected>All </option>
+                                                            <option value="Single Panel" selected>Today</option>
                                                             <option value="B2B & cargo">Yesterday</option>
                                                             <option value="B2B & Dense">Last 7 days</option>
                                                             <option value="Dense & Cargo">Last 30 days</option>
                                                             <option value="3 panels">This Month</option>
                                                             <option value="3 panels">Last Month</option>
+</select>
+                                                    <!-- <div class="rounded-pill w-100 " style="min-width:250px; border-radius: 50px" >
+                                                        <select class="js-example-basic-single  form-control"
+                                                            name="state">
+                                                           
                                                         </select>
-                                                    </div>
+                                                    </div> -->
                                                 </div>
 
                                             </div>
@@ -110,6 +125,8 @@
                             </div>
                             <!--end col-->
                         </div>
+
+                        <hr style="border: 1px dashed #7E7EFF ">
                         <!--end row-->
                         <div class="row">
                             <div class="col-xl-9">
@@ -172,7 +189,7 @@
 
                                     <div class="col-xl-3 col-md-6">
                                         <!-- card -->
-                                        <div class="card card-animate tonnage" style="border: 1px solid #7E7EFF">
+                                        <div class="card card-animate tonnage" style="border: 1px solid #5469FF">
                                             <div class="card-body ">
 
                                                 <div>
@@ -219,7 +236,7 @@
                                                 </div>
 
                                             </div><!-- end card body -->
-                                            <div class="see-details">
+                                            <div class="see-details" style="background: #5469FF">
                                                 <a href="#" class="text-decoration-underline text-white">See Details</a>
                                             </div>
                                         </div><!-- end card -->
@@ -227,7 +244,7 @@
 
                                     <div class="col-xl-3 col-md-6">
                                         <!-- card -->
-                                        <div class="card card-animate tonnage" style="border: 1px solid #7E7EFF">
+                                        <div class="card card-animate tonnage" style="border: 1px solid #6B80CE">
                                             <div class="card-body ">
 
                                                 <div>
@@ -274,7 +291,7 @@
                                                 </div>
 
                                             </div><!-- end card body -->
-                                            <div class="see-details">
+                                            <div class="see-details" style="background: #6B80CE">
                                                 <a href="#" class="text-decoration-underline text-white">See Details</a>
                                             </div>
                                         </div><!-- end card -->
@@ -282,7 +299,7 @@
 
                                     <div class="col-xl-3 col-md-6">
                                         <!-- card -->
-                                        <div class="card card-animate tonnage" style="border: 1px solid #7E7EFF">
+                                        <div class="card card-animate tonnage" style="border: 1px solid #5761A4">
                                             <div class="card-body ">
 
                                                 <div>
@@ -329,7 +346,7 @@
                                                 </div>
 
                                             </div><!-- end card body -->
-                                            <div class="see-details">
+                                            <div class="see-details" style="background: #5761A4">
                                                 <a href="#" class="text-decoration-underline text-white">See Details</a>
                                             </div>
                                         </div><!-- end card -->
@@ -339,9 +356,9 @@
 
                                 </div>
 
-                                <div class="row">
+                                <div class="row my-3">
                                     <div class="col-lg-3 col-md-6">
-                                        <div class="card">
+                                        <div class="card  card-animate" style="border: 1px solid #8A8AF5">
                                             <div class="card-body">
                                                 <div class="d-flex align-items-center">
                                                     <div class=" flex-shrink-0">
@@ -382,7 +399,7 @@
                                     </div><!-- end col -->
 
                                     <div class="col-lg-3 col-md-6">
-                                        <div class="card">
+                                        <div class="card  card-animate"  style="border: 1px solid #BC3C43">
                                             <div class="card-body">
                                                 <div class="d-flex align-items-center">
                                                     <div class=" flex-shrink-0">
@@ -426,7 +443,7 @@
                                     </div><!-- end col -->
 
                                     <div class="col-lg-3 col-md-6">
-                                        <div class="card">
+                                        <div class="card  card-animate"  style="border: 1px solid #FFE600">
                                             <div class="card-body">
                                                 <div class="d-flex align-items-center">
                                                     <div class=" flex-shrink-0">
@@ -471,7 +488,7 @@
 
 
                                     <div class="col-lg-3 col-md-6">
-                                        <div class="card">
+                                        <div class="card  card-animate"  style="border: 1px solid #5F81FE">
                                             <div class="card-body">
                                                 <div class="d-flex align-items-center">
                                                     <div class="flex-shrink-0">
@@ -505,10 +522,10 @@
 
                                 </div>
 
-                                <div class="underline mb-4"></div>
+                                <div class="underline my-4"></div>
 
-                                <div class="row">
-                                    <div class="" style="background:#7E7EFF; padding: 18px 35px ; border-radius: 10px">
+                               
+                                    <div class="mb-2" style="background:#7E7EFF; padding: 18px ; border-radius: 10px">
                                         <div class="row">
                                             <div class="col-lg-4 col-md-6">
                                                 <div class="card request-wrapper">
@@ -530,7 +547,7 @@
                                                             <div class="flex-grow-1 ms-3">
                                                                 <p
                                                                     class="text-uppercase fw-semibold fs-12 text-muted mb-1">
-                                                                    Franchise + Profit Amount</p>
+                                                                    Franchise + Profit Amt</p>
                                                             </div>
 
                                                         </div>
@@ -634,16 +651,16 @@
                                         </div>
 
                                     </div>
-                                </div>
+                               
 
 
                             </div>
                             <div class="col-xl-3">
-                                <div class="card h-100">
-                                    <div class="card-header">
+                                <div class="card h-100" style="background: linear-gradient(179deg, rgba(54, 203, 114, 0.20) -92.29%, #FFF 53.24%, rgba(121, 57, 204, 0.20) 201.22%);">
+                                    <div class="card-header" style="border:none">
                                         <h4 class="card-title mb-0">Customer</h4>
                                     </div>
-                                    <div class="card-body ">
+                                    <div class="card-body p-0 ">
                                         <div style="min-width:150px " id="multiple_radialbar"
                                             data-colors='["--vz-success", "--vz-warning", "--vz-danger"]'
                                             class="apex-charts" dir="ltr"></div>
@@ -906,4 +923,6 @@
     <!-- End Page-content -->
 
 </div>
+
+
 <?php include("include/footer.php")?>
