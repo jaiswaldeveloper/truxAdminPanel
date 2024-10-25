@@ -1,5 +1,3 @@
-
-
 <?php include("include/header.php")?>
 
 
@@ -147,97 +145,174 @@
             </div>
         </div>
 
-        <div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="listjs-table" id="customerList">
 
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="card">
-                        <div class="card-body">
-                            <div class="listjs-table" id="customerList">
-
-                                <div class="table-responsive table-card mb-1">
-                                    <table class="table align-middle table-nowrap" id="customerTable">
-                                        <thead class="table-light">
-                                            <tr>
-                                                <th class="sort" data-sort="id">#</th>
-                                                <th class="sort" data-sort="username">Username</th>
-                                                <th class="sort" data-sort="BankHolder">Bank Holder Name</th>
-                                                <th class="sort" data-sort="Bank">Bank</th>
-                                                <th class="sort" data-sort="Account">Account Name</th>
-                                                <th class="sort" data-sort="Ifsc">Ifsc </th>
-                                                <th class="sort" data-sort="Cheque">Cancelled Cheque </th>                                     
-                                                <th class="sort" data-sort="status">Status</th>
-                                                <th class="sort">Action</th>
+                            <div class="table-responsive table-card mb-1">
+                                <table class="table align-middle table-nowrap" id="customerTable">
+                                    <thead class="table-light">
+                                        <tr>
+                                            <th class="sort" data-sort="id">#</th>
+                                            <th class="sort" data-sort="username">Username</th>
+                                            <th class="sort" data-sort="BankHolder">Bank Holder Name</th>
+                                            <th class="sort" data-sort="Bank">Bank</th>
+                                            <th class="sort" data-sort="Account">Account Name</th>
+                                            <th class="sort" data-sort="Ifsc">Ifsc </th>
+                                            <th class="sort" data-sort="Cheque">Cancelled Cheque </th>
+                                            <th class="sort" data-sort="status">Status</th>
+                                            <th class="sort">Action</th>
 
 
-                                            </tr>
-                                        </thead>
-                                        <tbody class="list form-check-all">
-                                            <tr>
-                                                <td>1</td>
-                                                <td>
-                                                    <b>TRUXCARGO86</b><br>
-                                                Arjesh Goyal </td>
-                                                <td>AJAY ENTERPRISES	</td>
-                                                <td>Bank of India	</td>
-                                                <td>711720110000378	</td>
-                                                <td>BKID0007117</td>
-                                           
-                                                <td class="status"><span
-                                                        class="badge bg-success-subtle text-success ">Verified</span>
-                                                </td>
-                                                <td>
-                                                    <ul class="list-inline hstack gap-2 mb-0">
-                                                        <li class="list-inline-item" data-bs-toggle="tooltip"
-                                                            data-bs-trigger="hover" data-bs-placement="top"
-                                                            title="Edit">
-                                                            <a href="apps-ecommerce-order-details.html"
-                                                                class="text-success d-inline-block">
-                                                                <i class="ri-pencil-fill fs-20"></i>
-                                                            </a>
-                                                        </li>
-                                                        
-                                                    </ul>
-                                                </td>
+                                        </tr>
+                                    </thead>
+                                    <tbody class="list form-check-all">
+                                        <tr>
+                                            <td>1</td>
+                                            <td>
+                                                <b>TRUXCARGO86</b><br>
+                                                Arjesh Goyal
+                                            </td>
+                                            <td>AJAY ENTERPRISES </td>
+                                            <td>Bank of India </td>
+                                            <td>711720110000378 </td>
+                                            <td>BKID0007117</td>
+                                            <td><a href="https://b2b.truxcargo.com/uploads/bankCancel_Cheque.jpeg"
+                                                    target="_blank"><img
+                                                        src="https://b2b.truxcargo.com/uploads/bank/Cancel_Cheque.jpeg"
+                                                        width="100"></a></td>
+                                            <td class="status"><span
+                                                    class="badge bg-success-subtle text-success ">Verified</span>
+                                            </td>
+                                            <td>
+                                                <ul class="list-inline hstack gap-2 mb-0">
+                                                    <li class="list-inline-item" data-bs-toggle="tooltip"
+                                                        data-bs-trigger="hover" data-bs-placement="top" title="Edit">
+                                                        <a data-bs-toggle="modal" id="cashIn-btn"
+                                                            data-bs-target="#editInModal"
+                                                            class="text-success d-inline-block">
+                                                            <i class="ri-pencil-fill fs-20"> </i>
+                                                        </a>
+                                                    </li>
+
+                                                </ul>
+                                            </td>
 
 
-                                            </tr>
+                                        </tr>
 
-                                        </tbody>
-                                    </table>
-                                    <div class="noresult" style="display: none">
-                                        <div class="text-center">
-                                            <lord-icon src="https://cdn.lordicon.com/msoeawqm.json" trigger="loop"
-                                                colors="primary:#121331,secondary:#08a88a"
-                                                style="width:75px;height:75px"></lord-icon>
-                                            <h5 class="mt-2">Sorry! No Result Found</h5>
-                                            <p class="text-muted mb-0">We've searched more than 150+ Orders We did not
-                                                find any orders for you search.</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="d-flex justify-content-center">
-                                    <div class="pagination-wrap hstack gap-2">
-                                        <a class="page-item pagination-prev disabled" href="javascript:void(0);">
-                                            Previous
-                                        </a>
-                                        <ul class="pagination listjs-pagination mb-0"></ul>
-                                        <a class="page-item pagination-next" href="javascript:void(0);">
-                                            Next
-                                        </a>
+                                    </tbody>
+                                </table>
+                                <div class="noresult" style="display: none">
+                                    <div class="text-center">
+                                        <lord-icon src="https://cdn.lordicon.com/msoeawqm.json" trigger="loop"
+                                            colors="primary:#121331,secondary:#08a88a" style="width:75px;height:75px">
+                                        </lord-icon>
+                                        <h5 class="mt-2">Sorry! No Result Found</h5>
+                                        <p class="text-muted mb-0">We've searched more than 150+ Orders We did not
+                                            find any orders for you search.</p>
                                     </div>
                                 </div>
                             </div>
-                        </div><!-- end card -->
-                    </div>
-                    <!-- end col -->
+
+                            <div class="d-flex justify-content-center">
+                                <div class="pagination-wrap hstack gap-2">
+                                    <a class="page-item pagination-prev disabled" href="javascript:void(0);">
+                                        Previous
+                                    </a>
+                                    <ul class="pagination listjs-pagination mb-0"></ul>
+                                    <a class="page-item pagination-next" href="javascript:void(0);">
+                                        Next
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- end card -->
                 </div>
                 <!-- end col -->
             </div>
+            <!-- end col -->
+        </div>
+
+        <div class="modal fade" id="editInModal" tabindex="-1" data-bs-backdrop="static"
+            aria-labelledby="editInModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header bg-light p-3">
+                        <h5 class="modal-title" id="editInModalLabel">Edit Bank
+                        </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"
+                            id="close-modal"></button>
+                    </div>
+                    <form class="tablelist-form" autocomplete="off">
+                        <div class="modal-body">
+
+
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control" value="TRUXCARGO86
+">
+                                <label for="firstnamefloatingInput">Username </label>
+                            </div>
+                            <div class="d-flex flex-lg-nowrap flex-wrap justify-content-between w-100 gap-2">
+                                <div class="form-floating mb-3  w-100">
+                                    <input type="text" class="form-control" value="711720110000378
+">
+                                    <label for="firstnamefloatingInput">Account No </label>
+                                </div>
+                                <div class="form-floating mb-3  w-100">
+                                    <input type="text" class="form-control" value="BKID0007117
+">
+                                    <label for="firstnamefloatingInput">IFSC </label>
+                                </div>
+
+                            </div>
+                            <div class=" mb-3 ">
+                                <button class="btn btn-success">Verified</button>
+                            </div>
+
+                            <div class="d-flex flex-lg-nowrap flex-wrap justify-content-between w-100 gap-2">
+                                <div class="form-floating mb-3   w-100">
+                                    <input type="text" class="form-control" value="Bank of India
+">
+                                    <label for="firstnamefloatingInput">Bank Name </label>
+                                </div>
+                                <div class="form-floating mb-3  w-100">
+                                    <input type="text" class="form-control" value="AJAY ENTERPRISES
+">
+                                    <label for="firstnamefloatingInput">Account Holder Name </label>
+                                </div>
+                                <div class="form-floating mb-3  w-100">
+                                    <input type="text" class="form-control" value="1">
+                                    <label for="firstnamefloatingInput">Verified Account </label>
+                                </div>
+
+                            </div>
+                            <div>
+                                <label for="">Cancel Cheque</label>
+                                <div class=" file-design mb-3 w-75 ">
+                                    <input type="file" >
+
+                                </div>
+
+                                <small>(Max size: 100KB)</small>
+                                <br>
+
+                                <a href="https://b2b.truxcargo.com/uploads/bank/Cancel_Cheque.jpeg" target="_blank"><img src="https://b2b.truxcargo.com/uploads/bank/Cancel_Cheque.jpeg" style="width:auto; height:150px"></a>
+                            </div>
+                    </form>
+                </div>
+            </div>
+
+
+
 
 
         </div>
+
     </div>
 </div>
+
+
 <?php include("include/footer.php")?>

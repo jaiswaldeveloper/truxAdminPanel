@@ -200,7 +200,6 @@
                                             <th class="sort" data-sort="status">Status</th>
                                             <th class="sort" data-sort="info">EMP &nbsp;</th>
                                             <th class="sort" data-sort="company">Update By &nbsp;</th>
-                                            <th class="sort" data-sort="gst">GST & Prefernce &nbsp;</th>
                                             <th class="sort" data-sort="cod">Action &nbsp;</th>
 
 

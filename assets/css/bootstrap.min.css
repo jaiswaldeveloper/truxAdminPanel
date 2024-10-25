@@ -10777,7 +10777,7 @@ fieldset:disabled .btn {
 
 .bg-light {
     --vz-bg-opacity: 1;
-    background-color: rgba(var(--vz-light-rgb), var(--vz-bg-opacity)) !important
+    /* background-color: rgba(var(--vz-light-rgb), var(--vz-bg-opacity)) !important */
 }
 
 .bg-dark {

@@ -411,16 +411,15 @@
                                             <div class="h-100">
                                                 <div class="row mb-3 pb-1">
                                                     <div class="col-12">
-                                                        <div
-                                                            class="d-flex align-items-lg-center flex-lg-row flex-column">
+                                                        <div class="d-flex align-items-lg-center flex-lg-row flex-column">
                                                             <div class="d-flex flex-grow-1 flex-wrap">
-                                                                <div>
-                                                                    <input class="form-control rounded-5 w-100"
+                                                                <div class="file-design">
+                                                                    <input class=" w-100"
                                                                         type="file" id="formFile">
                                                                 </div>
                                                                 <div>
                                                                     <button type="button"
-                                                                        class="btn btn-success border-0 ms-2 "
+                                                                        class="btn btn-success border-0  "
                                                                         style="background: linear-gradient(90deg, #10A81B 0%, #36CB72 100%);">
                                                                         Import
                                                                     </button>
