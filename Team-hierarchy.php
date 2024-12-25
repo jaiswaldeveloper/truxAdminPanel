@@ -851,7 +851,7 @@ ol.organizational-chart>li>ol>li>ol>li>ol>li>ol>li>div {
 
 
 
-                <div class="row">
+                <div class="row my-5">
                     <div class="col-lg-12">
                         <div class="card">
                             <div class="card-body">
@@ -861,13 +861,13 @@ ol.organizational-chart>li>ol>li>ol>li>ol>li>ol>li>div {
                                         <table class="table align-middle table-nowrap" id="customerTable">
                                             <thead class="table-light">
                                                 <tr>
-                                                    <th class="sort" data-sort="id">
+                                                    <th>
                                                         Team Members &nbsp;</th>
-                                                    <th class="sort" data-sort="Pincode">Designation</th>
+                                                    <th >Designation</th>
 
 
-                                                    <th class="sort">Reporting Manager </th>
-                                                    <th class="sort">Action </th>
+                                                    <th >Reporting Manager </th>
+                                                    <th >Action </th>
 
 
                                                 </tr>

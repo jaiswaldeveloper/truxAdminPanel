@@ -66,7 +66,8 @@
                                                                     xmlns="http://www.w3.org/2000/svg">
                                                                     <path fill-rule="evenodd" clip-rule="evenodd"
                                                                         d="M6.14902 0H14.1761L20.9752 7.09344V20.8744C20.9752 22.5996 19.5748 24 17.8496 24H6.14902C4.42386 24 3.02344 22.5996 3.02344 20.8744V3.12558C3.02344 1.40042 4.42386 0 6.14902 0Z"
-                                                                        fill="white" />
+                                                                        fill="white" 
+                                                                        />
                                                                     <path opacity="0.302" fill-rule="evenodd"
                                                                         clip-rule="evenodd"
                                                                         d="M14.1641 0V7.03255H20.9734L14.1641 0Z"
@@ -75,7 +76,8 @@
                                                                         d="M8.3125 17.6075H11.499V18.8151H8.3125V17.6075ZM12.4935 11.4375H15.6901V12.635H12.4935V11.4375ZM8.3125 11.4375H11.499V12.635H8.3125V11.4375ZM12.4935 13.4671H15.6901V14.6747H12.4935V13.4671ZM8.3125 13.4671H11.499V14.6747H8.3125V13.4671ZM12.4935 15.5779H15.6901V16.7855H12.4935V15.5779ZM8.3125 15.5779H11.499V16.7855H8.3125V15.5779ZM12.4935 17.6075H15.6901V18.8151H12.4935V17.6075Z"
                                                                         fill="#10A81B" />
                                                                 </svg>
-                                                                EXCEL</span></button>
+                                                                EXCEL</span>
+                                                            </button>
                                                         <button type="button" class="btn btn-info"
                                                             data-text="CSV"><span><svg width="24" height="24"
                                                                     viewBox="0 0 24 24" fill="none"
@@ -251,19 +253,16 @@
 
 
                             <div class="form-floating mb-3">
-                                <input type="text" class="form-control" value="TRUXCARGO86
-">
+                                <input type="text" class="form-control" value="TRUXCARGO86">
                                 <label for="firstnamefloatingInput">Username </label>
                             </div>
                             <div class="d-flex flex-lg-nowrap flex-wrap justify-content-between w-100 gap-2">
                                 <div class="form-floating mb-3  w-100">
-                                    <input type="text" class="form-control" value="711720110000378
-">
+                                    <input type="text" class="form-control" value="711720110000378">
                                     <label for="firstnamefloatingInput">Account No </label>
                                 </div>
                                 <div class="form-floating mb-3  w-100">
-                                    <input type="text" class="form-control" value="BKID0007117
-">
+                                    <input type="text" class="form-control" value="BKID0007117">
                                     <label for="firstnamefloatingInput">IFSC </label>
                                 </div>
 
@@ -274,32 +273,31 @@
 
                             <div class="d-flex flex-lg-nowrap flex-wrap justify-content-between w-100 gap-2">
                                 <div class="form-floating mb-3   w-100">
-                                    <input type="text" class="form-control" value="Bank of India
-">
+                                    <input type="text" class="form-control" value="Bank of India">
                                     <label for="firstnamefloatingInput">Bank Name </label>
                                 </div>
                                 <div class="form-floating mb-3  w-100">
-                                    <input type="text" class="form-control" value="AJAY ENTERPRISES
-">
+                                    <input type="text" class="form-control" value="AJAY ENTERPRISES">
                                     <label for="firstnamefloatingInput">Account Holder Name </label>
                                 </div>
                                 <div class="form-floating mb-3  w-100">
                                     <input type="text" class="form-control" value="1">
                                     <label for="firstnamefloatingInput">Verified Account </label>
                                 </div>
-
                             </div>
                             <div>
                                 <label for="">Cancel Cheque</label>
                                 <div class=" file-design mb-3 w-75 ">
-                                    <input type="file" >
+                                    <input type="file">
 
                                 </div>
 
                                 <small>(Max size: 100KB)</small>
                                 <br>
 
-                                <a href="https://b2b.truxcargo.com/uploads/bank/Cancel_Cheque.jpeg" target="_blank"><img src="https://b2b.truxcargo.com/uploads/bank/Cancel_Cheque.jpeg" style="width:auto; height:150px"></a>
+                                <a href="https://b2b.truxcargo.com/uploads/bank/Cancel_Cheque.jpeg" target="_blank"><img
+                                        src="https://b2b.truxcargo.com/uploads/bank/Cancel_Cheque.jpeg"
+                                        style="width:auto; height:150px"></a>
                             </div>
                     </form>
                 </div>

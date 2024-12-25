@@ -101,6 +101,19 @@ $(document).ready(function() {
     $(".js-example-basic-single").select2();
 });
 </script>
+
+<script>
+// new DataTable('#example');
+
+new DataTable('#example', {
+    info: false,
+    ordering: true,
+    paging: true, // Keep pagination enabled
+    dom: 'tp' // 't' for the table and 'p' for pagination, excludes 'f' for the search bar
+    // responsive: true, 
+
+});
+</script>
 </body>
 
 

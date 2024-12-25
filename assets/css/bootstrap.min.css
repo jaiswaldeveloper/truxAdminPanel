@@ -2430,7 +2430,7 @@ progress {
 }
 
 .table>:not(caption)>*>* {
-    padding: .75rem .6rem;
+    padding: .40rem .6rem;
     color: var(--vz-table-color-state, var(--vz-table-color-type, var(--vz-table-color)));
     background-color: var(--vz-table-bg);
     border-bottom-width: var(--vz-border-width);

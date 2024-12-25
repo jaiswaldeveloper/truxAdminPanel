@@ -49,7 +49,7 @@
                                     <div class="d-flex align-items-lg-center flex-lg-row flex-column">
                                         <div class="d-flex flex-grow-1">
                                             <div>
-                                                <input class="form-control rounded-5 w-100"  type="file" id="formFile">
+                                                <input class="form-control rounded-5 w-100" type="file" id="formFile">
                                             </div>
                                             <div>
                                                 <button type="button" class="btn btn-success border-0 ms-2"
@@ -397,97 +397,83 @@
 
 
 
-                    
+
                 </div>
 
 
             </div>
         </div>
 
+        <div class="card">
+
+            <div class="table-responsive">
+                <table id="example" class="table " style="width:100%">
+                    <thead>
+                        <tr>
+                            <th>ID &nbsp;</th>
+                            <th>Date</th>
+                            <th>Username</th>
+                            <th>Name</th>
+                            <th>Type</th>
+                            <th>Contact</th>
+                            <th>Company &nbsp;</th>
+                            <th>GST & Prefernce &nbsp;</th>
+                            <th>COD &nbsp;</th>
+                            <th>POC &nbsp;</th>
+                            <th>Status &nbsp;</th>
 
 
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="card">
-                    <div class="card-body">
-                        <div class="listjs-table" id="customerList">
+                        </tr>
+                    </thead>
+                    <tbody>
 
-                            <div class="table-responsive table-card mb-1">
-                                <table class="table align-middle table-nowrap" id="customerTable">
-                                    <thead class="table-light">
-                                        <tr>
-                                            <th class="sort" data-sort="id">ID &nbsp;</th>
-                                            <th class="sort" data-sort="date">Date</th>
-                                            <th class="sort" data-sort="username">Username</th>
-                                            <th class="sort" data-sort="name">Name</th>
-                                            <th class="sort" data-sort="type">Type</th>
-                                            <th class="sort" data-sort="info">Contact &nbsp;</th>
-                                            <th class="sort" data-sort="company">Company &nbsp;</th>
-                                            <th class="sort" data-sort="gst">GST & Prefernce &nbsp;</th>
-                                            <th class="sort" data-sort="cod">COD &nbsp;</th>
-                                            <th class="sort" data-sort="poc">POC</th>
-                                            <th class="sort" data-sort="status">Status</th>
-
-
-                                        </tr>
-                                    </thead>
-                                    <tbody class="list form-check-all">
-                                        <tr>
-                                            <td>1</td>
-                                            <td class="date">06 Apr, 2021</td>
-                                            <td>TRUXCARGO12</td>
-                                            <td>Alok Kumar </td>
-                                            <td>Postpaid
-                                                (Transporter)</td>
-                                            <td>9718685216</td>
-                                            <td>Mirc Electronic </td>
-                                            <td>NA
-                                                (Yes)</td>
-                                            <td>Weekly</td>
-                                            <td>shubham</td>
-                                            <td class="status"><span
-                                                    class="badge bg-success-subtle text-success text-uppercase">Active</span>
-                                            </td>
+                        <tr>
+                            <td>1</td>
+                            <td class="date">06 Apr, 2021</td>
+                            <td>TRUXCARGO12</td>
+                            <td>Alok Kumar </td>
+                            <td>Postpaid
+                                (Transporter)</td>
+                            <td>9718685216</td>
+                            <td>Mirc Electronic </td>
+                            <td>NA
+                                (Yes)</td>
+                            <td>Weekly</td>
+                            <td>shubham</td>
+                            <td class="status"><span
+                                    class="badge bg-success-subtle text-success text-uppercase">Active</span>
+                            </td>
 
 
 
-                                        </tr>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td class="date">06 Apr, 2021</td>
+                            <td>TRUXCARGO66</td>
+                            <td>Alok Kumar </td>
+                            <td>Postpaid
+                                (Transporter)</td>
+                            <td>9718685216</td>
+                            <td>Mirc Electronic </td>
+                            <td>NA
+                                (Yes)</td>
+                            <td>Weekly</td>
+                            <td>shubham</td>
+                            <td class="status"><span
+                                    class="badge bg-success-subtle text-success text-uppercase">Active</span>
+                            </td>
 
-                                    </tbody>
-                                </table>
-                                <div class="noresult" style="display: none">
-                                    <div class="text-center">
-                                        <lord-icon src="https://cdn.lordicon.com/msoeawqm.json" trigger="loop"
-                                            colors="primary:#121331,secondary:#08a88a" style="width:75px;height:75px">
-                                        </lord-icon>
-                                        <h5 class="mt-2">Sorry! No Result Found</h5>
-                                        <p class="text-muted mb-0">We've searched more than 150+ Orders We did not
-                                            find any orders for you search.</p>
-                                    </div>
-                                </div>
-                            </div>
 
-                            <div class="d-flex justify-content-center">
-                                <div class="pagination-wrap hstack gap-2">
-                                    <a class="page-item pagination-prev disabled" href="javascript:void(0);">
-                                        Previous
-                                    </a>
-                                    <ul class="pagination listjs-pagination mb-0"></ul>
-                                    <a class="page-item pagination-next" href="javascript:void(0);">
-                                        Next
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!-- end card -->
-                </div>
-                <!-- end col -->
+
+                        </tr>
+                    </tbody>
+
+                </table>
+
+
             </div>
-            <!-- end col -->
         </div>
-
-
-
 
 
         <div class="modal fade" id="cashInModal" tabindex="-1" aria-labelledby="cashInModalLabel" aria-hidden="true">

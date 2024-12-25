@@ -59,7 +59,10 @@
         left: var(--vz-vertical-menu-width)
     }
 }
-
+.dt-paging{
+    margin: 20px !important;
+    text-align: center !important;
+}
 .navbar-header {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -121,7 +124,8 @@
     border-radius: 4px;
     background: #FFF;
     box-shadow: 0px 4px 4px 0px rgba(126, 126, 255, 0.30);
-    border: none  !important;
+    /* border: none  !important; */
+    border: 1px solid #7E7EFF !important;
 }
 .select2-container .select2-selection--single {
    
@@ -764,6 +768,81 @@ display: none;
     margin-right: 5px;
     box-shadow: 0px 4px 4px 0px rgba(126, 126, 255, 0.30);
 }
+
+  .checkbox-wrapper-6 .tgl {
+    display: none;
+  }
+  .checkbox-wrapper-6 .tgl,
+  .checkbox-wrapper-6 .tgl:after,
+  .checkbox-wrapper-6 .tgl:before,
+  .checkbox-wrapper-6 .tgl *,
+  .checkbox-wrapper-6 .tgl *:after,
+  .checkbox-wrapper-6 .tgl *:before,
+  .checkbox-wrapper-6 .tgl + .tgl-btn {
+    box-sizing: border-box;
+  }
+  .checkbox-wrapper-6 .tgl::-moz-selection,
+  .checkbox-wrapper-6 .tgl:after::-moz-selection,
+  .checkbox-wrapper-6 .tgl:before::-moz-selection,
+  .checkbox-wrapper-6 .tgl *::-moz-selection,
+  .checkbox-wrapper-6 .tgl *:after::-moz-selection,
+  .checkbox-wrapper-6 .tgl *:before::-moz-selection,
+  .checkbox-wrapper-6 .tgl + .tgl-btn::-moz-selection,
+  .checkbox-wrapper-6 .tgl::selection,
+  .checkbox-wrapper-6 .tgl:after::selection,
+  .checkbox-wrapper-6 .tgl:before::selection,
+  .checkbox-wrapper-6 .tgl *::selection,
+  .checkbox-wrapper-6 .tgl *:after::selection,
+  .checkbox-wrapper-6 .tgl *:before::selection,
+  .checkbox-wrapper-6 .tgl + .tgl-btn::selection {
+    background: none;
+  }
+  .checkbox-wrapper-6 .tgl + .tgl-btn {
+    outline: 0;
+    display: block;
+    width: 4em;
+    height: 2em;
+    position: relative;
+    cursor: pointer;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+  }
+  .checkbox-wrapper-6 .tgl + .tgl-btn:after,
+  .checkbox-wrapper-6 .tgl + .tgl-btn:before {
+    position: relative;
+    display: block;
+    content: "";
+    width: 50%;
+    height: 100%;
+  }
+  .checkbox-wrapper-6 .tgl + .tgl-btn:after {
+    left: 0;
+  }
+  .checkbox-wrapper-6 .tgl + .tgl-btn:before {
+    display: none;
+  }
+  .checkbox-wrapper-6 .tgl:checked + .tgl-btn:after {
+    left: 50%;
+  }
+
+  .checkbox-wrapper-6 .tgl-light + .tgl-btn {
+    background: #f0f0f0;
+    border-radius: 2em;
+    padding: 2px;
+    transition: all 0.4s ease;
+  }
+  .checkbox-wrapper-6 .tgl-light + .tgl-btn:after {
+    border-radius: 50%;
+    background: #fff;
+    transition: all 0.2s ease;
+  }
+  .checkbox-wrapper-6 .tgl-light:checked + .tgl-btn {
+    background: #9FD6AE;
+  }
+
+
 @media (max-width:767.98px) {
     .navbar-brand-box {
         display: none
@@ -14154,7 +14233,7 @@ span.flatpickr-weekday {
 }
 
 .auth-page-wrapper .auth-page-content {
-    padding-bottom: 60px;
+    /* padding-bottom: 60px; */
     position: relative;
     z-index: 2;
     width: 100%
@@ -14174,7 +14253,59 @@ span.flatpickr-weekday {
     width: 100%;
     height: 380px
 }
-
+.glass-effect{
+    /* From https://css.glass */
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(12.3px);
+-webkit-backdrop-filter: blur(12.3px);
+padding: 5px;
+border: 1px solid rgba(255, 255, 255, 0.79);
+}
+.form-element-left{
+    position: relative;
+    /* padding: 20px; */
+    /* width: 500px; */
+    /* height: 500px; */
+    z-index: 0;
+    
+}
+.form-element-right{
+    position: relative;
+    /* padding: 20px;
+    width: 500px;
+    height: 500px; */
+    z-index: 0;
+    
+}
+.form-element-right::after{
+    content: "";
+    background: url(../images/login-element.svg);
+    position: absolute;
+    top: 0;
+    width: 250px;
+    height: 200px;
+    left: -100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: -1;
+    transform: rotate(360deg);
+}
+.form-element-left::before{
+    content: "";
+    background: url(../images/login-element.svg);
+    position: absolute;
+    bottom: 0;
+   width: 250px;
+    height: 200px;
+    left: -30%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: -1;
+    transform: rotate(180deg);
+}
 @media (max-width:575.98px) {
     .auth-one-bg-position {
         height: 280px
@@ -14182,7 +14313,7 @@ span.flatpickr-weekday {
 }
 
 .auth-one-bg {
-    background-image: url(../images/auth-one-bg.jpg);
+    background-image: url(../images/service_slider/slide_3.jpeg);
     background-position: center;
     background-size: cover
 }
@@ -15486,6 +15617,13 @@ span.flatpickr-weekday {
 }
 
 @media screen and (max-width:767px) {
+    .form-element-right, .form-element-left{
+        display: none;
+    }
+    .auth-one-bg {
+        height: 50vh !important;
+    }
+
     .administration .subdirector>li:first-child {
         width: 40%;
         right: 10%;

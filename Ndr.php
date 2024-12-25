@@ -267,22 +267,22 @@
                                                             id="customerTable">
                                                             <thead class="table-light">
                                                                 <tr>
-                                                                    <th class="sort" data-sort="id">
-                                                                        Date &nbsp;</th>
-                                                                    <th class="sort" data-sort="Pincode">UserId</th>
-                                                                    <th class="sort" data-sort="City">Tracking No</th>
-                                                                    <th class="sort" data-sort="State">Last Update</th>
-                                                                    <th class="sort" data-sort="Center">Reasons
+                                                                    <th class="sort" data-sort="id" style="min-width: 50px">
+                                                                        Date</th>
+                                                                    <th class="sort" data-sort="Pincode" style="min-width: 50px">UserId</th>
+                                                                    <th class="sort" data-sort="City" style="min-width: 50px">Tracking No</th>
+                                                                    <th class="sort" data-sort="State" style="min-width: 50px">Last Update</th>
+                                                                    <th class="sort" data-sort="Center" style="min-width: 50px">Reasons
                                                                     </th>
-                                                                    <th class="sort" data-sort="Dense">
-                                                                        Attempts&nbsp;&nbsp;
+                                                                    <th class="sort" data-sort="Dense" style="min-width: 100px">
+                                                                        Attempts
                                                                     </th>
-                                                                    <th class="sort" data-sort="Cargo">Panel</th>
-                                                                    <th class="sort" data-sort="Lite">Payment Mode
-                                                                        &nbsp;&nbsp;</th>
+                                                                    <th class="sort" data-sort="Cargo" style="min-width: 50px">Panel</th>
+                                                                    <th class="sort" data-sort="Lite" style="min-width: 100px">Payment Mode
+                                                                      </th>
 
-                                                                    <th class="sort">Client Action &nbsp;&nbsp;</th>
-                                                                    <th>Remark</th>
+                                                                    <th class="sort" style="min-width: 50px">Client Action &nbsp;&nbsp;</th>
+                                                                    <th style="min-width: 50px">Remark</th>
                                                                     <!-- <th></th> -->
 
 

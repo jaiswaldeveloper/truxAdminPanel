@@ -1,10 +1,6 @@
 <?php include("include/header.php")?>
 
 <style>
-    .table .sort {
-    min-width: 150px;
-    position: relative
-}
 #manifested {
     background: #DCE2FF;
     color: #4656A3;
@@ -142,13 +138,13 @@
             <div class="row">
                 <div class="col-12">
                     <div class="page-title-box d-sm-flex align-items-center justify-content-between bg-transparent">
-                        <h4 class="mb-sm-0"> MIS Report</h4>
+                        <h4 class="mb-sm-0">All B2C Order</h4>
 
                         <div class="page-title-right">
                             <ol class="breadcrumb m-0">
                                 <li class="breadcrumb-item"><a href="javascript: void(0);">Menu</a></li>
-                                <li class="breadcrumb-item"><a href="javascript: void(0);">B2B Panel</a></li>
-                                <li class="breadcrumb-item active">MIS Report</li>
+                                <li class="breadcrumb-item"><a href="javascript: void(0);">B2C Panel</a></li>
+                                <li class="breadcrumb-item active">All Order</li>
                             </ol>
                         </div>
 
@@ -171,7 +167,7 @@
 
 
 
-                                <div class="col-xxl-2 col-sm-4">
+                                <div class="col-xxl-3 col-sm-4">
                                     <div>
 
                                         <select class="js-example-basic-single w-100 form-control" name="state">
@@ -182,7 +178,7 @@
 
                                     </div>
                                 </div>
-                                <div class="col-xxl-2 col-sm-4">
+                                <div class="col-xxl-3 col-sm-4">
                                     <div>
 
                                         <select class="js-example-basic-single w-100 form-control" name="state">
@@ -198,7 +194,7 @@
                                     </div>
                                 </div>
 
-                                <div class="col-xxl-2 col-sm-4">
+                                <div class="col-xxl-3 col-sm-4">
                                     <div>
 
                                         <select class="js-example-basic-single w-100 form-control" name="state">
@@ -214,7 +210,7 @@
 
                                     </div>
                                 </div>
-                                <div class="col-xxl-2 col-sm-4">
+                                <div class="col-xxl-3 col-sm-4">
                                     <div>
 
                                         <select class="js-example-basic-single w-100 form-control" name="state">
@@ -237,7 +233,7 @@
                                     </div>
                                 </div>
 
-                                <div class="col-xxl-2 col-sm-4">
+                                <div class="col-xxl-3 col-sm-4">
                                     <div>
 
                                         <select class="js-example-basic-single w-100 form-control" name="state">
@@ -251,18 +247,6 @@
 
                                     </div>
                                 </div>
-                                <div class="col-xxl-2 col-sm-4">
-                                    <div>
-
-                                        <select class="js-example-basic-single w-100 form-control" name="state">
-                                            <option value="" selected>All Pickup Cut Off</option>
-                                            <option value="">Before Cut Off</option>
-                                            <option value="">After Cut Off</option>
-                                    
-                                        </select>
-
-                                    </div>
-                                </div>
 
 
 
@@ -271,7 +255,7 @@
                                     <div>
                                         <button type="button" class="btn btn-primary w-100"
                                             style="background: linear-gradient(90deg, #10A81B 0%, #06420B 100%);">
-
+                                             
                                             Apply
                                         </button>
                                     </div>
@@ -390,6 +374,7 @@
                 </div>
             </div>
 
+
             <div class="row">
                 <div class="col-lg-12">
                     <div class="card">
@@ -397,95 +382,50 @@
                             <div class="listjs-table" id="customerList">
 
                                 <div class="table-responsive table-card mb-1">
-                                    <table class="table table-bordered align-middle table-nowrap" id="customerTable">
+                                    <table class="table align-middle table-nowrap" id="customerTable">
                                         <thead class="table-light">
                                             <tr>
-
-                                                <th class="sort" data-sort="id">
-                                                    S.No. &nbsp;</th>
-                                                <th class="sort" data-sort="">LR No.</th>
-                                                <th class="sort" data-sort="username">UserID</th>
-                                                <th class="sort" data-sort="name">LRN</th>
-                                                <th class="sort" data-sort="type">Master Waybill &nbsp;</th>
-                                                <th class="sort" data-sort="type">Product &nbsp;</th>
-                                                <th class="sort" data-sort="info">OrderID &nbsp;</th>
-                                                <th class="sort" data-sort="company">No of Boxes &nbsp;</th>
-                                                <th class="sort" data-sort="cod">Actual Weight &nbsp;</th>
-                                                <th class="sort" data-sort="poc">Demmision Weight</th>
-                                                <th class="sort" data-sort="status">Charged Weight</th>
-                                                <th class="sort" data-sort="status">Demension (Cms)</th>
-                                                <th class="sort" data-sort="status">Courier Partner</th>
-                                                <th class="sort" data-sort="status">Manifest Date</th>
-                                                <th class="sort" data-sort="status">Courier Partner</th>
-                                                <th class="sort" data-sort="status">Pickup Date</th>
-                                                <th class="sort" data-sort="status">Expected Date</th>
-                                                <th class="sort" data-sort="status">Invoice Number</th>
-                                                <th class="sort" data-sort="status">Invoice Value </th>
-                                                <th class="sort" data-sort="status">Eway bill </th>
-                                                <th class="sort" data-sort="status" style="min-width:250px">Client Loaction/warehouse</th>
-                                                <th class="sort" data-sort="status">Pickup Address </th>
-                                                <th class="sort" data-sort="status">Pickup Phone </th>
-                                                <th class="sort" data-sort="status" >Consignee Name </th>
-                                                <th class="sort" data-sort="status" style="min-width:300px">Consignee Address </th>
-                                                <th class="sort" data-sort="status">Last Scan Location </th>
-                                                <th class="sort" data-sort="status">Last Scan Date </th>
-                                                <th class="sort" data-sort="status">Current Status </th>
-                                                <th class="sort" data-sort="status">Remarks </th>
-                                                <th class="sort" data-sort="status">Delivery Date </th>
-                                                <th class="sort" data-sort="status">Payment Type </th>
-                                                <th class="sort" data-sort="status">Collectable COD </th>
-                                                <th class="sort" data-sort="status">Profit Amount </th>
-                                                <th class="sort" data-sort="status">Charged Amount </th>
-                                                <th class="sort" data-sort="status">Bifurcation </th>
+                                            <th scope="col" style="width: 10px;">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input fs-15" type="checkbox" id="checkAll" value="option">
+                                                    </div>
+                                                </th>
+                                                <th class="sort" data-sort="id"> 
+                                                USERID &nbsp;</th>
+                                                <th class="sort" data-sort="awb">AWB No.</th>
+                                                <th class="sort" data-sort="Manifest">Manifest Date &nbsp;</th>
+                                                <th class="sort" data-sort="Origin">Origin &nbsp;</th>
+                                                <th class="sort" data-sort="Destination">Destination</th>
+                                                <th class="sort" data-sort="mode">mode</th>
+                                                <th class="sort" data-sort="cod">COD Amount &nbsp;</th>
+                                                <th class="sort" data-sort="poc">Profit Amount</th>
+                                                <th class="sort" data-sort="status">Status</th>
 
 
                                             </tr>
                                         </thead>
                                         <tbody class="list form-check-all">
                                             <tr>
-                                                <td>1</td>
+                                            <th scope="row">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input fs-15" type="checkbox" name="checkAll" value="option1">
+                                                    </div>
+                                                </th>
                                                 <td><b>TRUXCARGO877</b> <br>
-                                                    Anurag Kumar</td>
+                                                Anurag Kumar</td>
                                                 <td>270765932</td>
-                                                <td>23236813338753</td>
-                                                <td>Oasis Product </td>
-                                                <td>PI-031-23-24 </td>
-                                                <td>20 </td>
-                                                <td>20.00 </td>
-                                                <td>87.12</td>
-                                                <td>88.00 </td>
-                                                <td>20: 22x27x33</td>
-                                                <td>Delhivery Cargo </td>
-                                                <td>21-10-2024 12:23 PM </td>
-                                                <td> </td>
-                                                <td class="date">24-10-2024 </td>
-                                                <td>S/ECO/24-25/1849 </td>
-                                                <td>95323 </td>
-                                                <td>234285962378</td>
-                                                <td>Yes</td>
-                                                <td>Smithers Oasis India Pvt Ltd </td>
-                                                <td>Plot 10, MIDC, Taloja , NAVI MUMBAI, Maharashtra- 410208 </td>
-                                                <td>7045962224</td>
-                                                <td>Shrenik Chhajed </td>
-                                                <td>9860335845 </td>
-                                                <td>Shrenik Chhajed Chhajed Garden Agro Services Pvt. Ltd Arihant <br>
-                                                    Sr.No.877 Kadam Wak wasti PuneSolapur <br> Road Near Manali Resort Pune
-                                                    412201, Pune, Maharashtra- 412201 </td>
-                                                <td>Banda_GayatriN_D (Uttar Pradesh) </td>
-                                                <td class="date">24-10-2024 </td>
-
+                                                <td class="date">06 Apr, 2021</td>
+                                                <td>Delhi,Delhi	</td>
+                                                <td>Tumkur, Karnataka	</td>
+                                                <td>Prepaid </td>
+                                                <td>0</td>
+                                                <td>	</td>
                                                 <td class="status">
                                                     <span
-                                                        class="badge bg-success-subtle text-secondary text-uppercase">Manifest</span>
+                                                        class="badge bg-success text-uppercase">Delivered</span>
                                                 </td>
+                                            
 
-                                                <td>Package details changed by Delhivery (UD) </td>
-                                                <td></td>
-                                                <td>Prepaid</td>
-                                                <td>0</td>
-                                                <td>0</td>
-                                                <td>981.77</td>
-                                                <td><button class="btn btn-primary"> Click to view</button></td>
 
                                             </tr>
 
@@ -547,7 +487,7 @@
                 </div>
             </div>
         </div>
-    </div>  
+    </div>
 </div>
 <!--end modal -->
 <?php include("include/footer.php")?>

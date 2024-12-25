@@ -15,7 +15,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="page-title-box d-sm-flex align-items-center justify-content-between bg-transparent">
-                          <h4 class="mb-sm-0">Category</h4>
+                        <h4 class="mb-sm-0">Category</h4>
 
                         <div class="page-title-right">
                             <ol class="breadcrumb m-0">
@@ -59,87 +59,61 @@
             </div>
             <div class="row">
                 <div class="col-lg-12">
+
+
                     <div class="card">
-                        <div class="card-body">
-                            <div class="listjs-table" id="customerList">
 
-                                <div class="table-responsive table-card mb-1">
-                                    <table class="table align-middle table-nowrap" id="customerTable">
-                                        <thead class="table-light">
-                                            <tr>
-                                                <th class="sort" data-sort="id">
-                                                    S No. &nbsp;</th>
-                                                <th class="sort" data-sort="Pincode">Category</th>
+                        <div class="table-responsive">
+                            <table id="example" class="table " style="width:100%">
+                                <thead>
+                                    <tr>
+                                        <th>S No. &nbsp;</th>
+                                        <th>Category</th>
 
-
-                                                <th class="sort">Action</th>
+                                        <th>Action &nbsp;</th>
 
 
-                                            </tr>
-                                        </thead>
-                                        <tbody class="list form-check-all">
-                                            <tr>
-                                                <td>1</td>
-                                                <td>Office Expense
-                                                </td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Office expensive</td>
+                                        
+                                        
+                                        <td>
+                                            <ul class="list-inline hstack gap-2 mb-0">
+                                                <li class="list-inline-item" data-bs-toggle="tooltip"
+                                                    data-bs-trigger="hover" data-bs-placement="top" title="Edit">
+                                                    <a data-bs-toggle="modal" id="cashIn-btn"
+                                                        data-bs-target="#editInModal"
+                                                        class="text-success d-inline-block">
+                                                        <i class="ri-pencil-fill fs-20"> </i>
+                                                    </a>
+                                                </li>
+
+                                                <li class="list-inline-item" data-bs-toggle="tooltip"
+                                                    data-bs-trigger="hover" data-bs-placement="top" title="Remove">
+                                                    <a class="text-danger d-inline-block remove-item-btn"
+                                                        data-bs-toggle="modal" href="#deleteOrder">
+                                                        <i class="ri-delete-bin-5-fill fs-16"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </td> 
 
 
-                                                <td>
-                                                    <ul class="list-inline hstack gap-2 mb-0">
-                                                        <li class="list-inline-item" data-bs-toggle="tooltip"
-                                                            data-bs-trigger="hover" data-bs-placement="top"
-                                                            title="Edit">
-                                                            <a data-bs-toggle="modal" id="cashIn-btn"
-                                                                data-bs-target="#editInModal"
-                                                                class="text-success d-inline-block">
-                                                                <i class="ri-pencil-fill fs-20"> </i>
-                                                            </a>
-                                                        </li>
 
-                                                        <li class="list-inline-item" data-bs-toggle="tooltip"
-                                                            data-bs-trigger="hover" data-bs-placement="top"
-                                                            title="Remove">
-                                                            <a class="text-danger d-inline-block remove-item-btn"
-                                                                data-bs-toggle="modal" href="#deleteOrder">
-                                                                <i class="ri-delete-bin-5-fill fs-16"></i>
-                                                            </a>
-                                                        </li>
-                                                    </ul>
-                                                </td>
+                                    </tr>
+                                </tbody>
+
+                            </table>
 
 
-                                            </tr>
-
-
-                                        </tbody>
-                                    </table>
-                                    <div class="noresult" style="display: none">
-                                        <div class="text-center">
-                                            <lord-icon src="https://cdn.lordicon.com/msoeawqm.json" trigger="loop"
-                                                colors="primary:#121331,secondary:#08a88a"
-                                                style="width:75px;height:75px"></lord-icon>
-                                            <h5 class="mt-2">Sorry! No Result Found</h5>
-                                            <p class="text-muted mb-0">We've searched more than 150+
-                                                Orders We did not
-                                                find any orders for you search.</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="d-flex justify-content-center">
-                                    <div class="pagination-wrap hstack gap-2">
-                                        <a class="page-item pagination-prev disabled" href="javascript:void(0);">
-                                            Previous
-                                        </a>
-                                        <ul class="pagination listjs-pagination mb-0"></ul>
-                                        <a class="page-item pagination-next" href="javascript:void(0);">
-                                            Next
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div><!-- end card -->
+                        </div>
                     </div>
+
                     <!-- end col -->
                 </div>
                 <!-- end col -->
