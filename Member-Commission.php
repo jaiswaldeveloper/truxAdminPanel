@@ -174,147 +174,159 @@
                 </div>
 
                 <div class="row">
-                <div class="col-xl-12">
-                    <div class="card-body ">
-                        <form>
-                            <div class="row g-3">
+                    <div class="col-xl-12">
+                        <div class="card-body ">
+                            <form>
+                                <div class="row g-3">
 
 
-                                <!--end col-->
-                                
-                                <div class="col-xxl-2 col-sm-4">
-                                    <div>
-                                        <select class="js-example-basic-single w-100 form-control" name="state">
-                                            <option value="" selected>All Member</option>
-                                            <option value="Cash In">Cash In </option>
+                                    <!--end col-->
 
-                                            <option value="Cash Out">Cash Out</option>
-
-                                        </select>
+                                    <div class="col-xxl-3 col-sm-4">
+                                        <div>
+                                            <select class="js-example-basic-single w-100 form-control" name="state">
+                                                <option value="" selected>All Member</option>
+                                                <option value="Cash In">Cash In </option>
+                                                <option value="Cash Out">Cash Out</option>
+                                            </select>
+                                        </div>
                                     </div>
-                                </div>
-                              
-                                <div class="col-xxl-2 col-sm-4">
-                                    <div>
 
-                                        <select class="js-example-basic-single w-100 form-control" name="state">
-                                            <option value="" selected>All </option>
-                                            <option value="Single Panel">Today</option>
-                                            <option value="B2B & cargo">Yesterday</option>
-                                            <option value="B2B & Dense">Last 7 days</option>
-                                            <option value="Dense & Cargo">Last 30 days</option>
-                                            <option value="3 panels">This Month</option>
-                                            <option value="3 panels">Last Month</option>
-                                        </select>
+                                    <div class="col-xxl-3 col-sm-4">
+                                        <div>
 
+                                            <select class="js-example-basic-single w-100 form-control" name="state">
+                                                <option value="" selected>All </option>
+                                                <option value="Single Panel">Today</option>
+                                                <option value="B2B & cargo">Yesterday</option>
+                                                <option value="B2B & Dense">Last 7 days</option>
+                                                <option value="Dense & Cargo">Last 30 days</option>
+                                                <option value="3 panels">This Month</option>
+                                                <option value="3 panels">Last Month</option>
+                                            </select>
+
+                                        </div>
                                     </div>
-                                </div>
 
-                                <!--end col-->
-                                <div class="col-xxl-2 col-sm-4">
-                                    <div>
-                                        <button type="button" class="btn btn-primary w-100"
-                                            style="background: linear-gradient(90deg, #10A81B 0%, #06420B 100%);">
+                                    <!--end col-->
+                                    <div class="col-xxl-2 col-sm-4">
+                                        <div>
+                                            <button type="button" class="btn btn-primary w-100"
+                                                style="background: linear-gradient(90deg, #10A81B 0%, #06420B 100%);">
 
-                                            Apply
-                                        </button>
+                                                Apply
+                                            </button>
+                                        </div>
                                     </div>
+                                    <!--end col-->
                                 </div>
-                                <!--end col-->
-                            </div>
-                            <!--end row-->
-                        </form>
+                                <!--end row-->
+                            </form>
+                        </div>
+
+
+
+
+
                     </div>
-                  
 
 
-
-                    
                 </div>
-
-
-            </div>
             </div>
 
         </div>
 
-
-
-        <div class="row">
+        <div class="row my-5">
             <div class="col-lg-12">
                 <div class="card">
-                    <div class="card-body">
-                        <div class="listjs-table" id="customerList">
 
-                            <div class="table-responsive table-card mb-1">
-                                <table class="table align-middle table-nowrap" id="customerTable">
-                                    <thead class="table-light">
-                                        <tr>
-                                            <th class="sort" data-sort="id">ID &nbsp;</th>
-                                            <th class="sort" data-sort="date">Date</th>
-                                            <th class="sort" data-sort="username">Username</th>
-                                            <th class="sort" data-sort="name">Name</th>
-                                            <th class="sort" data-sort="type">Type</th>
-                                            <th class="sort" data-sort="info">Contact &nbsp;</th>
-                                            <th class="sort" data-sort="company">Company &nbsp;</th>
-                                            <th class="sort" data-sort="gst">GST & Prefernce &nbsp;</th>
-                                            <th class="sort" data-sort="cod">COD &nbsp;</th>
-                                            <th class="sort" data-sort="poc">POC</th>
-                                            <th class="sort" data-sort="status">Status</th>
+                    <div class="table-responsive">
+                        <table id="example" class="table" style="width:100%">
+                            <thead>
+                                <tr>
+                                    <th>S.No</th>
+                                    <th>UserID</th>
+                                    <th>Date</th>
+                                    <th>Commssion Month</th>
+                                    <th>Transaction ID</th>
+                                    <th>Amount</th>
+                                    <th>Status</th>
+                                    <th>Action</th>
 
+                                </tr>
+                            </thead>
+                            <tbody>
 
-                                        </tr>
-                                    </thead>
-                                    <tbody class="list form-check-all">
-                                        <tr>
-                                            <td>1</td>
-                                            <td class="date">06 Apr, 2021</td>
-                                            <td>TRUXCARGO12</td>
-                                            <td>Alok Kumar </td>
-                                            <td>Postpaid
-                                                (Transporter)</td>
-                                            <td>9718685216</td>
-                                            <td>Mirc Electronic </td>
-                                            <td>NA
-                                                (Yes)</td>
-                                            <td>Weekly</td>
-                                            <td>shubham</td>
-                                            <td class="status"><span
-                                                    class="badge bg-success-subtle text-success text-uppercase">Active</span>
-                                            </td>
+                                <tr>
+                                    <td>1</td>1
+                                    <td><b>TRUXCARGO972</b>
+                                        Anita ANITA
+                                    </td>
+                                    <td>05 Jan, 2024 </td>
+                                    <td>Nov, 2023 </td>
+                                    <td> </td>
+                                    <td> 8,843.00 </td>
+                                    <td> <span class="badge bg-warning text-uppercase">Unpaid</span> </td>
+                                    <td>
+                                        <li class="list-inline-item" data-bs-toggle="tooltip" data-bs-trigger="hover"
+                                            data-bs-placement="top" title="Update">
+                                            <a data-bs-toggle="modal" id="cashIn-btn" data-bs-target="#AddInModal"
+                                                class="text-success d-inline-block">
+                                                <button class="btn btn-success px-2 py-1"> <i
+                                                        class="ri-pencil-fill fs-15"> </i> Update</button>
+                                            </a>
+                                        </li>
 
 
+                                    </td>
 
-                                        </tr>
 
-                                    </tbody>
-                                </table>
-                                <div class="noresult" style="display: none">
-                                    <div class="text-center">
-                                        <lord-icon src="https://cdn.lordicon.com/msoeawqm.json" trigger="loop"
-                                            colors="primary:#121331,secondary:#08a88a" style="width:75px;height:75px">
-                                        </lord-icon>
-                                        <h5 class="mt-2">Sorry! No Result Found</h5>
-                                        <p class="text-muted mb-0">We've searched more than 150+ Orders We did not
-                                            find any orders for you search.</p>
-                                    </div>
-                                </div>
-                            </div>
+                                </tr>
 
-                            <div class="d-flex justify-content-center">
-                                <div class="pagination-wrap hstack gap-2">
-                                    <a class="page-item pagination-prev disabled" href="javascript:void(0);">
-                                        Previous
-                                    </a>
-                                    <ul class="pagination listjs-pagination mb-0"></ul>
-                                    <a class="page-item pagination-next" href="javascript:void(0);">
-                                        Next
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!-- end card -->
+                            </tbody>
+
+                        </table>
+
+
+                    </div>
                 </div>
+
+
+                <div class="modal fade" id="AddInModal" tabindex="-1" aria-labelledby="cashInModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header bg-light p-3">
+                                <h5 class="modal-title" id="cashInModalLabel">Commission Update
+
+                                </h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"
+                                    id="close-modal"></button>
+                            </div>
+                            <form class="tablelist-form" autocomplete="off">
+                                <div class="modal-body">
+
+                                  
+                                    <div class="form-floating mb-3">
+                                        <input type="text" class="form-control" placeholder="Enter your Transaction Id">
+                                        <label for="firstnamefloatingInput">Transaction Id </label>
+                                    </div>
+                                
+                                   
+                                    <div class="mt-5">
+                                        <div class="hstack gap-2 justify-content-end">
+                                            <button type="submit" class="btn btn-success w-100" id="add-btn"
+                                                style="background: linear-gradient(90deg, #10A81B 0%, #06420B 100%);">Add
+                                            </button>
+                                            <button type="button" class="btn btn-light w-100"
+                                                data-bs-dismiss="modal">Cancel</button>
+                                        </div>
+                                    </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
                 <!-- end col -->
             </div>
             <!-- end col -->
@@ -324,184 +336,17 @@
 
 
 
-        <div class="modal fade" id="cashInModal" tabindex="-1" aria-labelledby="cashInModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
-                    <div class="modal-header bg-light p-3">
-                        <h5 class="modal-title" id="cashInModalLabel">CASH IN
-                        </h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"
-                            id="close-modal"></button>
-                    </div>
-                    <form class="tablelist-form" autocomplete="off">
-                        <div class="modal-body">
-
-                            <div class="form-floating mb-3">
-                                <input type="datetime-local" class="form-control" placeholder="Enter your firstname">
-                                <label for="firstnamefloatingInput">Date </label>
-                            </div>
-                            <div class="form-floating mb-3">
-                                <input type="number" class="form-control" placeholder="Enter your amount">
-                                <label for="firstnamefloatingInput">Amount </label>
-                            </div>
-                            <div class="form-floating mb-3">
-                                <input type="text" class="form-control" placeholder="Enter your Remark">
-                                <label for="firstnamefloatingInput">Remark </label>
-                            </div>
-                            <div class="form-floating mb-3">
-                                <select class="form-select" id="floatingSelect"
-                                    aria-label="Floating label select example">
-                                    <option value="" selected>select Category</option>
-                                    <option value="Office Expense ">Office Expense </option>
-
-                                    <option value="Driver's Labour Charges ">Driver's Labour Charges </option>
-                                    <option value="Road Tax ">Road Tax </option>
-                                    <option value="Warehouse Expenses ">Warehouse Expenses </option>
-                                    <option value="Vehicle Expenses">Vehicle Expenses </option>
-                                    <option value="Pickup or Ad-hoc vehicle ">Pickup or Ad-hoc vehicle </option>
-                                    <option value="Received Amount	 ">Received Amount </option>
-                                    <option value="Drivers Food ">Drivers Food </option>
-                                    <option value="Pollution Expanse  ">Pollution Expanse </option>
-                                    <option value="MCD Toll  ">MCD Toll </option>
-                                    <option value="Toll Tax ">Toll Tax </option>
-                                    <option value=" Field expense  "> Field expense </option>
-                                    <option value="Pending Payments  ">FUEL PAYMENT </option>
-                                    <option value="Pending Payments  ">AD-HOC Vehicle </option>
-                                    <option value="Pending Payments  ">ad hoc driver </option>
-                                    <option value="Pending Payments  ">fastag recharge </option>
-                                    <option value="Pending Payments  ">Pending Payments </option>
-                                    <option value="Pending Payments  ">miscellaneous expense </option>
-                                </select>
-                                <label for="floatingSelect">All Category</label>
-                            </div>
-                            <div class="form-floating mb-3">
-                                <select class="form-select" id="floatingSelect"
-                                    aria-label="Floating label select example">
-                                    <option value="" selected>select Payment Mode</option>
-                                    <option value="Cash ">Cash </option>
-
-                                    <option value="Online">Online</option>
-                                </select>
-                                <label for="floatingSelect">All Payment Mode</label>
-                            </div>
 
 
 
-                            <div class="form-floating mb-3">
-                                <select class="form-select" id="floatingSelect"
-                                    aria-label="Floating label select example">
-                                    <option value="" selected>select by</option>
-                                    <option value="Gourav ">Gourav </option>
 
-                                    <option value="Vikas">Vikas</option>
-                                </select>
-                                <label for="floatingSelect"> Payment By</label>
-                            </div>
-
-
-                            <div class="mt-5">
-                                <div class="hstack gap-2 justify-content-end">
-                                    <button type="submit" class="btn btn-success w-100" id="add-btn"
-                                        style="background: linear-gradient(90deg, #10A81B 0%, #06420B 100%);">Add
-                                    </button>
-                                    <button type="button" class="btn btn-light w-100"
-                                        data-bs-dismiss="modal">Cancel</button>
-                                </div>
-                            </div>
-                    </form>
-                </div>
-            </div>
-        </div>
 
 
 
 
 
     </div>
-    <div class="modal fade" id="cashOutModal" tabindex="-1" aria-labelledby="cashOutModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <div class="modal-header bg-light p-3">
-                    <h5 class="modal-title" id="cashOutModalLabel">CASH OUT
-                    </h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"
-                        id="close-modal"></button>
-                </div>
-                <form class="tablelist-form" autocomplete="off">
-                    <div class="modal-body">
 
-                        <div class="form-floating mb-3">
-                            <input type="datetime-local" class="form-control" placeholder="Enter your firstname">
-                            <label for="firstnamefloatingInput">Date </label>
-                        </div>
-                        <div class="form-floating mb-3">
-                            <input type="number" class="form-control" placeholder="Enter your amount">
-                            <label for="firstnamefloatingInput">Amount </label>
-                        </div>
-                        <div class="form-floating mb-3">
-                            <input type="text" class="form-control" placeholder="Enter your Remark">
-                            <label for="firstnamefloatingInput">Remark </label>
-                        </div>
-                        <div class="form-floating mb-3">
-                            <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
-                                <option value="" selected>select Category</option>
-                                <option value="Office Expense ">Office Expense </option>
-
-                                <option value="Driver's Labour Charges ">Driver's Labour Charges </option>
-                                <option value="Road Tax ">Road Tax </option>
-                                <option value="Warehouse Expenses ">Warehouse Expenses </option>
-                                <option value="Vehicle Expenses">Vehicle Expenses </option>
-                                <option value="Pickup or Ad-hoc vehicle ">Pickup or Ad-hoc vehicle </option>
-                                <option value="Received Amount	 ">Received Amount </option>
-                                <option value="Drivers Food ">Drivers Food </option>
-                                <option value="Pollution Expanse  ">Pollution Expanse </option>
-                                <option value="MCD Toll  ">MCD Toll </option>
-                                <option value="Toll Tax ">Toll Tax </option>
-                                <option value=" Field expense  "> Field expense </option>
-                                <option value="Pending Payments  ">FUEL PAYMENT </option>
-                                <option value="Pending Payments  ">AD-HOC Vehicle </option>
-                                <option value="Pending Payments  ">ad hoc driver </option>
-                                <option value="Pending Payments  ">fastag recharge </option>
-                                <option value="Pending Payments  ">Pending Payments </option>
-                                <option value="Pending Payments  ">miscellaneous expense </option>
-                            </select>
-                            <label for="floatingSelect">All Category</label>
-                        </div>
-                        <div class="form-floating mb-3">
-                            <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
-                                <option value="" selected>select Payment Mode</option>
-                                <option value="Cash ">Cash </option>
-
-                                <option value="Online">Online</option>
-                            </select>
-                            <label for="floatingSelect">All Payment Mode</label>
-                        </div>
-
-
-
-                        <div class="form-floating mb-3">
-                            <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
-                                <option value="" selected>select by</option>
-                                <option value="Gourav ">Gourav </option>
-
-                                <option value="Vikas">Vikas</option>
-                            </select>
-                            <label for="floatingSelect"> Payment By</label>
-                        </div>
-
-
-                        <div class="mt-5">
-                            <div class="hstack gap-2 justify-content-end">
-                                <button type="submit" class="btn btn-success w-100" id="add-btn"
-                                    style="background: linear-gradient(90deg, #10A81B 0%, #06420B 100%);">Add </button>
-                                <button type="button" class="btn btn-light w-100"
-                                    data-bs-dismiss="modal">Cancel</button>
-                            </div>
-                        </div>
-                </form>
-            </div>
-        </div>
-    </div>
 </div>
 
 <?php include("include/footer.php")?>

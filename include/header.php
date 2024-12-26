@@ -780,7 +780,7 @@
                                     </li>
 
                                     <li class="nav-item">
-                                        <a href="dashboard-crm.html" class="nav-link" data-key="t-crm">
+                                        <a href="wallet-info.php" class="nav-link" data-key="t-crm">
                                             Wallet Info
                                         </a>
                                     </li>

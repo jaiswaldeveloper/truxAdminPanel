@@ -70,7 +70,7 @@
                             <!--end row-->
                         </form>
                     </div>
-                    
+
                 </div>
 
 
@@ -132,7 +132,7 @@
                                                                 fill="white" stroke="#BC3C43" />
                                                         </svg>
                                                         PDF</span></button>
-                                             
+
                                             </div>
                                         </div>
                                     </div>
@@ -148,91 +148,64 @@
 
             </div>
         </div>
-
-        <div>
-
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="card">
-                        <div class="card-body">
-                            <div class="listjs-table" id="customerList">
-
-                                <div class="table-responsive table-card mb-1">
-                                    <table class="table align-middle table-nowrap" id="customerTable">
-                                        <thead class="table-light">
-                                            <tr>
-                                                <th class="sort" data-sort="id">ID &nbsp;</th>
-                                                <th class="sort" data-sort="date">
-                                                	Joining Date</th>
-                                                <th class="sort" data-sort="username">Username</th>
-                                                <th class="sort" data-sort="name">User ID</th>
-                                                <th class="sort" data-sort="type">Name</th>
-                                                <th class="sort" data-sort="company">Company Name</th>
-                                                <th class="sort" data-sort="info">Email </th>
-                                                <th class="sort" data-sort="gst">Contact No </th>
-                                                <th class="sort" data-sort="cod">B2B Order</th>
-                                                <th class="sort" data-sort="poc">B2C Order</th>
-                                                <th class="sort" data-sort="status">Current B2B</th>
-                                                <th class="sort">Current B2C</th>
+        <div class="row my-5">
+            <div class="col-lg-12">
 
 
-                                            </tr>
-                                        </thead>
-                                        <tbody class="list form-check-all">
-                                            <tr>
-                                                <td>28</td>
-                                                <td class="date">06 Apr, 2021</td>
-                                                <td>TRUXCARGO939 </td>
-                                                <td>Chander Shekhar	</td>
-                                                <td>V R ENTERPRISES</td>
-                                                <td> RJ TRANSPORT		 </td>
-                                                <td> cshekar7676@gmail.com	 </td>
-                                                <td>8285777502</td>
-                                                <td>65</td>
-                                                <td>477</td>
-                                                <td>1</td>
-                                                <td>
-                                                70
-                                                </td>
+                <div class="card">
+
+                    <div class="table-responsive">
+                        <table id="example" class="table " style="width:100%">
+                            <thead>
+                                <tr>
+                                    <th>
+                                        ID</th>
+                                    <th>Joining Date</th>
+                                    <th>Username</th>
+                                    <th>User ID </th>
+                                    <th>Company Name </th>
+                                    <th>Email</th>
+                                    <th>Contact No </th>
+                                    <th>B2B Order </th>
+                                    <th>B2C Order </th>
+                                    <th>Current B2C</th>
 
 
-                                            </tr>
 
-                                        </tbody>
-                                    </table>
-                                    <div class="noresult" style="display: none">
-                                        <div class="text-center">
-                                            <lord-icon src="https://cdn.lordicon.com/msoeawqm.json" trigger="loop"
-                                                colors="primary:#121331,secondary:#08a88a"
-                                                style="width:75px;height:75px"></lord-icon>
-                                            <h5 class="mt-2">Sorry! No Result Found</h5>
-                                            <p class="text-muted mb-0">We've searched more than 150+ Orders We did not
-                                                find any orders for you search.</p>
-                                        </div>
-                                    </div>
-                                </div>
 
-                                <div class="d-flex justify-content-center">
-                                    <div class="pagination-wrap hstack gap-2">
-                                        <a class="page-item pagination-prev disabled" href="javascript:void(0);">
-                                            Previous
-                                        </a>
-                                        <ul class="pagination listjs-pagination mb-0"></ul>
-                                        <a class="page-item pagination-next" href="javascript:void(0);">
-                                            Next
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div><!-- end card -->
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>28</td>
+                                    <td class="date">06 Apr, 2021</td>
+                                    <td>TRUXCARGO939 </td>
+                                    <td>Chander Shekhar </td>
+                                    <td>V R ENTERPRISES</td>
+                                    <td> RJ TRANSPORT </td>
+                                    <td> cshekar7676@gmail.com </td>
+                                    <td>8285777502</td>
+                                    <td>65</td>
+                                    <td>477</td>
+
+
+
+                                </tr>
+
+
+                            </tbody>
+
+                        </table>
+
+
                     </div>
-                    <!-- end col -->
                 </div>
+
                 <!-- end col -->
             </div>
-
-
+            <!-- end col -->
         </div>
+
     </div>
 </div>
 <?php include("include/footer.php")?>

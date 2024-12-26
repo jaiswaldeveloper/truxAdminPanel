@@ -1,7 +1,8 @@
 <?php include("include/header.php")?>
 
+
 <style>
-    .plan-overview {
+.plan-overview {
     border-radius: 14px;
     background: linear-gradient(93deg, rgba(17, 35, 165, 0.75) 0%, rgba(121, 57, 204, 0.52) 100%);
     padding: 20px;
@@ -12,6 +13,7 @@
     background: #fff;
 
 }
+
 .pincodes-section img {
     width: 75px;
     height: 25px;
@@ -292,108 +294,79 @@
 
                                 </div>
 
-                                <div class="row">
+                                <div class="row my-5">
                                     <div class="col-lg-12">
+
+
                                         <div class="card">
-                                            <div class="card-body">
-                                                <div class="listjs-table" id="customerList">
 
-                                                    <div class="table-responsive table-card mb-1">
-                                                        <table class="table align-middle table-nowrap"
-                                                            id="customerTable">
-                                                            <thead class="table-light">
-                                                                <tr>
-                                                                    <th class="sort" data-sort="id">
-                                                                        S No. &nbsp;</th>
-                                                                    <th class="sort" data-sort="Pincode">Pincode</th>
-                                                                    <th class="sort" data-sort="City">City</th>
-                                                                    <th class="sort" data-sort="State">State</th>
-                                                                    <th class="sort" data-sort="Center">Dispatch Center
-                                                                    </th>
-                                                                    <th class="sort" data-sort="Dense">Dense Status |
-                                                                        ODA &nbsp;</th>
-                                                                    <th class="sort" data-sort="Cargo">Cargo Status |
-                                                                        ODA &nbsp;</th>
-                                                                    <th class="sort" data-sort="Lite">Lite Status | ODA
-                                                                        &nbsp;</th>
-
-                                                                    <th class="sort">Action</th>
+                                            <div class="table-responsive">
+                                                <table id="example" class="table " style="width:100%">
+                                                    <thead>
+                                                        <tr>
+                                                            <th>
+                                                                S No. &nbsp;</th>
+                                                            <th>Pincode</th>
 
 
-                                                                </tr>
-                                                            </thead>
-                                                            <tbody class="list form-check-all">
-                                                                <tr>
-                                                                    <td>1</td>
-                                                                    <td class="date">764085</td>
-                                                                    <td>Nabarangapur</td>
-                                                                    <td>Orissa</td>
-                                                                    <td>Nabarangpr_PhdofDPP_D (Orissa) </td>
-                                                                    <td>Yes | No </td>
-                                                                    <td>Yes | No </td>
-                                                                    <td>Yes | No </td>
-
-                                                                    <td>
-                                                                        <ul class="list-inline hstack gap-2 mb-0">
-                                                                            <li class="list-inline-item"
-                                                                                data-bs-toggle="tooltip"
-                                                                                data-bs-trigger="hover"
-                                                                                data-bs-placement="top" title="Edit">
-                                                                                <a href="apps-ecommerce-order-details.html"
-                                                                                    class="text-success d-inline-block">
-                                                                                    <i class="ri-pencil-fill fs-20"></i>
-                                                                                </a>
-                                                                            </li>
-
-                                                                            <li class="list-inline-item"
-                                                                                data-bs-toggle="tooltip"
-                                                                                data-bs-trigger="hover"
-                                                                                data-bs-placement="top" title="Remove">
-                                                                                <a class="text-danger d-inline-block remove-item-btn"
-                                                                                    data-bs-toggle="modal"
-                                                                                    href="#deleteOrder">
-                                                                                    <i
-                                                                                        class="ri-delete-bin-5-fill fs-16"></i>
-                                                                                </a>
-                                                                            </li>
-                                                                        </ul>
-                                                                    </td>
+                                                            <th>City </th>
+                                                            <th>State </th>
+                                                            <th>Dispatch Center</th>
+                                                            <th>Dense Status |
+                                                                ODA</th>
+                                                            <th>Cargo Status |
+                                                                ODA</th>
+                                                            <th>Lite Status | ODA</th>
+                                                            <th>Action</th>
 
 
-                                                                </tr>
 
-                                                            </tbody>
-                                                        </table>
-                                                        <div class="noresult" style="display: none">
-                                                            <div class="text-center">
-                                                                <lord-icon src="https://cdn.lordicon.com/msoeawqm.json"
-                                                                    trigger="loop"
-                                                                    colors="primary:#121331,secondary:#08a88a"
-                                                                    style="width:75px;height:75px"></lord-icon>
-                                                                <h5 class="mt-2">Sorry! No Result Found</h5>
-                                                                <p class="text-muted mb-0">We've searched more than 150+
-                                                                    Orders We did not
-                                                                    find any orders for you search.</p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>1</td>
+                                                            <td class="date">764085</td>
+                                                            <td>Nabarangapur</td>
+                                                            <td>Orissa</td>
+                                                            <td>Nabarangpr_PhdofDPP_D (Orissa) </td>
+                                                            <td>Yes | No </td>
+                                                            <td>Yes | No </td>
+                                                            <td>Yes | No </td>
 
-                                                    <div class="d-flex justify-content-center">
-                                                        <div class="pagination-wrap hstack gap-2">
-                                                            <a class="page-item pagination-prev disabled"
-                                                                href="javascript:void(0);">
-                                                                Previous
-                                                            </a>
-                                                            <ul class="pagination listjs-pagination mb-0"></ul>
-                                                            <a class="page-item pagination-next"
-                                                                href="javascript:void(0);">
-                                                                Next
-                                                            </a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div><!-- end card -->
+                                                            <td>
+                                                                <ul class="list-inline hstack gap-2 mb-0">
+                                                                    <li class="list-inline-item"
+                                                                        data-bs-toggle="tooltip" data-bs-trigger="hover"
+                                                                        data-bs-placement="top" title="Edit">
+                                                                        <a href="apps-ecommerce-order-details.html"
+                                                                            class="text-success d-inline-block">
+                                                                            <i class="ri-pencil-fill fs-20"></i>
+                                                                        </a>
+                                                                    </li>
+
+                                                                    <li class="list-inline-item"
+                                                                        data-bs-toggle="tooltip" data-bs-trigger="hover"
+                                                                        data-bs-placement="top" title="Remove">
+                                                                        <a class="text-danger d-inline-block remove-item-btn"
+                                                                            data-bs-toggle="modal" href="#deleteOrder">
+                                                                            <i class="ri-delete-bin-5-fill fs-16"></i>
+                                                                        </a>
+                                                                    </li>
+                                                                </ul>
+                                                            </td>
+
+
+                                                        </tr>
+
+                                                    </tbody>
+
+                                                </table>
+
+
+                                            </div>
                                         </div>
+
                                         <!-- end col -->
                                     </div>
                                     <!-- end col -->
@@ -411,11 +384,11 @@
                                             <div class="h-100">
                                                 <div class="row mb-3 pb-1">
                                                     <div class="col-12">
-                                                        <div class="d-flex align-items-lg-center flex-lg-row flex-column">
+                                                        <div
+                                                            class="d-flex align-items-lg-center flex-lg-row flex-column">
                                                             <div class="d-flex flex-grow-1 flex-wrap">
                                                                 <div class="file-design">
-                                                                    <input class=" w-100"
-                                                                        type="file" id="formFile">
+                                                                    <input class=" w-100" type="file" id="formFile">
                                                                 </div>
                                                                 <div>
                                                                     <button type="button"
@@ -425,7 +398,7 @@
                                                                     </button>
                                                                 </div>
                                                             </div>
-                                                            
+
                                                         </div><!-- end card header -->
                                                     </div>
                                                     <!--end col-->
@@ -437,7 +410,7 @@
 
 
                                     </div>
-                                   
+
                                 </div>
                                 <div class="row mb-4">
 
@@ -575,112 +548,57 @@
 
                                 </div>
 
-                                <div class="row">
+                                <div class="row my-5">
                                     <div class="col-lg-12">
+
+
                                         <div class="card">
-                                            <div class="card-body">
-                                                <div class="listjs-table" id="customerList">
 
-                                                    <div class="table-responsive table-card mb-1">
-                                                        <table class="table align-middle table-nowrap"
-                                                            id="customerTable">
-                                                            <thead class="table-light">
-                                                                <tr>
-                                                                    <th class="sort" data-sort="id">
-                                                                        S No. &nbsp;</th>
-                                                                    <th class="sort" data-sort="Pincode">Pincode</th>
-                                                                    <th class="sort" data-sort="City">City</th>
-                                                                    <th class="sort" data-sort="State">State</th>
-                                                                    <th class="sort" data-sort="Center">Dispatch Center
-                                                                    </th>
-                                                                    <th class="sort" data-sort="Dense">Dense Status |
-                                                                        ODA &nbsp;</th>
-                                                                    <th class="sort" data-sort="Cargo">Cargo Status |
-                                                                        ODA &nbsp;</th>
-                                                                    <th class="sort" data-sort="Lite">Lite Status | ODA
-                                                                        &nbsp;</th>
-
-                                                                    <th class="sort">Action</th>
+                                            <div class="table-responsive">
+                                                <table id="example" class="table " style="width:100%">
+                                                    <thead>
+                                                        <tr>
+                                                            <th>
+                                                                #</th>
+                                                            <th>Pincode</th>
 
 
-                                                                </tr>
-                                                            </thead>
-                                                            <tbody class="list form-check-all">
-                                                                <tr>
-                                                                    <td>1</td>
-                                                                    <td class="date">764085</td>
-                                                                    <td>Nabarangapur</td>
-                                                                    <td>Orissa</td>
-                                                                    <td>Nabarangpr_PhdofDPP_D (Orissa) </td>
-                                                                    <td>Yes | No </td>
-                                                                    <td>Yes | No </td>
-                                                                    <td>Yes | No </td>
-
-                                                                    <td>
-                                                                        <ul class="list-inline hstack gap-2 mb-0">
-                                                                            <li class="list-inline-item"
-                                                                                data-bs-toggle="tooltip"
-                                                                                data-bs-trigger="hover"
-                                                                                data-bs-placement="top" title="Edit">
-                                                                                <a href="apps-ecommerce-order-details.html"
-                                                                                    class="text-success d-inline-block">
-                                                                                    <i class="ri-pencil-fill fs-20"></i>
-                                                                                </a>
-                                                                            </li>
-
-                                                                            <li class="list-inline-item"
-                                                                                data-bs-toggle="tooltip"
-                                                                                data-bs-trigger="hover"
-                                                                                data-bs-placement="top" title="Remove">
-                                                                                <a class="text-danger d-inline-block remove-item-btn"
-                                                                                    data-bs-toggle="modal"
-                                                                                    href="#deleteOrder">
-                                                                                    <i
-                                                                                        class="ri-delete-bin-5-fill fs-16"></i>
-                                                                                </a>
-                                                                            </li>
-                                                                        </ul>
-                                                                    </td>
+                                                            <th>Zone </th>
+                                                            <th>State </th>
+                                                            <th>ODA</th>
+                                                          
+                                                            <th>Action</th>
 
 
-                                                                </tr>
 
-                                                            </tbody>
-                                                        </table>
-                                                        <div class="noresult" style="display: none">
-                                                            <div class="text-center">
-                                                                <lord-icon src="https://cdn.lordicon.com/msoeawqm.json"
-                                                                    trigger="loop"
-                                                                    colors="primary:#121331,secondary:#08a88a"
-                                                                    style="width:75px;height:75px"></lord-icon>
-                                                                <h5 class="mt-2">Sorry! No Result Found</h5>
-                                                                <p class="text-muted mb-0">We've searched more than 150+
-                                                                    Orders We did not
-                                                                    find any orders for you search.</p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td> 1</td>
+                                                            <td>11 </td>
+                                                            <td> 1</td>
+                                                            <td> 1</td>
+                                                            <td> 1</td>
+                                                            <td>  1</td>
+                                                           
 
-                                                    <div class="d-flex justify-content-center">
-                                                        <div class="pagination-wrap hstack gap-2">
-                                                            <a class="page-item pagination-prev disabled"
-                                                                href="javascript:void(0);">
-                                                                Previous
-                                                            </a>
-                                                            <ul class="pagination listjs-pagination mb-0"></ul>
-                                                            <a class="page-item pagination-next"
-                                                                href="javascript:void(0);">
-                                                                Next
-                                                            </a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div><!-- end card -->
+
+                                                        </tr>
+
+                                                    </tbody>
+
+                                                </table>
+
+
+                                            </div>
                                         </div>
+
                                         <!-- end col -->
                                     </div>
                                     <!-- end col -->
                                 </div>
+
 
 
                             </div>
@@ -721,5 +639,6 @@
         </div>
     </div>
 </div>
+
 <!--end modal -->
 <?php include("include/footer.php")?>

@@ -849,96 +849,72 @@ ol.organizational-chart>li>ol>li>ol>li>ol>li>ol>li>div {
 
 
 
-
-
                 <div class="row my-5">
                     <div class="col-lg-12">
+
+
                         <div class="card">
-                            <div class="card-body">
-                                <div class="listjs-table" id="customerList">
 
-                                    <div class="table-responsive table-card mb-1">
-                                        <table class="table align-middle table-nowrap" id="customerTable">
-                                            <thead class="table-light">
-                                                <tr>
-                                                    <th>
-                                                        Team Members &nbsp;</th>
-                                                    <th >Designation</th>
+                            <div class="table-responsive">
+                                <table id="example" class="table " style="width:100%">
+                                    <thead>
+                                        <tr>
+                                            <th>
+                                                Team Members &nbsp;</th>
+                                            <th>Designation</th>
 
 
-                                                    <th >Reporting Manager </th>
-                                                    <th >Action </th>
+                                            <th>Reporting Manager </th>
+                                            <th>Action </th>
 
 
-                                                </tr>
-                                            </thead>
-                                            <tbody class="list form-check-all">
-                                                <tr>
-                                                    <td>Gaurav</td>
-                                                    <td>Founder
-                                                    </td>
-                                                    <td></td>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
 
-                                                    <td>
-                                                        <ul class="list-inline hstack gap-2 mb-0">
-                                                            <li class="list-inline-item" data-bs-toggle="tooltip"
-                                                                data-bs-trigger="hover" data-bs-placement="top"
-                                                                title="Edit">
-                                                                <a data-bs-toggle="modal" id="cashIn-btn"
-                                                                    data-bs-target="#editInModal"
-                                                                    class="text-success d-inline-block">
-                                                                    <i class="ri-pencil-fill fs-20"> </i>
-                                                                </a>
-                                                            </li>
+                                        <tr>
+                                            <td>Gaurav</td>
+                                            <td>Founder
+                                            </td>
+                                            <td></td>
 
-                                                            <li class="list-inline-item" data-bs-toggle="tooltip"
-                                                                data-bs-trigger="hover" data-bs-placement="top"
-                                                                title="Remove">
-                                                                <a class="text-danger d-inline-block remove-item-btn"
-                                                                    data-bs-toggle="modal" href="#deleteOrder">
-                                                                    <i class="ri-delete-bin-5-fill fs-16"></i>
-                                                                </a>
-                                                            </li>
-                                                        </ul>
-                                                    </td>
+                                            <td>
+                                                <ul class="list-inline hstack gap-2 mb-0">
+                                                    <li class="list-inline-item" data-bs-toggle="tooltip"
+                                                        data-bs-trigger="hover" data-bs-placement="top" title="Edit">
+                                                        <a data-bs-toggle="modal" id="cashIn-btn"
+                                                            data-bs-target="#editInModal"
+                                                            class="text-success d-inline-block">
+                                                            <i class="ri-pencil-fill fs-20"> </i>
+                                                        </a>
+                                                    </li>
 
-
-                                                </tr>
+                                                    <li class="list-inline-item" data-bs-toggle="tooltip"
+                                                        data-bs-trigger="hover" data-bs-placement="top" title="Remove">
+                                                        <a class="text-danger d-inline-block remove-item-btn"
+                                                            data-bs-toggle="modal" href="#deleteOrder">
+                                                            <i class="ri-delete-bin-5-fill fs-16"></i>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </td>
 
 
-                                            </tbody>
-                                        </table>
-                                        <div class="noresult" style="display: none">
-                                            <div class="text-center">
-                                                <lord-icon src="https://cdn.lordicon.com/msoeawqm.json" trigger="loop"
-                                                    colors="primary:#121331,secondary:#08a88a"
-                                                    style="width:75px;height:75px"></lord-icon>
-                                                <h5 class="mt-2">Sorry! No Result Found</h5>
-                                                <p class="text-muted mb-0">We've searched more than 150+
-                                                    Orders We did not
-                                                    find any orders for you search.</p>
-                                            </div>
-                                        </div>
-                                    </div>
+                                        </tr>
 
-                                    <div class="d-flex justify-content-center">
-                                        <div class="pagination-wrap hstack gap-2">
-                                            <a class="page-item pagination-prev disabled" href="javascript:void(0);">
-                                                Previous
-                                            </a>
-                                            <ul class="pagination listjs-pagination mb-0"></ul>
-                                            <a class="page-item pagination-next" href="javascript:void(0);">
-                                                Next
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div><!-- end card -->
+                                    </tbody>
+
+                                </table>
+
+
+                            </div>
                         </div>
+
                         <!-- end col -->
                     </div>
                     <!-- end col -->
-                </div>
+                </div>  
+
 
             </div>
             <div class="modal fade" id="AddInModal" tabindex="-1" aria-labelledby="AddInModalLabel" aria-hidden="true">
@@ -981,9 +957,9 @@ ol.organizational-chart>li>ol>li>ol>li>ol>li>ol>li>div {
                                         <option value="">Kavita</option>
                                         <option value="">Shivali</option>
                                         <option value="">Truxcargo</option>
-                                      
+
                                     </select>
-                                    <label for="floatingSelect">Parent Team  </label>
+                                    <label for="floatingSelect">Parent Team </label>
                                 </div>
 
 
@@ -1019,58 +995,58 @@ ol.organizational-chart>li>ol>li>ol>li>ol>li>ol>li>div {
                             id="close-modal"></button>
                     </div>
                     <form class="tablelist-form" autocomplete="off">
-                            <div class="modal-body">
+                        <div class="modal-body">
 
 
-                                <div class="form-floating mb-3">
-                                    <select class="form-select" id="floatingSelect"
-                                        aria-label="Floating label select example">
-                                        <option selected>Select Any One</option>
-                                        <option value="">Sourav.kumar</option>
-                                        <option value="">Ajay</option>
-                                        <option value="">Sandeep</option>
-                                        <option value="">Tinku</option>
-                                        <option value="">Khushi</option>
-                                        <option value="">Jay</option>
-                                        <option value="">Pradeep.Maurya</option>
-                                        <option value="">Deepanshu</option>
-                                        <option value="">Umarpal</option>
-                                    </select>
-                                    <label for="floatingSelect">Team Members </label>
+                            <div class="form-floating mb-3">
+                                <select class="form-select" id="floatingSelect"
+                                    aria-label="Floating label select example">
+                                    <option selected>Select Any One</option>
+                                    <option value="">Sourav.kumar</option>
+                                    <option value="">Ajay</option>
+                                    <option value="">Sandeep</option>
+                                    <option value="">Tinku</option>
+                                    <option value="">Khushi</option>
+                                    <option value="">Jay</option>
+                                    <option value="">Pradeep.Maurya</option>
+                                    <option value="">Deepanshu</option>
+                                    <option value="">Umarpal</option>
+                                </select>
+                                <label for="floatingSelect">Team Members </label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <select class="form-select" id="floatingSelect"
+                                    aria-label="Floating label select example">
+                                    <option selected>Select Any One</option>
+                                    <option value="">Admin</option>
+                                    <option value="">Sadanadnd</option>
+                                    <option value="">Lalit.upreti</option>
+                                    <option value="">Sagar</option>
+                                    <option value="">Kavita</option>
+                                    <option value="">Shivali</option>
+                                    <option value="">Truxcargo</option>
+
+                                </select>
+                                <label for="floatingSelect">Parent Team </label>
+                            </div>
+
+
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control" placeholder="Enter Designation">
+                                <label for="firstnamefloatingInput">Designation </label>
+                            </div>
+
+
+                            <div class="mt-5">
+                                <div class="hstack gap-2 justify-content-end">
+                                    <button type="submit" class="btn btn-success w-100" id="add-btn"
+                                        style="background: linear-gradient(90deg, #10A81B 0%, #06420B 100%);">Add
+                                    </button>
+                                    <button type="button" class="btn btn-light w-100"
+                                        data-bs-dismiss="modal">Cancel</button>
                                 </div>
-                                <div class="form-floating mb-3">
-                                    <select class="form-select" id="floatingSelect"
-                                        aria-label="Floating label select example">
-                                        <option selected>Select Any One</option>
-                                        <option value="">Admin</option>
-                                        <option value="">Sadanadnd</option>
-                                        <option value="">Lalit.upreti</option>
-                                        <option value="">Sagar</option>
-                                        <option value="">Kavita</option>
-                                        <option value="">Shivali</option>
-                                        <option value="">Truxcargo</option>
-                                      
-                                    </select>
-                                    <label for="floatingSelect">Parent Team  </label>
-                                </div>
-
-
-                                <div class="form-floating mb-3">
-                                    <input type="text" class="form-control" placeholder="Enter Designation">
-                                    <label for="firstnamefloatingInput">Designation </label>
-                                </div>
-
-
-                                <div class="mt-5">
-                                    <div class="hstack gap-2 justify-content-end">
-                                        <button type="submit" class="btn btn-success w-100" id="add-btn"
-                                            style="background: linear-gradient(90deg, #10A81B 0%, #06420B 100%);">Add
-                                        </button>
-                                        <button type="button" class="btn btn-light w-100"
-                                            data-bs-dismiss="modal">Cancel</button>
-                                    </div>
-                                </div>
-                        </form>
+                            </div>
+                    </form>
                 </div>
             </div>
         </div>

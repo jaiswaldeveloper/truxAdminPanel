@@ -25,7 +25,7 @@
     <link href="assets/css/custom.min.css" rel="stylesheet" type="text/css" />
 
     <style>
-      
+
     </style>
 
 </head>
@@ -88,66 +88,70 @@
                                 <!-- end col -->
 
                                 <div class=" my-lg-5  col-lg-5">
+
+                                <form action="
+                                ">
                                     <div style="z-index: 2; position: relative">
-                                    <div class="card m-0 p-lg-4 p-4" style="background: #fff;">
-                                        <div class="mb-4 text-center">
-                                            <a href="index.php" class="d-block">
-                                                <img src="assets/images/logo-black.png" alt="" height="45">
-                                            </a>
-                                        </div>
-                                        <div>
-                                            <h3 class="text-primary">Sign In</h3>
-                                            <p class="text-muted">Sign in to continue to truxcargo.</p>
-                                        </div>
+                                        <div class="card m-0 p-lg-4 p-4" style="background: #fff;">
+                                            <div class="mb-4 text-center">
+                                                <a href="index.php" class="d-block">
+                                                    <img src="assets/images/logo-black.png" alt="" height="45">
+                                                </a>
+                                            </div>
+                                            <div>
+                                                <h3 class="text-primary">Sign In</h3>
+                                                <p class="text-muted">Sign in to continue to truxcargo.</p>
+                                            </div>
 
-                                        <div class="mt-2">
-                                            <form action="">
-                                                <div class="mb-3">
-                                                    <label for="username" class="form-label">Username</label>
-                                                    <input type="text" class="form-control" id="username"
-                                                        placeholder="Enter username">
-                                                </div>
-
-                                                <div class="mb-3">
-
-                                                    <label class="form-label" for="password-input">Password</label>
-                                                    <div class="position-relative auth-pass-inputgroup mb-3">
-                                                        <input type="password" class="form-control pe-5 password-input"
-                                                            placeholder="Enter password" id="password-input">
-                                                        <button
-                                                            class="btn btn-link position-absolute end-0 top-0 text-decoration-none text-muted password-addon"
-                                                            type="button" id="password-addon"><i
-                                                                class="ri-eye-fill align-middle"></i></button>
+                                            <div class="mt-2">
+                                                <form action="">
+                                                    <div class="mb-3">
+                                                        <label for="username" class="form-label">Username</label>
+                                                        <input type="text" class="form-control" id="username"
+                                                            placeholder="Enter username">
                                                     </div>
-                                                </div>
 
-                                                <div class="form-check">
-                                                    <input class="form-check-input" type="checkbox" value=""
-                                                        id="auth-remember-check">
-                                                    <label class="form-check-label" for="auth-remember-check">Keep me
-                                                        Signed in</label>
-                                                </div>
+                                                    <div class="mb-3">
 
-                                                <div class="mt-4">
-                                                    <a href="index.php">
-                                                        <button class="btn btn-primary w-100">Sign In</button>
+                                                        <label class="form-label" for="password-input">Password</label>
+                                                        <div class="position-relative auth-pass-inputgroup mb-3">
+                                                            <input type="password"
+                                                                class="form-control pe-5 password-input"
+                                                                placeholder="Enter password" id="password-input">
+                                                            <button
+                                                                class="btn btn-link position-absolute end-0 top-0 text-decoration-none text-muted password-addon"
+                                                                type="button" id="password-addon"><i
+                                                                    class="ri-eye-fill align-middle"></i></button>
+                                                        </div>
+                                                    </div>
 
-                                                    </a>
-                                                </div>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" value=""
+                                                            id="auth-remember-check">
+                                                        <label class="form-check-label" for="auth-remember-check">Keep
+                                                            me
+                                                            Signed in</label>
+                                                    </div>
+
+                                                    <div class="mt-4">
+                                                    <a href="index.php" class="btn btn-primary w-100">Sign In</a>
+
+                                                    </div>
 
 
 
-                                            </form>
+                                                </form>
+                                            </div>
+
+                                            <div>
+                                                <img src="assets/images/box.png" alt="" height="100"
+                                                    style="float: right">
+                                            </div>
+
+
                                         </div>
-
-                                         <div >
-                                        <img src="assets/images/box.png" alt="" height="100" style="float: right">
-                                        </div> 
-
-
                                     </div>
-                                    </div>
-                                   
+                                    </form>
                                 </div>
 
                                 <div class="col-lg-1 form-element-right"></div>

@@ -267,7 +267,7 @@
                                             <option value="2022-2023">2022-2023</option>
                                             <option value="2024-2025">2024-2025</option>
                                             <option value="2025-2026">2025-2026</option>
-                                           
+
                                         </select>
                                     </div>
 
@@ -287,7 +287,7 @@
                                     </div>
 
                                 </div>
-                               
+
 
 
                                 <!--end col-->
@@ -295,7 +295,7 @@
                                     <div>
                                         <button type="button" class="btn btn-primary w-100"
                                             style="background: linear-gradient(90deg, #10A81B 0%, #06420B 100%);">
-                                            
+
                                             Apply
                                         </button>
                                     </div>
@@ -359,86 +359,69 @@
             </div>
 
 
-
-            <div class="row">
+            <div class="row my-5">
                 <div class="col-lg-12">
+
+
                     <div class="card">
-                        <div class="card-body">
-                            <div class="listjs-table" id="customerList">
 
-                                <div class="table-responsive table-card mb-1">
-                                    <table class="table align-middle table-nowrap" id="customerTable">
-                                        <thead class="table-light">
-                                            <tr>
-                                                <th class="sort" data-sort="date">Invoice Date &nbsp;</th>
-                                                <th class="sort" data-sort="InvoiceNo">Invoice No</th>
-                                                <th class="sort" data-sort="value">Invoice value</th>
-                                                <th class="sort" data-sort="TDS">TDS</th>
-                                                <th class="sort" data-sort="CN">CN</th>
-                                                <th class="sort" data-sort="Paid">Paid &nbsp;</th>
-                                                <th class="sort" data-sort="Unpaid">Unpaid &nbsp;</th>
-                                                <th class="sort" data-sort="status">Status</th>
-                                                <th class="sort" data-sort="Type">Type &nbsp;</th>
-                                                <th class="sort" data-sort="Panel">Panel</th>
-
-
-                                            </tr>
-                                        </thead>
-                                        <tbody class="list form-check-all">
-                                            <tr>
-                                                <td class="date">06 Apr, 2021</td>
-                                                <td>TC/2024-25/12398</td>
-                                                <td>TC/2024-25/12398</td>
-                                                <td>10,344.00</td>
-                                                <td>00
-                                                </td>
-                                                <td>9718685216</td>
-                                                <td>Mirc Electronic </td>
-                                                <td class="status"><span
-                                                        class="badge bg-success-subtle text-success text-uppercase">Active</span>
-                                                </td>
-                                                <td>NA
-                                                    (Yes)</td>
-                                                <td>shubham</td>
+                        <div class="table-responsive">
+                            <table id="example" class="table " style="width:100%">
+                                <thead>
+                                    <tr>
+                                        <th>
+                                            Invoice Date</th>
+                                        <th>Invoice No </th>
+                                        <th>Invoice value</th>
+                                        <th>TDS </th>
+                                        <th>CN </th>
+                                        <th>Paid</th>
+                                        <th>Unpaid</th>
+                                        <th>Status </th>
+                                        <th>Type </th>
+                                        <th>Panel</th>
 
 
 
 
-                                            </tr>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="date">06 Apr, 2021</td>
+                                        <td>TC/2024-25/12398</td>
+                                        <td>TC/2024-25/12398</td>
+                                        <td>10,344.00</td>
+                                        <td>00
+                                        </td>
+                                        <td>9718685216</td>
+                                        <td>Mirc Electronic </td>
+                                        <td class="status"><span
+                                                class="badge bg-success-subtle text-success text-uppercase">Active</span>
+                                        </td>
+                                        <td>NA
+                                            (Yes)</td>
+                                        <td>shubham</td>
 
-                                        </tbody>
-                                    </table>
-                                    <div class="noresult" style="display: none">
-                                        <div class="text-center">
-                                            <lord-icon src="https://cdn.lordicon.com/msoeawqm.json" trigger="loop"
-                                                colors="primary:#121331,secondary:#08a88a"
-                                                style="width:75px;height:75px">
-                                            </lord-icon>
-                                            <h5 class="mt-2">Sorry! No Result Found</h5>
-                                            <p class="text-muted mb-0">We've searched more than 150+ Orders We did not
-                                                find any orders for you search.</p>
-                                        </div>
-                                    </div>
-                                </div>
 
-                                <div class="d-flex justify-content-center">
-                                    <div class="pagination-wrap hstack gap-2">
-                                        <a class="page-item pagination-prev disabled" href="javascript:void(0);">
-                                            Previous
-                                        </a>
-                                        <ul class="pagination listjs-pagination mb-0"></ul>
-                                        <a class="page-item pagination-next" href="javascript:void(0);">
-                                            Next
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div><!-- end card -->
+
+
+                                    </tr>
+
+
+                                </tbody>
+
+                            </table>
+
+
+                        </div>
                     </div>
+
                     <!-- end col -->
                 </div>
                 <!-- end col -->
             </div>
+
 
         </div>
 

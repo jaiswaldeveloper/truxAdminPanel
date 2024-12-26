@@ -59,6 +59,10 @@
         left: var(--vz-vertical-menu-width)
     }
 }
+
+table.dataTable th.dt-type-numeric, table.dataTable th.dt-type-date, table.dataTable td.dt-type-numeric, table.dataTable td.dt-type-date {
+    text-align: left !important;
+}
 .dt-paging{
     margin: 20px !important;
     text-align: center !important;

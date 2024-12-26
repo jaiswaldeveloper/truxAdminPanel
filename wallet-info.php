@@ -8,14 +8,15 @@
             <div class="row">
                 <div class="col-12">
                     <div class="page-title-box d-sm-flex align-items-center justify-content-between bg-transparent">
-                        <h4 class="mb-sm-0">Rare Customer</h4>
+                        <h4 class="mb-sm-0">All Customer Wallet
+                        </h4>
 
                         <div class="page-title-right">
                             <ol class="breadcrumb m-0">
                                 <li class="breadcrumb-item"><a href="javascript: void(0);">Menu</a></li>
                                 <li class="breadcrumb-item active"> Customer</li>
 
-                                <li class="breadcrumb-item active">Rare Customer</li>
+                                <li class="breadcrumb-item active">Wallet Info</li>
                             </ol>
                         </div>
 
@@ -27,17 +28,19 @@
                     <div class="card-body form-bg-gradient">
                         <form>
                             <div class="row g-3">
-                                <div class="col-xxl-5 col-sm-6">
-                                    <div class="search-box">
-                                        <input type="text" class="form-control search"
-                                            placeholder="Search By Name/Phone/Username/Company">
-                                        <i class="ri-search-line search-icon"></i>
+                                <div class="col-xxl-3 col-sm-6">
+                                <div>
+                                        <select class="form-select">
+                                            <option value="" selected>All Customer</option>
+                                            <option value="">Kavita  Sharma (TRUXCARGO1) </option>
+
+                                        </select>
                                     </div>
                                 </div>
                                 <!--end col-->
 
                                 <!--end col-->
-                                <div class="col-xxl-2 col-sm-4">
+                                <div class="col-xxl-1 col-sm-4">
                                     <div>
                                         <button type="button" class="btn btn-primary w-100">
                                             Search
@@ -128,7 +131,7 @@
             </div>
         </div>
 
-        <div class="row my-5">
+        <div class="row mb-5">
             <div class="col-lg-12">
 
 
@@ -140,34 +143,32 @@
                                 <tr>
                                     <th>
                                         ID</th>
-                                    <th>Joining Date</th>
+                                        <th>Username</th>
                                     <th>Name</th>
-                                    <th>User ID </th>
                                     <th>Company Name </th>
-                                    <th>Email</th>
-                                    <th>Contact No </th>
-                                    <th>B2B Order </th>
-                                    <th>B2C Order </th>
-                                    <th>Current B2C</th>
-
-
-
+                                    <th>Recharge </th>
+                                    <th>Deduction</th>
+                                    <th>New Negative </th>
+                                    <th>Refund </th>
+                                    <th>Balance </th>
+                                    <th>Action</th>
 
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>28</td>
-                                    <td class="date">06 Apr, 2021</td>
-                                    <td>TRUXCARGO939 </td>
-                                    <td>Chander Shekhar </td>
-                                    <td>V R ENTERPRISES</td>
-                                    <td> RJ TRANSPORT </td>
-                                    <td> cshekar7676@gmail.com </td>
-                                    <td>8285777502</td>
-                                    <td>65</td>
-                                    <td>477</td>
-
+                                 <td>1</td>
+                                 <td><b>TRUXCARGO1</b> <br>
+                                 (Delhivery Lite)</td>
+                                 <td>Kavita Sharma	</td>
+                                 <td>Vashist Tech	</td>
+                                 <td>205,383.00	</td>
+                                 <td>-137,102.57	</td>
+                                 <td>-49,755.47	</td>
+                                 <td>863,121.54	</td>
+                                 <td>931,401.97	
+                                 </td>
+                                 <td> <button class="btn btn-danger p-1">More Info</button> </td>
 
 
                                 </tr>
