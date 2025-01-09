@@ -10,7 +10,7 @@
 
                         <div class="page-title-right">
                             <ol class="breadcrumb m-0">
-                                <li class="breadcrumb-item"><a href="javascript: void(0);">Dashboards</a></li>
+                                <li class="breadcrumb-item"><a href="javascript: void(0);">Customer</a></li>
                                 <li class="breadcrumb-item active">Edit Customer</li>
                             </ol>
                         </div>
@@ -18,9 +18,7 @@
                     </div>
                 </div>
             </div>
-
-
-            <div class="row">
+            <div class="row my-3">
                 <div class="col-lg-12">
                     <div class="card">
                         <div class="card-header align-items-center d-flex">
@@ -54,21 +52,21 @@
                                     </div>
                                     <div class="col-xxl-3 col-md-6">
                                         <div class="form-floating">
-                                            <input type="text" class="form-control" id="firstnamefloatingInput"
+                                            <input type="tel" class="form-control" id="firstnamefloatingInput"
                                                 value="7840080373">
                                             <label for="firstnamefloatingInput">Phone</label>
                                         </div>
                                     </div>
                                     <div class="col-xxl-3 col-md-6">
                                         <div class="form-floating">
-                                            <input type="text" class="form-control" id="firstnamefloatingInput"
+                                            <input type="email" class="form-control" id="firstnamefloatingInput"
                                                 value="kavita.sharma@truxcargo.com">
                                             <label for="firstnamefloatingInput">Email ID</label>
                                         </div>
                                     </div>
                                     <div class="col-xxl-3 col-md-6">
                                         <div class="form-floating">
-                                            <input type="text" class="form-control" id="firstnamefloatingInput"
+                                            <input type="password" class="form-control" id="firstnamefloatingInput"
                                                 value="12345">
                                             <label for="firstnamefloatingInput">Password</label>
                                         </div>
@@ -77,7 +75,7 @@
                                         <div class="form-floating">
                                             <input type="text" class="form-control" id="firstnamefloatingInput"
                                                 value="Vashist Tech">
-                                            <label for="firstnamefloatingInput">Comapny Name</label>
+                                            <label for="firstnamefloatingInput">Company Name</label>
                                         </div>
                                     </div>
                                     <div class="col-xxl-3 col-md-6">
@@ -141,7 +139,7 @@
 
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card my-3">
                         <div class="card-header align-items-center d-flex">
                             <h4 class="card-title mb-0 flex-grow-1">Billing Info
 
@@ -218,7 +216,7 @@
                         </div>
                     </div>
 
-                    <div class="card">
+                    <div class="card my-3">
                         <div class="card-header align-items-center d-flex">
                             <h4 class="card-title mb-0 flex-grow-1">Preference
 
@@ -396,7 +394,7 @@
                     </div>
 
 
-                    <div class="card">
+                    <div class="card my-3">
                         <div class="card-header align-items-center d-flex">
                             <h4 class="card-title mb-0 flex-grow-1">Panel Status
                             </h4>
@@ -462,7 +460,7 @@
                     </div>
 
 
-                    <div class="card">
+                    <div class="card my-3">
                         <div class="card-header align-items-center d-flex">
                             <h4 class="card-title mb-0 flex-grow-1">Attachment
 

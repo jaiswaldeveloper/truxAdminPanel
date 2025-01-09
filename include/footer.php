@@ -36,15 +36,15 @@
 <script src="assets/libs/simplebar/simplebar.min.js"></script>
 <script src="assets/libs/node-waves/waves.min.js"></script>
 <script src="assets/libs/feather-icons/feather.min.js"></script>
-<script src="assets/js/pages/plugins/lord-icon-2.1.0.js"></script>
-<script src="assets/js/plugins.js"></script>
+<!-- <script src="assets/js/pages/plugins/lord-icon-2.1.0.js"></script> -->
+<!-- <script src="assets/js/plugins.js"></script> -->
 
 <!-- apexcharts -->
 <script src="assets/libs/apexcharts/apexcharts.min.js"></script>
 <!-- apexcharts -->
 
 <!-- radialbar charts init -->
-<script src="assets/js/pages/apexcharts-radialbar.init.js"></script>
+<!-- <script src="assets/js/pages/apexcharts-radialbar.init.js"></script> -->
 <!-- Vector map-->
 <script src="assets/libs/jsvectormap/js/jsvectormap.min.js"></script>
 <script src="assets/libs/jsvectormap/maps/world-merc.js"></script>
@@ -53,17 +53,17 @@
 <script src="assets/libs/swiper/swiper-bundle.min.js"></script>
 
 <!-- Dashboard init -->
-<script src="assets/js/pages/dashboard-ecommerce.init.js"></script>
+<!-- <script src="assets/js/pages/dashboard-ecommerce.init.js"></script> -->
 
 <!-- App js -->
 <script src="assets/js/app.js"></script>
 <!--Swiper slider js-->
-<script src="assets/libs/swiper/swiper-bundle.min.js"></script>
+<!-- <script src="assets/libs/swiper/swiper-bundle.min.js"></script> -->
 
 <!-- swiper.init js -->
-<script src="assets/js/pages/swiper.init.js"></script>
+<!-- <script src="assets/js/pages/swiper.init.js"></script> -->
 
-<script src="assets/js/pages/pricing.init.js"></script>
+<!-- <script src="assets/js/pages/pricing.init.js"></script> -->
 
 
 
@@ -71,11 +71,11 @@
 
 
 <!-- list.js min js -->
-<script src="assets/libs/list.js/list.min.js"></script>
-<script src="assets/libs/list.pagination.js/list.pagination.min.js"></script>
+<!-- <script src="assets/libs/list.js/list.min.js"></script> -->
+<!-- <script src="assets/libs/list.pagination.js/list.pagination.min.js"></script> -->
 
 <!--ecommerce-customer init js -->
-<script src="assets/js/pages/ecommerce-customer-list.init.js"></script>
+<!-- <script src="assets/js/pages/ecommerce-customer-list.init.js"></script> -->
 
 
 

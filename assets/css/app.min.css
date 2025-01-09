@@ -81,8 +81,17 @@ table.dataTable th.dt-type-numeric, table.dataTable th.dt-type-date, table.dataT
     height: 70px;
     padding: 0 1.5rem 0 calc(1.5rem * .5)
 }
-
+table.dataTable th {
+    box-sizing: border-box;
+    white-space: nowrap !important;
+}
+.mobile-logo{
+    display:none;
+}
 @media (max-width:767.98px) {
+    .mobile-logo{
+        display:block;
+    }
     .navbar-header {
         padding: 0 calc(1.5rem * .5) 0 calc(1.5rem * .5)
     }
@@ -462,7 +471,8 @@ table.dataTable th.dt-type-numeric, table.dataTable th.dt-type-date, table.dataT
     -webkit-box-shadow: var(--vz-page-title-box-shadow);
     box-shadow: var(--vz-page-title-box-shadow);
     border-bottom: 1px solid var(--vz-page-title-border);
-    margin: -23px -1.5rem 1.5rem -1.5rem
+    margin: -23px -1.5rem 1.5rem -1.5rem;
+    /* border-bottom: 2px dashed #7E7EFF; */
 }
 
 .page-title-box .breadcrumb {
@@ -591,7 +601,6 @@ table.dataTable th.dt-type-numeric, table.dataTable th.dt-type-date, table.dataT
     width: var(--vz-vertical-menu-width);
     z-index: 1002;
     background: linear-gradient(4deg, #CECEFF 0%, #7E7EFF 100%);
-    
     border-right: 1px solid var(--vz-vertical-menu-border);
     bottom: 0;
     margin-top: 0;
@@ -601,7 +610,8 @@ table.dataTable th.dt-type-numeric, table.dataTable th.dt-type-date, table.dataT
     box-shadow: var(--vz-vertical-menu-box-shadow);
     padding: 0 0 calc(70px + 25px) 0;
     -webkit-transition: all .1s ease-out;
-    transition: all .1s ease-out
+    transition: all .1s ease-out;
+    background: linear-gradient(180deg, #7939CC -43.01%, #7E7EFF 99.71%);
 }
 
 .navbar-menu .navbar-nav .nav-link {
@@ -612,8 +622,7 @@ table.dataTable th.dt-type-numeric, table.dataTable th.dt-type-date, table.dataT
     -ms-flex-align: center;
     align-items: center;
     padding: .35rem 1.5rem;
-
-    /* color: #fff; */
+    color: #fff;
     font-size: .9375rem;
     font-weight: 500;
     font-family: Saira, sans-serif
@@ -621,10 +630,11 @@ table.dataTable th.dt-type-numeric, table.dataTable th.dt-type-date, table.dataT
 
 .navbar-menu .navbar-nav .nav-link.active {
     color: #000000;
-    background: #fff;}
+    background: #fff;
+    border-radius: 50px;}
 
 .navbar-menu .navbar-nav .nav-link:hover {
-    color: #8c68cd
+    color: #3a00a6
 }
 
 .navbar-menu .navbar-nav .nav-link i {
@@ -703,7 +713,7 @@ display: none;
 
 .navbar-menu .navbar-nav .nav-sm .nav-link {
     padding: .55rem 1.5rem !important;
-    color: #423b47;
+    /* color: #423b47; */
     white-space: none;
     position: relative;
     font-size: .813rem;
@@ -14258,7 +14268,6 @@ span.flatpickr-weekday {
     height: 380px
 }
 .glass-effect{
-    /* From https://css.glass */
 border-radius: 16px;
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 backdrop-filter: blur(12.3px);
@@ -14266,19 +14275,15 @@ backdrop-filter: blur(12.3px);
 padding: 5px;
 border: 1px solid rgba(255, 255, 255, 0.79);
 }
-.form-element-left{
+/* .form-element-left{
     position: relative;
-    /* padding: 20px; */
-    /* width: 500px; */
-    /* height: 500px; */
+   
     z-index: 0;
     
 }
 .form-element-right{
     position: relative;
-    /* padding: 20px;
-    width: 500px;
-    height: 500px; */
+   
     z-index: 0;
     
 }
@@ -14309,6 +14314,23 @@ border: 1px solid rgba(255, 255, 255, 0.79);
     background-size: contain;
     z-index: -1;
     transform: rotate(180deg);
+} */
+
+.bg-login{
+    background: url(../images/bg-login.png);
+    background-position: center;
+    width: 100%;
+    padding: 20px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+}
+.step-part{
+    display: table;
+}
+.primum-steps{
+    display: table-cell;
+    vertical-align: middle;
 }
 @media (max-width:575.98px) {
     .auth-one-bg-position {
@@ -14375,9 +14397,25 @@ border: 1px solid rgba(255, 255, 255, 0.79);
 }
 
 .auth-bg-cover {
-    background: linear-gradient(-45deg, #8c68cd 50%, #40bb82)
+    position: relative;
+    /* background: #fff; */
 }
 
+.auth-bg-cover::after{
+    content: "";
+    background: url(../images/login-element.svg);
+    position: absolute;
+    bottom: -80px;
+    width: 250px;
+    height: 200px;
+    left: -7%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: -1;
+    transform: rotate(90deg);
+    z-index: 2;
+}
 .auth-bg-cover>.bg-overlay {
     background-image: url(../images/cover-pattern.png);
     background-position: center;
@@ -15621,6 +15659,10 @@ border: 1px solid rgba(255, 255, 255, 0.79);
 }
 
 @media screen and (max-width:767px) {
+    #chartdivCustomer {
+        width: 100%;
+        height: 400px !important;
+    }
     .form-element-right, .form-element-left{
         display: none;
     }
@@ -15683,6 +15725,14 @@ border: 1px solid rgba(255, 255, 255, 0.79);
 }
 
 @media screen and (max-width:767px) {
+    .step-part,.auth-bg-cover::after{
+        display: none;
+    }
+    .bg-login {
+   
+        background-size: initial;
+        
+    }
     .table .sort {
         position: relative;
         min-width: 150px !important;
@@ -16675,13 +16725,13 @@ border: 1px solid rgba(255, 255, 255, 0.79);
     background-color: var(--vz-light)
 }
 
-.user-chat {
+/* .user-chat {
     background: url(../images/chat-bg-pattern.png);
     -webkit-transition: all .4s;
     transition: all .4s;
     position: relative;
     background-color: var(--vz-body-bg)
-}
+} */
 
 @media (max-width:991.98px) {
     .user-chat {
@@ -18415,7 +18465,7 @@ body::before {
 :root {
     --vz-card-bg-fill: transparent
 }
-
+/* 
 :root[data-body-image=img-1] {
     --vz-body-bg-image: url("../images/chat-bg-pattern.png")
 }
@@ -18457,7 +18507,7 @@ body::before {
 [data-bs-theme=dark] [for=body-img-three] {
     background-image: url(../images/galaxy/img-3.png);
     background-size: cover
-}
+} */
 
 .bg-job {
     background-image: url(../images/new.png);

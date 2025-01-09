@@ -249,8 +249,7 @@
                                 <div class="col-xxl-2 col-sm-4">
                                     <div>
                                         <button type="button" class="btn btn-primary w-100" style="background: linear-gradient(90deg, #10A81B 0%, #06420B 100%);
-">
-                                            Apply
+                                                        "> Apply
                                         </button>
                                     </div>
                                 </div>
@@ -264,7 +263,7 @@
 
 
             </div>
-        </div>
+        
         <div class="row">
             <div class="col">
 
@@ -349,7 +348,7 @@
 
         </div>
 
-        <div class="row my-5">
+        <div class="row my-3">
             <div class="col-lg-12">
 
 
@@ -412,7 +411,7 @@
             </div>
             <!-- end col -->
         </div>
-
+        </div>
     </div>
 </div>
 <?php include("include/footer.php")?>

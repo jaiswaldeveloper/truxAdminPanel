@@ -40,17 +40,17 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        <div class="card p-lg-2 overflow-hidden card-bg-fill border-0 card-border-effect-none">
+                        <div class=" p-lg-2 overflow-hidden bg-login border-0 card-border-effect-none">
                             <div class="row g-0">
-                                <div class="col-lg-5">
-                                    <div class="p-lg-5 p-4 auth-one-bg h-100">
-                                        <!-- <div class="bg-overlay"></div> -->
-                                        <div class="position-relative h-100 d-flex flex-column">
 
-                                            <div class="mt-auto pt-2 glass-effect">
-                                                <!-- <div class="mb-3">
-                                                    <i class="ri-double-quotes-l display-4 text-success"></i>
-                                                </div> -->
+                                <div class="col-lg-5 step-part">
+                                    <div class="p-lg-2 h-100 primum-steps">
+                                        <!-- <div class="bg-overlay"></div> -->
+                                        <div class="position-relative d-flex flex-column">
+                                            <img src="assets/images/login-animation.gif" class="w-100" alt="gif" srcset="">
+
+                                            <!-- <div class="mt-auto pt-2 glass-effect">
+                                              
 
                                                 <div id="qoutescarouselIndicators" class="carousel slide"
                                                     data-bs-ride="carousel">
@@ -78,14 +78,13 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <!-- end carousel -->
-                                            </div>
+                                            </div> -->
                                         </div>
                                     </div>
                                 </div>
 
-                                <div class="col-lg-1 form-element-left"></div>
                                 <!-- end col -->
+                                <div class="col-lg-1 form-element-left"></div>  
 
                                 <div class=" my-lg-5  col-lg-5">
 
@@ -154,7 +153,7 @@
                                     </form>
                                 </div>
 
-                                <div class="col-lg-1 form-element-right"></div>
+                                <!-- <div class="col-lg-1 form-element-right"></div> -->
 
 
                                 <!-- end col -->

@@ -8,13 +8,14 @@
             <div class="row">
                 <div class="col-12">
                     <div class="page-title-box d-sm-flex align-items-center justify-content-between bg-transparent">
-                        <h4 class="mb-sm-0">B2B Pickup</h4>
+                        <h4 class="mb-sm-0">Pickup Request
+                        </h4>
 
                         <div class="page-title-right">
                             <ol class="breadcrumb m-0">
-                            <li class="breadcrumb-item"><a href="javascript: void(0);">Menu</a></li>
-                            <li class="breadcrumb-item"><a href="javascript: void(0);">Pickups & Warehouse</a></li>
-                            <li class="breadcrumb-item active">B2B Pickup</li>
+                                <li class="breadcrumb-item"><a href="javascript: void(0);">Menu</a></li>
+                                <li class="breadcrumb-item"><a href="javascript: void(0);">Pickups & Warehouse</a></li>
+                                <li class="breadcrumb-item active">B2B Pickup</li>
                             </ol>
                         </div>
 
@@ -70,7 +71,8 @@
                                 <!--end col-->
                                 <div class="col-xxl-2 col-sm-4">
                                     <div>
-                                    <button type="button" class="btn btn-primary w-100" style="background: linear-gradient(90deg, #10A81B 0%, #06420B 100%);"> 
+                                        <button type="button" class="btn btn-primary w-100"
+                                            style="background: linear-gradient(90deg, #10A81B 0%, #06420B 100%);">
                                             Apply
                                         </button>
                                     </div>
@@ -80,7 +82,7 @@
                             <!--end row-->
                         </form>
                     </div>
-                    
+
                 </div>
 
 
@@ -173,91 +175,78 @@
 
 
             </div>
-        </div>
+       
 
-        <div>
+       
 
-            <div class="row">
+            <div class="row my-5">
                 <div class="col-lg-12">
+
+
                     <div class="card">
-                        <div class="card-body">
-                            <div class="listjs-table" id="customerList">
 
-                                <div class="table-responsive table-card mb-1">
-                                    <table class="table align-middle table-nowrap" id="customerTable">
-                                        <thead class="table-light">
-                                            <tr>
-                                                <th class="sort" data-sort="id">ID &nbsp;</th>
-                                                <th class="sort" data-sort="Member">Member Details</th>
-                                                <th class="sort" data-sort="date">Request Date</th>
-                                                <th class="sort" data-sort="LR">LR No</th>
-                                                <th class="sort" data-sort="Contact">pickup date & time</th>
-                                                <th class="sort" data-sort="Package">Package</th>
-                                                <th class="sort" data-sort="Pickup"> center</th>
-                                        
-                                                <th class="sort">panel</th>
+                        <div class="table-responsive">
+                            <table id="example" class="table " style="width:100%">
+                                <thead>
+                                    <tr>
+                                        <th>
+                                            ID</th>
+                                        <th>Member Details</th>
+                                        <th>Request Date</th>
+                                        <th>LR No</th>
+                                        <th>pickup date & time</th>
+                                        <th>Package</th>
+                                        <th>center </th>
+                                        <th>panel </th>
 
 
-                                            </tr>
-                                        </thead>
-                                        <tbody class="list form-check-all">
-                                            <tr>
+
+
+
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
                                                 <td>1</td>
                                                 <td>Laljee Prasad <br>
-                                                <b>TRUXCARGO4201</b>	</td>
+                                                    <b>TRUXCARGO4201</b>
+                                                </td>
                                                 <td class="date">06 Apr, 2021</td>
 
                                                 <td>186542896 </td>
-                                               
-                                               
-                                                    <td><b>Seelampur</b>
-MOTORS C-743, GALI NO-8, SEELAMPUR, <br> CHAUHAN BANGER North East Delhi, Delhi, 110053<br> GSTIN/UIN: 07BYPPA3426G1ZK State Name : De, <br>Delhi
-ph. 7294968522 </td>
-                                                    <td>186542896 </td>
-                                                    <td>Delhi_Gokalpur_L	 </td>
 
-                                                
-                                                    <td>Delhivery Cargo
-                                                    </td>
+
+                                                <td><b>Seelampur</b>
+                                                    MOTORS C-743, GALI NO-8, SEELAMPUR, <br> CHAUHAN BANGER North East
+                                                    Delhi, Delhi, 110053<br> GSTIN/UIN: 07BYPPA3426G1ZK State Name : De,
+                                                    <br>Delhi
+                                                    ph. 7294968522 </td>
+                                                <td>186542896 </td>
+                                                <td>Delhi_Gokalpur_L </td>
+
+
+                                                <td>Delhivery Cargo
+                                                </td>
 
 
                                             </tr>
 
-                                        </tbody>
-                                    </table>
-                                    <div class="noresult" style="display: none">
-                                        <div class="text-center">
-                                            <lord-icon src="https://cdn.lordicon.com/msoeawqm.json" trigger="loop"
-                                                colors="primary:#121331,secondary:#08a88a"
-                                                style="width:75px;height:75px"></lord-icon>
-                                            <h5 class="mt-2">Sorry! No Result Found</h5>
-                                            <p class="text-muted mb-0">We've searched more than 150+ Orders We did not
-                                                find any orders for you search.</p>
-                                        </div>
-                                    </div>
-                                </div>
+                                </tbody>
 
-                                <div class="d-flex justify-content-center">
-                                    <div class="pagination-wrap hstack gap-2">
-                                        <a class="page-item pagination-prev disabled" href="javascript:void(0);">
-                                            Previous
-                                        </a>
-                                        <ul class="pagination listjs-pagination mb-0"></ul>
-                                        <a class="page-item pagination-next" href="javascript:void(0);">
-                                            Next
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div><!-- end card -->
+                            </table>
+
+
+                        </div>
                     </div>
+
                     <!-- end col -->
                 </div>
                 <!-- end col -->
             </div>
 
+            </div>
+         
 
-        </div>
     </div>
 </div>
 <?php include("include/footer.php")?>

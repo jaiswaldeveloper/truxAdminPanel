@@ -1,10 +1,11 @@
 <?php include("include/header.php")?>
 
 <style>
-    .table .sort {
+.table .sort {
     min-width: 150px;
     position: relative
 }
+
 #manifested {
     background: #DCE2FF;
     color: #4656A3;
@@ -258,7 +259,7 @@
                                             <option value="" selected>All Pickup Cut Off</option>
                                             <option value="">Before Cut Off</option>
                                             <option value="">After Cut Off</option>
-                                    
+
                                         </select>
 
                                     </div>
@@ -389,138 +390,117 @@
                     </div>
                 </div>
             </div>
-
-            <div class="row">
+            <div class="row my-5">
                 <div class="col-lg-12">
+
+
                     <div class="card">
-                        <div class="card-body">
-                            <div class="listjs-table" id="customerList">
 
-                                <div class="table-responsive table-card mb-1">
-                                    <table class="table table-bordered align-middle table-nowrap" id="customerTable">
-                                        <thead class="table-light">
-                                            <tr>
+                        <div class="table-responsive">
+                            <table id="example" class="table " style="width:100%">
+                                <thead>
+                                    <tr>
 
-                                                <th class="sort" data-sort="id">
-                                                    S.No. &nbsp;</th>
-                                                <th class="sort" data-sort="">LR No.</th>
-                                                <th class="sort" data-sort="username">UserID</th>
-                                                <th class="sort" data-sort="name">LRN</th>
-                                                <th class="sort" data-sort="type">Master Waybill &nbsp;</th>
-                                                <th class="sort" data-sort="type">Product &nbsp;</th>
-                                                <th class="sort" data-sort="info">OrderID &nbsp;</th>
-                                                <th class="sort" data-sort="company">No of Boxes &nbsp;</th>
-                                                <th class="sort" data-sort="cod">Actual Weight &nbsp;</th>
-                                                <th class="sort" data-sort="poc">Demmision Weight</th>
-                                                <th class="sort" data-sort="status">Charged Weight</th>
-                                                <th class="sort" data-sort="status">Demension (Cms)</th>
-                                                <th class="sort" data-sort="status">Courier Partner</th>
-                                                <th class="sort" data-sort="status">Manifest Date</th>
-                                                <th class="sort" data-sort="status">Courier Partner</th>
-                                                <th class="sort" data-sort="status">Pickup Date</th>
-                                                <th class="sort" data-sort="status">Expected Date</th>
-                                                <th class="sort" data-sort="status">Invoice Number</th>
-                                                <th class="sort" data-sort="status">Invoice Value </th>
-                                                <th class="sort" data-sort="status">Eway bill </th>
-                                                <th class="sort" data-sort="status" style="min-width:250px">Client Loaction/warehouse</th>
-                                                <th class="sort" data-sort="status">Pickup Address </th>
-                                                <th class="sort" data-sort="status">Pickup Phone </th>
-                                                <th class="sort" data-sort="status" >Consignee Name </th>
-                                                <th class="sort" data-sort="status" style="min-width:300px">Consignee Address </th>
-                                                <th class="sort" data-sort="status">Last Scan Location </th>
-                                                <th class="sort" data-sort="status">Last Scan Date </th>
-                                                <th class="sort" data-sort="status">Current Status </th>
-                                                <th class="sort" data-sort="status">Remarks </th>
-                                                <th class="sort" data-sort="status">Delivery Date </th>
-                                                <th class="sort" data-sort="status">Payment Type </th>
-                                                <th class="sort" data-sort="status">Collectable COD </th>
-                                                <th class="sort" data-sort="status">Profit Amount </th>
-                                                <th class="sort" data-sort="status">Charged Amount </th>
-                                                <th class="sort" data-sort="status">Bifurcation </th>
+                                        <th>
+                                            S.No. &nbsp;</th>
+                                        <th>LR No.</th>
+                                        <th>UserID</th>
+                                        <th>LRN</th>
+                                        <th>Master Waybill &nbsp;</th>
+                                        <th>Product &nbsp;</th>
+                                        <th>OrderID &nbsp;</th>
+                                        <th>No of Boxes &nbsp;</th>
+                                        <th>Actual Weight &nbsp;</th>
+                                        <th>Demmision Weight</th>
+                                        <th>Charged Weight</th>
+                                        <th>Demension (Cms)</th>
+                                        <th>Courier Partner</th>
+                                        <th>Manifest Date</th>
+                                        <th>Courier Partner</th>
+                                        <th>Pickup Date</th>
+                                        <th>Expected Date</th>
+                                        <th>Invoice Number</th>
+                                        <th>Invoice Value </th>
+                                        <th>Eway bill </th>
+                                        <th>Client Loaction/warehouse</th>
+                                        <th>Pickup Address </th>
+                                        <th>Pickup Phone </th>
+                                        <th>Consignee Name </th>
+                                        <th style="width: 75%">Consignee Address </th>
+                                        <th>Last Scan Location</th>
+                                        <th>Last Scan Date</th>
+                                        <th>Current Status </th>
+                                        <th>Remarks </th>
+                                        <th>Delivery Date </th>
+                                        <th>Payment Type </th>
+                                        <th>Collectable COD </th>
+                                        <th>Profit Amount </th>
+                                        <th>Charged Amount </th>
+                                        <th>Bifurcation </th>
 
 
-                                            </tr>
-                                        </thead>
-                                        <tbody class="list form-check-all">
-                                            <tr>
-                                                <td>1</td>
-                                                <td><b>TRUXCARGO877</b> <br>
-                                                    Anurag Kumar</td>
-                                                <td>270765932</td>
-                                                <td>23236813338753</td>
-                                                <td>Oasis Product </td>
-                                                <td>PI-031-23-24 </td>
-                                                <td>20 </td>
-                                                <td>20.00 </td>
-                                                <td>87.12</td>
-                                                <td>88.00 </td>
-                                                <td>20: 22x27x33</td>
-                                                <td>Delhivery Cargo </td>
-                                                <td>21-10-2024 12:23 PM </td>
-                                                <td> </td>
-                                                <td class="date">24-10-2024 </td>
-                                                <td>S/ECO/24-25/1849 </td>
-                                                <td>95323 </td>
-                                                <td>234285962378</td>
-                                                <td>Yes</td>
-                                                <td>Smithers Oasis India Pvt Ltd </td>
-                                                <td>Plot 10, MIDC, Taloja , NAVI MUMBAI, Maharashtra- 410208 </td>
-                                                <td>7045962224</td>
-                                                <td>Shrenik Chhajed </td>
-                                                <td>9860335845 </td>
-                                                <td>Shrenik Chhajed Chhajed Garden Agro Services Pvt. Ltd Arihant <br>
-                                                    Sr.No.877 Kadam Wak wasti PuneSolapur <br> Road Near Manali Resort Pune
-                                                    412201, Pune, Maharashtra- 412201 </td>
-                                                <td>Banda_GayatriN_D (Uttar Pradesh) </td>
-                                                <td class="date">24-10-2024 </td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td><b>TRUXCARGO877</b> <br>
+                                            Anurag Kumar</td>
+                                        <td>270765932</td>
+                                        <td>23236813338753</td>
+                                        <td>Oasis Product </td>
+                                        <td>PI-031-23-24 </td>
+                                        <td>20 </td>
+                                        <td>20.00 </td>
+                                        <td>87.12</td>
+                                        <td>88.00 </td>
+                                        <td>20: 22x27x33</td>
+                                        <td>Delhivery Cargo </td>
+                                        <td>21-10-2024 12:23 PM </td>
+                                        <td> </td>
+                                        <td class="date">24-10-2024 </td>
+                                        <td>S/ECO/24-25/1849 </td>
+                                        <td>95323 </td>
+                                        <td>234285962378</td>
+                                        <td>Yes</td>
+                                        <td>Smithers Oasis India Pvt Ltd </td>
+                                        <td>Plot 10, MIDC, Taloja , NAVI MUMBAI, Maharashtra- 410208 </td>
+                                        <td>7045962224</td>
+                                        <td>Shrenik Chhajed </td>
+                                        <td>9860335845 </td>
+                                        <td>Shrenik Chhajed Chhajed Garden Agro Services Pvt. Ltd Arihant <br>
+                                            Sr.No.877 Kadam Wak wasti PuneSolapur <br> Road Near Manali Resort Pune
+                                            412201, Pune, Maharashtra- 412201 </td>
+                                        <td>Banda_GayatriN_D (Uttar Pradesh) </td>
+                                        <td class="date">24-10-2024 </td>
 
-                                                <td class="status">
-                                                    <span
-                                                        class="badge bg-success-subtle text-secondary text-uppercase">Manifest</span>
-                                                </td>
+                                        <td class="status">
+                                            <span
+                                                class="badge bg-success-subtle text-secondary text-uppercase">Manifest</span>
+                                        </td>
 
-                                                <td>Package details changed by Delhivery (UD) </td>
-                                                <td></td>
-                                                <td>Prepaid</td>
-                                                <td>0</td>
-                                                <td>0</td>
-                                                <td>981.77</td>
-                                                <td><button class="btn btn-primary"> Click to view</button></td>
+                                        <td>Package details changed by Delhivery (UD) </td>
+                                        <td></td>
+                                        <td>Prepaid</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>981.77</td>
+                                        <td><button class="btn btn-primary">view</button></td>
 
-                                            </tr>
+                                    </tr>
+                                </tbody>
 
-                                        </tbody>
-                                    </table>
-                                    <div class="noresult" style="display: none">
-                                        <div class="text-center">
-                                            <lord-icon src="https://cdn.lordicon.com/msoeawqm.json" trigger="loop"
-                                                colors="primary:#121331,secondary:#08a88a"
-                                                style="width:75px;height:75px"></lord-icon>
-                                            <h5 class="mt-2">Sorry! No Result Found</h5>
-                                            <p class="text-muted mb-0">We've searched more than 150+ Orders We did not
-                                                find any orders for you search.</p>
-                                        </div>
-                                    </div>
-                                </div>
+                            </table>
 
-                                <div class="d-flex justify-content-center">
-                                    <div class="pagination-wrap hstack gap-2">
-                                        <a class="page-item pagination-prev disabled" href="javascript:void(0);">
-                                            Previous
-                                        </a>
-                                        <ul class="pagination listjs-pagination mb-0"></ul>
-                                        <a class="page-item pagination-next" href="javascript:void(0);">
-                                            Next
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div><!-- end card -->
+
+                        </div>
                     </div>
+
                     <!-- end col -->
                 </div>
                 <!-- end col -->
             </div>
+
 
 
         </div>
@@ -547,7 +527,7 @@
                 </div>
             </div>
         </div>
-    </div>  
+    </div>
 </div>
 <!--end modal -->
 <?php include("include/footer.php")?>

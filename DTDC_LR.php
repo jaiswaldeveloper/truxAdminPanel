@@ -12,9 +12,9 @@
 
                         <div class="page-title-right">
                             <ol class="breadcrumb m-0">
-                            <li class="breadcrumb-item"><a href="javascript: void(0);">Menu</a></li>
-                            <li class="breadcrumb-item"><a href="javascript: void(0);">Pickups & Warehouse</a></li>
-                            <li class="breadcrumb-item active">DTDC LRs</li>
+                                <li class="breadcrumb-item"><a href="javascript: void(0);">Menu</a></li>
+                                <li class="breadcrumb-item"><a href="javascript: void(0);">Pickups & Warehouse</a></li>
+                                <li class="breadcrumb-item active">DTDC LRs</li>
                             </ol>
                         </div>
 
@@ -28,15 +28,13 @@
                             <div class="row g-3">
                                 <div class="col-xxl-3 col-sm-6">
                                     <div class="search-box">
-                                        <input type="text" class="form-control search"
-                                            placeholder="Search by LR">
+                                        <input type="text" class="form-control search" placeholder="Search by LR">
                                         <i class="ri-search-line search-icon"></i>
                                     </div>
                                 </div>
                                 <div class="col-xxl-3 col-sm-6">
                                     <div class="search-box">
-                                        <input type="text" class="form-control search"
-                                            placeholder="Search by DTDC LR">
+                                        <input type="text" class="form-control search" placeholder="Search by DTDC LR">
                                         <i class="ri-search-line search-icon"></i>
                                     </div>
                                 </div>
@@ -77,7 +75,8 @@
                                 <!--end col-->
                                 <div class="col-xxl-2 col-sm-4">
                                     <div>
-                                    <button type="button" class="btn btn-primary w-100" style="background: linear-gradient(90deg, #10A81B 0%, #06420B 100%);"> 
+                                        <button type="button" class="btn btn-primary w-100"
+                                            style="background: linear-gradient(90deg, #10A81B 0%, #06420B 100%);">
                                             Apply
                                         </button>
                                     </div>
@@ -87,7 +86,7 @@
                             <!--end row-->
                         </form>
                     </div>
-                    
+
                 </div>
             </div>
 
@@ -148,7 +147,7 @@
                                                                 fill="white" stroke="#BC3C43" />
                                                         </svg>
                                                         PDF</span></button>
-                                              
+
                                             </div>
                                         </div>
                                     </div>
@@ -163,87 +162,67 @@
 
 
             </div>
-        </div>
+     
 
-        <div>
-
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="card">
-                        <div class="card-body">
-                            <div class="listjs-table" id="customerList">
-
-                                <div class="table-responsive table-card mb-1">
-                                    <table class="table align-middle table-nowrap" id="customerTable">
-                                        <thead class="table-light">
-                                            <tr>
-                                                <th class="sort" data-sort="id">UserID &nbsp;</th>
-                                                <th class="sort" data-sort="date"> Date & time</th>
-                                                <th class="sort" data-sort="LR">LR No</th>
-                                                <th class="sort" data-sort="Member">DTDC LR</th>
-                                            
-                                                <th class="sort">Action</th>
+        <div class="row my-5">
+            <div class="col-lg-12">
 
 
-                                            </tr>
-                                        </thead>
-                                        <tbody class="list form-check-all">
-                                            <tr>
-                                                <td>TRUXCARGO133</td>
-                                                <td class="date">06 Apr, 2021</td>
-                                                <td>1000072210 </td>
+                <div class="card">
 
-                                                <td>100009695997 </td>
-                                                <td>
-                                                <li class="list-inline-item" data-bs-toggle="tooltip"
-                                                                data-bs-trigger="hover" data-bs-placement="top"
-                                                                title="Edit">
-                                                                <a data-bs-toggle="modal" id="cashIn-btn"
-                                                                    data-bs-target="#editInModal"
-                                                                    class="text-success d-inline-block">
-                                                                    <i class="ri-pencil-fill fs-20"> </i>
-                                                                </a>
-                                                            </li>
-                                                </td>
-
-                                                  
+                    <div class="table-responsive">
+                        <table id="example" class="table " style="width:100%">
+                            <thead>
+                                <tr>
+                                   
+                                    <th>
+                                        UserID </th>
+                                    <th>Date & time</th>
 
 
-                                            </tr>
+                                    <th>LR No</th>
+                                    <th>DTDC LR</th>
 
-                                        </tbody>
-                                    </table>
-                                    <div class="noresult" style="display: none">
-                                        <div class="text-center">
-                                            <lord-icon src="https://cdn.lordicon.com/msoeawqm.json" trigger="loop"
-                                                colors="primary:#121331,secondary:#08a88a"
-                                                style="width:75px;height:75px"></lord-icon>
-                                            <h5 class="mt-2">Sorry! No Result Found</h5>
-                                            <p class="text-muted mb-0">We've searched more than 150+ Orders We did not
-                                                find any orders for you search.</p>
-                                        </div>
-                                    </div>
-                                </div>
+                                    <th> Action</th>
 
-                                <div class="d-flex justify-content-center">
-                                    <div class="pagination-wrap hstack gap-2">
-                                        <a class="page-item pagination-prev disabled" href="javascript:void(0);">
-                                            Previous
-                                        </a>
-                                        <ul class="pagination listjs-pagination mb-0"></ul>
-                                        <a class="page-item pagination-next" href="javascript:void(0);">
-                                            Next
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div><!-- end card -->
+
+
+
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>TRUXCARGO133</td>
+                                    <td class="date">06 Apr, 2021</td>
+                                    <td>1000072210 </td>
+
+                                    <td>100009695997 </td>
+                                    <td>
+                                        <li class="list-inline-item" data-bs-toggle="tooltip" data-bs-trigger="hover"
+                                            data-bs-placement="top" title="Edit">
+                                            <a data-bs-toggle="modal" id="cashIn-btn" data-bs-target="#editInModal"
+                                                class="text-success d-inline-block">
+                                                <i class="ri-pencil-fill fs-20"> </i>
+                                            </a>
+                                        </li>
+                                    </td>
+
+
+
+
+                                </tr>
+                            </tbody>
+
+                        </table>
+
+
                     </div>
-                    <!-- end col -->
                 </div>
+
                 <!-- end col -->
             </div>
-
+            <!-- end col -->
+        </div>
 
         </div>
 
@@ -254,34 +233,34 @@
                     <div class="modal-header bg-light p-3">
                         <h5 class="modal-title" id="editInModalLabel">Update LR
                         </h5>
-                        
+
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"
                             id="close-modal"></button>
                     </div>
 
                     <form class="tablelist-form" autocomplete="off">
-                        
-                            <div class="modal-body">
-<p>LR No : 1000071926</p>
 
-                                
+                        <div class="modal-body">
+                            <p>LR No : 1000071926</p>
 
-                                <div class="form-floating mb-3">
-                                    <input type="text" class="form-control" placeholder="Enter DTDC LR">
-                                    <label for="firstnamefloatingInput">DTDC LR </label>
+
+
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control" placeholder="Enter DTDC LR">
+                                <label for="firstnamefloatingInput">DTDC LR </label>
+                            </div>
+
+
+                            <div class="mt-5">
+                                <div class="hstack gap-2 justify-content-end">
+                                    <button type="submit" class="btn btn-success w-100" id="add-btn"
+                                        style="background: linear-gradient(90deg, #10A81B 0%, #06420B 100%);">Save
+                                    </button>
+                                    <button type="button" class="btn btn-danger w-100"
+                                        data-bs-dismiss="modal">Cancel</button>
                                 </div>
-
-
-                                <div class="mt-5">
-                                    <div class="hstack gap-2 justify-content-end">
-                                        <button type="submit" class="btn btn-success w-100" id="add-btn"
-                                            style="background: linear-gradient(90deg, #10A81B 0%, #06420B 100%);">Save
-                                        </button>
-                                        <button type="button" class="btn btn-danger w-100"
-                                            data-bs-dismiss="modal">Cancel</button>
-                                    </div>
-                                </div>
-                        </form>
+                            </div>
+                    </form>
                 </div>
             </div>
         </div>

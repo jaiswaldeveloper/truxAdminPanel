@@ -186,8 +186,7 @@
                                         <div>
                                             <select class="js-example-basic-single w-100 form-control" name="state">
                                                 <option value="" selected>All Member</option>
-                                                <option value="Cash In">Cash In </option>
-                                                <option value="Cash Out">Cash Out</option>
+                                               <option value="">Sonu  Kumar (SUPERTRUX879) </option>
                                             </select>
                                         </div>
                                     </div>
@@ -234,9 +233,8 @@
                 </div>
             </div>
 
-        </div>
 
-        <div class="row my-5">
+            <div class="row my-5">
             <div class="col-lg-12">
                 <div class="card">
 
@@ -258,7 +256,7 @@
                             <tbody>
 
                                 <tr>
-                                    <td>1</td>1
+                                    <td>1</td>
                                     <td><b>TRUXCARGO972</b>
                                         Anita ANITA
                                     </td>
@@ -331,6 +329,10 @@
             </div>
             <!-- end col -->
         </div>
+
+        </div>
+
+        
 
 
 

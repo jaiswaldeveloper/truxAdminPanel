@@ -26,34 +26,7 @@
                 </div>
             </div>
 
-            <div class="row">
-                <div class="col">
-
-                    <div class="h-100">
-                        <div class="row mb-3 pb-1">
-                            <div class="col-12">
-                                <div class="d-flex align-items-lg-center flex-lg-row flex-column">
-                                    <div class="flex-grow-1"></div>
-                                    <div class="mt-3 mt-lg-0">
-                                        <div class="col-auto">
-                                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                                                id="cashIn-btn" data-bs-target="#AddInModal"><i
-                                                    class="ri-add-circle-line align-middle me-1"></i>Add
-                                                LR Number</button>
-                                        </div>
-                                    </div>
-                                </div><!-- end card header -->
-                            </div>
-                            <!--end col-->
-                        </div>
-
-                    </div> <!-- end .h-100-->
-
-                </div> <!-- end col -->
-
-
-            </div>
-
+          
 
 
             <div class="row mb-4">
@@ -61,12 +34,14 @@
                     <div class="card-body form-bg-gradient">
                         <form>
                             <div class="row g-3">
-                                <div class="col-xxl-5 col-sm-6">
-                                    <div class="search-box">
-                                        <input type="text" class="form-control search" placeholder="Search By LR">
-                                        <i class="ri-search-line search-icon"></i>
+                            <div class="col-xxl-4 col-sm-4">
+                                        <div>
+                                            <select class="js-example-basic-single w-100 form-control" name="state">
+                                                <option value="" selected>All Member</option>
+                                               <option value="">Sonu  Kumar (SUPERTRUX879) </option>
+                                            </select>
+                                        </div>
                                     </div>
-                                </div>
                                 <!--end col-->
 
                                 <!--end col-->

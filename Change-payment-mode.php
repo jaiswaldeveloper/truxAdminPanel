@@ -39,7 +39,7 @@ label {
                                     </label>
                                     <div class="input-group">
 
-                                        <input type="password" class="form-control" id="autoSizingInputGroup"
+                                        <input type="text" class="form-control" id="autoSizingInputGroup"
                                             placeholder="Enter LR/AWB No.">
                                     </div>
                                 </div>
@@ -55,6 +55,8 @@ label {
                                         </select>
                                     </div>
                                 </div>
+
+                               
                                 <div class="col-lg-4 mb-3">
                                     <div class="">
                                         <button type="submit" class="btn btn-success w-100 " style="background: linear-gradient(90deg, #10A81B 0%, #06420B 100%);">Submit

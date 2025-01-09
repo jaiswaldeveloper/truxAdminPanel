@@ -1,26 +1,5 @@
 <?php include("include/header.php")?>
-<!-- <div class="main-content">
 
-    <div class="page-content">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-12">
-                    <div class="page-title-box d-sm-flex align-items-center justify-content-between bg-transparent">
-                        <h4 class="mb-sm-0">Change Password</h4>
-
-                        <div class="page-title-right">
-                            <ol class="breadcrumb m-0">
-                                <li class="breadcrumb-item"><a href="javascript: void(0);">Dashboards</a></li>
-                                <li class="breadcrumb-item active">Change Password</li>
-                            </ol>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div> -->
 
 <div class="main-content">
 
@@ -61,8 +40,9 @@
                                     <div>
 
                                         <select class="js-example-basic-single w-100 form-control" name="state">
-                                            <option value="" selected>All Member</option>
-                                            <option value="">Kavita Sharma (TRUXCARGO1) </option>
+                                            <option value="" selected>All Type</option>
+                                            <option value="">B2B</option>
+                                            <option value="">B2C</option>
 
                                         </select>
 
@@ -102,12 +82,14 @@
 
 
             </div>
-        </div>
-        <div class="row">
+
+
+
+            <div class="row">
             <div class="col">
 
                 <div class="h-100">
-                    <div class="row mb-3 pb-1">
+                    <div class="row pb-1">
                         <div class="col-12">
                             <div class="d-flex align-items-lg-center flex-lg-row flex-column">
                                 <div class="flex-grow-1"></div>
@@ -188,7 +170,7 @@
         </div>
 
 
-        <div class="row my-5">
+        <div class="row my-3">
             <div class="col-lg-12">
 
 
@@ -199,49 +181,23 @@
                             <thead>
                                 <tr>
                                     <th>
-                                        ID</th>
-                                    <th>Member Details</th>
-                                    <th>LR No</th>
-                                    <th>User ID </th>
-                                    <th>Contact info </th>
-                                    <th>Package</th>
-                                    <th>Action  </th>
-                                    
-
-
-
+                                        LR</th>
+                                    <th>Date</th>
+                                    <th>MOP</th>
+                                    <th>Type </th>
+                                    <th>Change By </th>
+                                  
 
                                 </tr>
                             </thead>
                             <tbody>
-                            <tr>
-                                                <td>1</td>
-                                                <td>TRUXCARGO12</td>
-                                                <td>Alok Kumar </td>
-                                                <td>Postpaid
-                                                    (Transporter)</td>
-                                                <td class="date">06 Apr, 2021</td>
-                                                <td>Alok Kumar </td>
-
-
-                                                <td>
-                                                    <ul class="list-inline hstack gap-2 mb-0">
-                                                        <li class="list-inline-item" data-bs-toggle="tooltip"
-                                                            data-bs-trigger="hover" data-bs-placement="top"
-                                                            title="Update">
-                                                            <a href="apps-ecommerce-order-details.html"
-                                                                class="text-success d-inline-block">
-                                                                <i class="ri-pencil-fill fs-20"></i>
-                                                            </a>
-                                                            <span
-                                                                class="badge bg-success-subtle text-success text-uppercase">Update</span>
-                                                        </li>
-
-                                                    </ul>
-                                                </td>
-
-
-                                            </tr>
+                                <tr>
+                                    <td>260368422</td>
+                                    <td class="date">06 Apr, 2021</td>
+                                    <td>ToPay To To-Pay	</td>
+                                    <td>B2B </td>
+                                    <td>kavita </td>
+                                </tr>
 
 
                             </tbody>
@@ -256,8 +212,10 @@
             </div>
             <!-- end col -->
         </div>
+        </div>
+        
 
-       
+
     </div>
 </div>
 <?php include("include/footer.php")?>

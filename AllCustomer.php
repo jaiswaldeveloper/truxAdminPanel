@@ -133,7 +133,7 @@
                 <div class="col">
 
                     <div class="h-100">
-                        <div class="row mb-3 pb-1">
+                        <div class="row  pb-1">
                             <div class="col-12">
                                 <div class="d-flex align-items-lg-center flex-lg-row flex-column">
                                     <div class="flex-grow-1"></div>
@@ -215,9 +215,8 @@
 
 
             </div>
-        </div>
-
-        <div class="row my-5">
+      
+        <div class="row my-3">
             <div class="col-lg-12">
 
 
@@ -345,6 +344,7 @@
         </div>
 
 
+</div>
 
 
     </div>

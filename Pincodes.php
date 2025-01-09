@@ -217,7 +217,7 @@
                                     <div class="col">
 
                                         <div class="h-100">
-                                            <div class="row mb-3 pb-1">
+                                            <div class="row pb-1">
                                                 <div class="col-12">
                                                     <div class="d-flex align-items-lg-center flex-lg-row flex-column">
                                                         <div class="flex-grow-1"></div>
@@ -294,7 +294,7 @@
 
                                 </div>
 
-                                <div class="row my-5">
+                                <div class="row my-3">
                                     <div class="col-lg-12">
 
 
@@ -339,7 +339,7 @@
                                                                     <li class="list-inline-item"
                                                                         data-bs-toggle="tooltip" data-bs-trigger="hover"
                                                                         data-bs-placement="top" title="Edit">
-                                                                        <a href="apps-ecommerce-order-details.html"
+                                                                        <a href=""
                                                                             class="text-success d-inline-block">
                                                                             <i class="ri-pencil-fill fs-20"></i>
                                                                         </a>
@@ -383,25 +383,29 @@
 
                                             <div class="h-100">
                                                 <div class="row mb-3 pb-1">
-                                                    <div class="col-12">
+                                                    <div class="col-xxl-6">
                                                         <div
                                                             class="d-flex align-items-lg-center flex-lg-row flex-column">
                                                             <div class="d-flex flex-grow-1 flex-wrap">
-                                                                <div class="file-design">
+                                                                <div class="file-design w-100">
                                                                     <input class=" w-100" type="file" id="formFile">
                                                                 </div>
-                                                                <div>
-                                                                    <button type="button"
-                                                                        class="btn btn-success border-0  "
-                                                                        style="background: linear-gradient(90deg, #10A81B 0%, #36CB72 100%);">
-                                                                        Import
-                                                                    </button>
-                                                                </div>
+                                                                
                                                             </div>
 
                                                         </div><!-- end card header -->
                                                     </div>
                                                     <!--end col-->
+
+                                                    <div class="col-xxl-2 mt-2">
+                                                    <div>
+                                                                    <button type="button"
+                                                                        class="btn btn-success border-0 w-100 "
+                                                                        style="background: linear-gradient(90deg, #10A81B 0%, #36CB72 100%);">
+                                                                        Import
+                                                                    </button>
+                                                                </div>
+                                                    </div>
                                                 </div>
 
                                             </div> <!-- end .h-100-->

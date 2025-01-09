@@ -156,7 +156,7 @@
                     <div class="card-body form-bg-gradient">
                         <form>
                             <div class="row g-3">
-                                <div class="col-xxl-5 col-sm-6">
+                                <div class="col-xxl-6 col-sm-6">
                                     <div class="search-box">
                                         <input type="text" class="form-control search"
                                             placeholder="Search by Request LR">
@@ -255,7 +255,7 @@
                                     <div>
                                         <button type="button" class="btn btn-primary w-100"
                                             style="background: linear-gradient(90deg, #10A81B 0%, #06420B 100%);">
-                                             
+
                                             Apply
                                         </button>
                                     </div>
@@ -374,93 +374,73 @@
                 </div>
             </div>
 
-
-            <div class="row">
+            <div class="row my-5">
                 <div class="col-lg-12">
+
+
                     <div class="card">
-                        <div class="card-body">
-                            <div class="listjs-table" id="customerList">
 
-                                <div class="table-responsive table-card mb-1">
-                                    <table class="table align-middle table-nowrap" id="customerTable">
-                                        <thead class="table-light">
-                                            <tr>
-                                            <th scope="col" style="width: 10px;">
+                        <div class="table-responsive">
+                            <table id="example" class="table " style="width:100%">
+                                <thead>
+                                    <tr>
+                                        <th scope="col" style="width: 10px;">
+                                            <div class="form-check">
+                                                <input class="form-check-input fs-15" type="checkbox" id="checkAll"
+                                                    value="option">
+                                            </div>
+                                        </th>
+                                        <th>USERID</th>
+                                        <th>AWB No.</th>
+                                        <th>Manifest Date</th>
+                                        <th>Origin</th>
+                                        <th>Destination</th>
+                                        <th> Mode</th>
+                                        <th>COD Amount</th>
+                                        <th>Profit Amount</th>
+                                        <th>Status</th>
+
+
+
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                                <th scope="row">
                                                     <div class="form-check">
-                                                        <input class="form-check-input fs-15" type="checkbox" id="checkAll" value="option">
-                                                    </div>
-                                                </th>
-                                                <th class="sort" data-sort="id"> 
-                                                USERID &nbsp;</th>
-                                                <th class="sort" data-sort="awb">AWB No.</th>
-                                                <th class="sort" data-sort="Manifest">Manifest Date &nbsp;</th>
-                                                <th class="sort" data-sort="Origin">Origin &nbsp;</th>
-                                                <th class="sort" data-sort="Destination">Destination</th>
-                                                <th class="sort" data-sort="mode">mode</th>
-                                                <th class="sort" data-sort="cod">COD Amount &nbsp;</th>
-                                                <th class="sort" data-sort="poc">Profit Amount</th>
-                                                <th class="sort" data-sort="status">Status</th>
-
-
-                                            </tr>
-                                        </thead>
-                                        <tbody class="list form-check-all">
-                                            <tr>
-                                            <th scope="row">
-                                                    <div class="form-check">
-                                                        <input class="form-check-input fs-15" type="checkbox" name="checkAll" value="option1">
+                                                        <input class="form-check-input fs-15" type="checkbox"
+                                                            name="checkAll" value="option1">
                                                     </div>
                                                 </th>
                                                 <td><b>TRUXCARGO877</b> <br>
-                                                Anurag Kumar</td>
+                                                    Anurag Kumar</td>
                                                 <td>270765932</td>
                                                 <td class="date">06 Apr, 2021</td>
-                                                <td>Delhi,Delhi	</td>
-                                                <td>Tumkur, Karnataka	</td>
+                                                <td>Delhi,Delhi </td>
+                                                <td>Tumkur, Karnataka </td>
                                                 <td>Prepaid </td>
                                                 <td>0</td>
-                                                <td>	</td>
+                                                <td> </td>
                                                 <td class="status">
-                                                    <span
-                                                        class="badge bg-success text-uppercase">Delivered</span>
+                                                    <span class="badge bg-success text-uppercase">Delivered</span>
                                                 </td>
-                                            
+
 
 
                                             </tr>
+                                </tbody>
 
-                                        </tbody>
-                                    </table>
-                                    <div class="noresult" style="display: none">
-                                        <div class="text-center">
-                                            <lord-icon src="https://cdn.lordicon.com/msoeawqm.json" trigger="loop"
-                                                colors="primary:#121331,secondary:#08a88a"
-                                                style="width:75px;height:75px"></lord-icon>
-                                            <h5 class="mt-2">Sorry! No Result Found</h5>
-                                            <p class="text-muted mb-0">We've searched more than 150+ Orders We did not
-                                                find any orders for you search.</p>
-                                        </div>
-                                    </div>
-                                </div>
+                            </table>
 
-                                <div class="d-flex justify-content-center">
-                                    <div class="pagination-wrap hstack gap-2">
-                                        <a class="page-item pagination-prev disabled" href="javascript:void(0);">
-                                            Previous
-                                        </a>
-                                        <ul class="pagination listjs-pagination mb-0"></ul>
-                                        <a class="page-item pagination-next" href="javascript:void(0);">
-                                            Next
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div><!-- end card -->
+
+                        </div>
                     </div>
+
                     <!-- end col -->
                 </div>
                 <!-- end col -->
             </div>
+          
 
 
         </div>

@@ -91,7 +91,7 @@ label {
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row mb-5">
                 <div class="col-xl-8 col-md-12">
                     <div class="card">
                         <div class="card-body">

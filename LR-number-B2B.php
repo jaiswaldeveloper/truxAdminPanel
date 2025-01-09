@@ -6,6 +6,7 @@
     box-shadow: 0px 4px 4px 0px rgba(126, 126, 255, 0.30);
     border: 1px solid #7E7EFF !important;
 }
+
 .table .sort {
     position: relative;
     width: 25%;
@@ -146,135 +147,109 @@
 
             </div>
 
-
-            <div class="row">
+            <div class="row my-5">
                 <div class="col-lg-12">
+
+
                     <div class="card">
-                        <div class="card-body">
-                            <div class="listjs-table" id="customerList">
 
-                                <div class="table-responsive table-card mb-1">
-                                    <table class="table align-middle table-nowrap" id="customerTable">
-                                        <thead class="table-light">
-                                            <tr>
-                                                <th class="sort" data-sort="id">
-                                                    S No. &nbsp;</th>
-                                                <th class="sort" data-sort="Pincode">Category</th>
-                                                <th class="sort">Status</th>
-                                                <th class="sort">Action</th>
+                        <div class="table-responsive">
+                            <table id="example" class="table " style="width:100%">
+                                <thead>
+                                    <tr>
+                                        <th> S No.</th>
+                                        <th>Category</th>
+                                        <th>Status</th>
+                                        <th>Action</th>
 
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Office Expense</td>
+                                        <td>
+                                            <span
+                                                class="badge bg-success-subtle text-success text-uppercase">Active</span>
+                                        </td>
+                                        <td>
+                                            <ul class="list-inline hstack gap-2 mb-0">
+                                                <li class="list-inline-item" data-bs-toggle="tooltip"
+                                                    data-bs-trigger="hover" data-bs-placement="top" title="Edit">
+                                                    <a data-bs-toggle="modal" id="cashIn-btn"
+                                                        data-bs-target="#editInModal"
+                                                        class="text-success d-inline-block">
+                                                        <button class="btn btn-success rounded-pill"
+                                                            style="background: linear-gradient(180deg, #10A81B, #06420B);">Edit</button>
+                                                        <!-- <i class="ri-pencil-fill fs-20"> </i> -->
+                                                    </a>
+                                                </li>
 
-                                            </tr>
-                                        </thead>
-                                        <tbody class="list form-check-all">
-                                            <tr>
-                                                <td>1</td>
-                                                <td>Office Expense</td>
-                                                <td>
-                                                    <span class="badge bg-success-subtle text-success text-uppercase">Active</span>
-                                                </td>
-                                               
-
-
-                                                <td>
-                                                    <ul class="list-inline hstack gap-2 mb-0">
-                                                        <li class="list-inline-item" data-bs-toggle="tooltip"
-                                                            data-bs-trigger="hover" data-bs-placement="top"
-                                                            title="Edit">
-                                                            <a data-bs-toggle="modal" id="cashIn-btn"
-                                                                data-bs-target="#editInModal"
-                                                                class="text-success d-inline-block">
-                                                                <button class="btn btn-success rounded-pill"
-                                                                    style="background: linear-gradient(180deg, #10A81B, #06420B);">Edit</button>
-                                                                <!-- <i class="ri-pencil-fill fs-20"> </i> -->
-                                                            </a>
-                                                        </li>
-
-                                                        <li class="list-inline-item" data-bs-toggle="tooltip"
-                                                            data-bs-trigger="hover" data-bs-placement="top"
-                                                            title="Delete">
-                                                            <a class="text-danger d-inline-block remove-item-btn"
-                                                                data-bs-toggle="modal" href="#deleteOrder">
-                                                                <button class="btn btn-danger rounded-pill"
-                                                                    style="background: linear-gradient(180deg, #BC3C43, #ED1C24);">Delete</button>
-                                                            </a>
-                                                        </li>
-                                                    </ul>
-                                                </td>
+                                                <li class="list-inline-item" data-bs-toggle="tooltip"
+                                                    data-bs-trigger="hover" data-bs-placement="top" title="Delete">
+                                                    <a class="text-danger d-inline-block remove-item-btn"
+                                                        data-bs-toggle="modal" href="#deleteOrder">
+                                                        <button class="btn btn-danger rounded-pill"
+                                                            style="background: linear-gradient(180deg, #BC3C43, #ED1C24);">Delete</button>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </td>
 
 
-                                            </tr>
+                                    </tr>
+
+                                </tbody>
+
+                            </table>
 
 
-                                        </tbody>
-                                    </table>
-                                    <div class="noresult" style="display: none">
-                                        <div class="text-center">
-                                            <lord-icon src="https://cdn.lordicon.com/msoeawqm.json" trigger="loop"
-                                                colors="primary:#121331,secondary:#08a88a"
-                                                style="width:75px;height:75px"></lord-icon>
-                                            <h5 class="mt-2">Sorry! No Result Found</h5>
-                                            <p class="text-muted mb-0">We've searched more than 150+
-                                                Orders We did not
-                                                find any orders for you search.</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="d-flex justify-content-center">
-                                    <div class="pagination-wrap hstack gap-2">
-                                        <a class="page-item pagination-prev disabled" href="javascript:void(0);">
-                                            Previous
-                                        </a>
-                                        <ul class="pagination listjs-pagination mb-0"></ul>
-                                        <a class="page-item pagination-next" href="javascript:void(0);">
-                                            Next
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div><!-- end card -->
+                        </div>
                     </div>
+
                     <!-- end col -->
                 </div>
                 <!-- end col -->
             </div>
 
+
             <div class="modal fade" id="AddInModal" tabindex="-1" aria-labelledby="AddInModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <div class="modal-header bg-light p-3">
-                    <h5 class="modal-title" id="AddInModalLabel"> Add LR Number
-                    </h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"
-                        id="close-modal"></button>
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header bg-light p-3">
+                            <h5 class="modal-title" id="AddInModalLabel"> Add LR Number
+                            </h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"
+                                id="close-modal"></button>
+                        </div>
+                        <form class="tablelist-form" autocomplete="off">
+                            <div class="modal-body">
+
+
+                                <div class="form-floating mb-3">
+                                    <input type="number" class="form-control" placeholder="Enter Starting Number">
+                                    <label for="firstnamefloatingInput">Starting Number </label>
+                                </div>
+                                <div class="form-floating mb-3">
+                                    <input type="number" class="form-control"
+                                        placeholder="Enter Ending Starting Number">
+                                    <label for="firstnamefloatingInput">Ending Number</label>
+                                </div>
+
+
+                                <div class="mt-5">
+                                    <div class="hstack gap-2 justify-content-end">
+                                        <button type="submit" class="btn btn-success w-100" id="add-btn"
+                                            style="background: linear-gradient(90deg, #10A81B 0%, #06420B 100%);">Save
+                                        </button>
+                                        <button type="button" class="btn btn-light w-100"
+                                            data-bs-dismiss="modal">Cancel</button>
+                                    </div>
+                                </div>
+                        </form>
+                    </div>
                 </div>
-                <form class="tablelist-form" autocomplete="off">
-                    <div class="modal-body">
-
-
-                        <div class="form-floating mb-3">
-                            <input type="number" class="form-control" placeholder="Enter Starting Number">
-                            <label for="firstnamefloatingInput">Starting Number </label>
-                        </div>
-                        <div class="form-floating mb-3">
-                            <input type="number" class="form-control" placeholder="Enter Ending Starting Number">
-                            <label for="firstnamefloatingInput">Ending Number</label>
-                        </div>
-
-
-                        <div class="mt-5">
-                            <div class="hstack gap-2 justify-content-end">
-                                <button type="submit" class="btn btn-success w-100" id="add-btn"
-                                    style="background: linear-gradient(90deg, #10A81B 0%, #06420B 100%);">Save </button>
-                                <button type="button" class="btn btn-light w-100"
-                                    data-bs-dismiss="modal">Cancel</button>
-                            </div>
-                        </div>
-                </form>
             </div>
-        </div>
-    </div>
 
         </div>
 
